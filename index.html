@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Halo Vercel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Selamat Datang di Vercel 🚀</h1>
+  <p>Website ini aktif 24/7 tanpa tidur.</p>
+  <button onclick="callAPI()">Panggil API</button>
+  <pre id="output"></pre>
+
+  <script>
+    async function callAPI() {
+      const res = await fetch('/api/hello');
+      const data = await res.json();
+      document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+    }
+  </script>
+</body>
+</html>
