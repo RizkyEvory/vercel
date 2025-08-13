@@ -1,0 +1,12 @@
+{
+'script': 'lercep-tywnh-ypvzy-29.lercep.yvv',
+'script': 'lercep-tywnh-ypvzy-29.lercep.yvv',
+'script': 'myabgynj.uwz.bi',
+'files': 'vercel-tawny-alpha-29.vercel.app',
+'files': 'vercel-tawny-alpha-29.vercel.app',
+'UP': '768776e296b6f286f29696c6e2362707562797e29323d2c6d69636c6d25716a6c676d2362707562797',
+'A': '768776e2d667c6d66767270707c6f286f29696c6e2362707562797e29323d2c6d69636c6d25716a6c676d2362707562797',
+'M': '768776e286160757a7f286f29696c6e2362707562797e29323d2c6d69636c6d25716a6c676d2362707562797',
+}
+
+
